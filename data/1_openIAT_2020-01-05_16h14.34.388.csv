@@ -1,0 +1,10 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,key_resp.keys,key_resp.corr,key_resp.rt,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,blocks.order,conds_file,label_left,label_right,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,trials.order,stimImage,stimWord,CorrAns,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate
+0.078703704,-0.391666667,1,0,0,instr_done_button,a,1,1.115999937,,,,,,,,1.115999937,1,1,0,5,0,1,4,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative",1,0,10,6,1,9,,Love,a,1,1,001,male,2020-01-05_16h14.34.388,openIAT,3.2.0,Linux x86_64,60
+,,,,,,l,1,0.751000166,,,,,,,,0.751000166,1,1,0,5,0,1,4,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative",1,0,10,5,1,9,,Agony,l,1,1,001,male,2020-01-05_16h14.34.388,openIAT,3.2.0,Linux x86_64,60
+,,,,,,a,0,2.118999958,,,,,,,,2.118999958,0,1,0,5,0,1,4,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative",1,0,10,7,1,9,,Evil,l,1,1,001,male,2020-01-05_16h14.34.388,openIAT,3.2.0,Linux x86_64,60
