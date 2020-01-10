@@ -2,13 +2,13 @@
  * Openiat Test *
  ****************/
 
-import { PsychoJS } from './lib/core-3.3.js';
-import * as core from './lib/core-3.3.js';
-import { TrialHandler } from './lib/data-3.3.js';
-import { Scheduler } from './lib/util-3.3.js';
-import * as util from './lib/util-3.3.js';
-import * as visual from './lib/visual-3.3.js';
-import { Sound } from './lib/sound-3.3.js';
+import { PsychoJS } from './lib/core-2020.1.js';
+import * as core from './lib/core-2020.1.js';
+import { TrialHandler } from './lib/data-2020.1.js';
+import { Scheduler } from './lib/util-2020.1.js';
+import * as util from './lib/util-2020.1.js';
+import * as visual from './lib/visual-2020.1.js';
+import { Sound } from './lib/sound-2020.1.js';
 
 // init psychoJS:
 const psychoJS = new PsychoJS({
@@ -66,7 +66,7 @@ var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '3.3.0';
+  expInfo['psychopyVersion'] = '2020.1.0rc1';
   expInfo['OS'] = window.navigator.platform;
 
   // store frame rate of monitor if we can measure it successfully
