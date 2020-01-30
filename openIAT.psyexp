@@ -9,7 +9,7 @@
     <Param name="Experiment info" updates="None" val="{'participant': '', 'order': &quot;['random', 1, 2]&quot;, 'session': '001', 'gender': &quot;['male', 'female', 'other']&quot;}" valType="code"/>
     <Param name="Force stereo" updates="None" val="True" valType="bool"/>
     <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
-    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="HTML path" updates="None" val="" valType="str"/>
     <Param name="Incomplete URL" updates="None" val="" valType="str"/>
     <Param name="JS libs" updates="None" val="packaged" valType="str"/>
     <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
