@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" ?>
-<PsychoPy2experiment encoding="utf-8" version="3.3.0">
+<PsychoPy2experiment encoding="utf-8" version="2020.1.0rc3">
   <Settings>
     <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
     <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
@@ -23,7 +23,7 @@
     <Param name="Show mouse" updates="None" val="False" valType="bool"/>
     <Param name="Units" updates="None" val="height" valType="str"/>
     <Param name="Use version" updates="None" val="" valType="str"/>
-    <Param name="Window size (pixels)" updates="None" val="[2560, 1440]" valType="code"/>
+    <Param name="Window size (pixels)" updates="None" val="[1920, 1080]" valType="code"/>
     <Param name="blendMode" updates="None" val="avg" valType="str"/>
     <Param name="color" updates="None" val="black" valType="str"/>
     <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
@@ -262,7 +262,7 @@
         <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="&amp;#10;if (corr==0) {&amp;#10;    msg=&quot;oops&quot;;&amp;#10;} else {&amp;#10;    msg=&quot;+&quot;&amp;#10;}&amp;#10;" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="&amp;#10;if corr==0:&amp;#10;    msg=&quot;oops&quot;&amp;#10;else:&amp;#10;    msg=&quot;+&quot;" valType="extendedCode"/>
-        <Param name="Code Type" updates="None" val="Both" valType="str"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
@@ -596,11 +596,11 @@
     </Routine>
     <Routine name="instructions">
       <CodeComponent name="set_block_order">
-        <Param name="Begin Experiment" updates="constant" val="if expInfo['order']=='random':&amp;#10;    expInfo['order'] = randint(1,2)&amp;#10;    &amp;#10;blocks_file = &quot;blocks_order{}.xlsx&quot;.format(expInfo['order'])" valType="extendedCode"/>
-        <Param name="Begin JS Experiment" updates="constant" val="if (expInfo['order']=='random') {&amp;#10;    expInfo['order'] = Math.floor(Math.random() * 2) + 1;&amp;#10;}&amp;#10;blocks_file = &quot;blocks_order&quot;+expInfo['order']+&quot;.xlsx&quot;" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="if expInfo['order']=='random':&amp;#10;    expInfo['order'] = randint(1,2)&amp;#10;    &amp;#10;blocks_file = &quot;blocks_order&quot;+str(expInfo['order'])+&quot;.xlsx&quot;" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="if ((expInfo[&quot;order&quot;] === &quot;random&quot;)) {&amp;#10;    expInfo[&quot;order&quot;] = (Math.floor((Math.random() * ((2 - 1) + 1))) + 1);&amp;#10;}&amp;#10;blocks_file = ((&quot;blocks_order&quot; + expInfo[&quot;order&quot;].toString()) + &quot;.xlsx&quot;);&amp;#10;" valType="extendedCode"/>
         <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
         <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="Code Type" updates="None" val="Both" valType="str"/>
+        <Param name="Code Type" updates="None" val="Auto-&gt;JS" valType="str"/>
         <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
@@ -724,8 +724,8 @@
   <Flow>
     <LoopInitiator loopType="TrialHandler" name="instruct_pages">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('pageN', 1), ('instruct_text', &quot;You will be presented with words or images to classify into categories using either the 'A' or 'L' key. \n \nTry to go as fast as possible while making as few mistakes as possible. \n&quot;)]), OrderedDict([('pageN', 2), ('instruct_text', 'Keep in mind: \n \n1) Labels at the top of the screen indicate which catogory goes with which key. \n \n2) Each word or image has a correct catogory classification \n \n3) Keep your index fingers on the A and L keys to enable a rapid response. \n \n4) The test gives no results if you go slow- please try to go as fast as possible \n')])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="instructs.xlsx" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="resources/instructs.xlsx" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="False" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>
@@ -738,7 +738,7 @@
     <LoopInitiator loopType="TrialHandler" name="blocks">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$blocks_file" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;resources/&quot;+blocks_file" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="False" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>
@@ -750,7 +750,7 @@
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="$conds_file" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;resources/&quot;+conds_file" valType="str"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>

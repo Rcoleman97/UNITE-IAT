@@ -1,0 +1,764 @@
+0.7838 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['PTB', 'sounddevice', 'pyo', 'pygame'] (in that order).
+7.9850 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='black', colorSpace='named', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BEAB43DA90>, gamma=array([[2.],
+       [2.],
+       [2.]], dtype=float32), gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BEAB494048>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.9850 	EXP 	window1: recordFrameIntervals = False
+8.1815 	EXP 	window1: recordFrameIntervals = True
+8.4014 	EXP 	window1: recordFrameIntervals = False
+8.6097 	EXP 	Created instructs_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='instructs_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.6121 	EXP 	Created instr_done_button = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor='lightgreen', fillColorSpace='named', fillRGB=array([144., 238., 144.]), interpolate=True, lineColor='darkgreen', lineColorSpace='named', lineRGB=array([  0., 100.,   0.]), lineWidth=1, name='instr_done_button', opacity=1.0, ori=array(0.), pos=array([ 0. , -0.4]), size=array([0.4, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+8.6221 	EXP 	Created instr_done_label = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='darkgreen', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr_done_label', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([  0., 100.,   0.]), text='Next...', units='height', win=Window(...), wrapWidth=1)
+8.6428 	EXP 	Created main_ready_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='main_ready_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.6439 	EXP 	Created button_L = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor='lightgreen', fillColorSpace='named', fillRGB=array([144., 238., 144.]), interpolate=True, lineColor='darkgreen', lineColorSpace='named', lineRGB=array([  0., 100.,   0.]), lineWidth=1, name='button_L', opacity=1.0, ori=array(0.), pos=array([-0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+8.6494 	EXP 	Created ready_label_L = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='darkgreen', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ready_label_L', opacity=1.0, ori=0, pos=array([-0.4, -0.3]), rgb=array([  0., 100.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.6504 	EXP 	Created button_R = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-3.0, fillColor='lightgreen', fillColorSpace='named', fillRGB=array([144., 238., 144.]), interpolate=True, lineColor='darkgreen', lineColorSpace='named', lineRGB=array([  0., 100.,   0.]), lineWidth=1, name='button_R', opacity=1.0, ori=array(0.), pos=array([ 0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+8.6527 	EXP 	Created ready_label_R = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='darkgreen', colorSpace='named', contrast=1.0, depth=-4.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='ready_label_R', opacity=1.0, ori=0, pos=array([ 0.4, -0.3]), rgb=array([  0., 100.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7003 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='fixation', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+8.7051 	EXP 	Created image_stim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='image_stim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='height', win=Window(...))
+8.7136 	EXP 	Created text_stim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_stim', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7157 	EXP 	Created button_left = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-6.0, fillColor='lightgreen', fillColorSpace='named', fillRGB=array([144., 238., 144.]), interpolate=True, lineColor='darkgreen', lineColorSpace='named', lineRGB=array([  0., 100.,   0.]), lineWidth=1, name='button_left', opacity=1.0, ori=array(0.), pos=array([-0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+8.7197 	EXP 	Created trial_label_left = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='darkgreen', colorSpace='named', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_label_left', opacity=1.0, ori=0, pos=array([-0.4, -0.3]), rgb=array([  0., 100.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7218 	EXP 	Created button_right = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-8.0, fillColor='lightgreen', fillColorSpace='named', fillRGB=array([144., 238., 144.]), interpolate=True, lineColor='darkgreen', lineColorSpace='named', lineRGB=array([  0., 100.,   0.]), lineWidth=1, name='button_right', opacity=1.0, ori=array(0.), pos=array([ 0.4, -0.3]), size=array([0.4, 0.2]), units='height', vertices=ndarray(...), win=Window(...))
+8.7258 	EXP 	Created trial_label_right = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='darkgreen', colorSpace='named', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_label_right', opacity=1.0, ori=0, pos=array([ 0.4, -0.3]), rgb=array([  0., 100.,   0.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7427 	EXP 	Created feedback_msg = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='feedback_msg', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+8.7739 	EXP 	Created thanks_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='thanks_text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.8552 	EXP 	Imported resources/instructs.xlsx as conditions, 2 conditions, 2 params
+8.8555 	EXP 	Created sequence: sequential, trialTypes=2, nReps=1, seed=None
+8.8558 	EXP 	New trial (rep=0, index=0): OrderedDict([('pageN', 1), ('instruct_text', "You will be presented with words or images to classify into categories using either the 'A' or 'L' key. \n \nTry to go as fast as possible while making as few mistakes as possible. \n")])
+8.9521 	EXP 	instructs_text: text = "You will be presented with words or images to classify into categories using either the 'A' or 'L' key. \n \nTry to go as fast as possible while making as few mistakes as possible. \n"
+8.9521 	EXP 	instructs_text: autoDraw = True
+8.9521 	EXP 	instr_done_button: autoDraw = True
+8.9521 	EXP 	instr_done_label: autoDraw = True
+10.1166 	DATA 	Mouse: Left button down, pos=(912,134)
+10.1204 	EXP 	New trial (rep=0, index=1): OrderedDict([('pageN', 2), ('instruct_text', 'Keep in mind: \n \n1) Labels at the top of the screen indicate which catogory goes with which key. \n \n2) Each word or image has a correct catogory classification \n \n3) Keep your index fingers on the A and L keys to enable a rapid response. \n \n4) The test gives no results if you go slow- please try to go as fast as possible \n')])
+10.1544 	DATA 	Mouse:  Left button up, pos=(912,134)
+10.1773 	EXP 	instructs_text: autoDraw = False
+10.1773 	EXP 	instr_done_button: autoDraw = False
+10.1773 	EXP 	instr_done_label: autoDraw = False
+10.1773 	EXP 	instructs_text: text = 'Keep in mind: \n \n1) Labels at the top of the screen indicate which catogory goes with which key. \n \n2) Each word or image has a correct catogory classification \n \n3) Keep your index fingers on the A and L keys to enable a rapid response. \n \n4) The test gives no results if you go slow- please try to go as fast as possible \n'
+10.1773 	EXP 	instructs_text: autoDraw = True
+10.1773 	EXP 	instr_done_button: autoDraw = True
+10.1773 	EXP 	instr_done_label: autoDraw = True
+10.5755 	DATA 	Mouse: Left button down, pos=(912,134)
+10.5881 	EXP 	Imported resources/blocks_order1.xlsx as conditions, 5 conditions, 3 params
+10.5884 	EXP 	Created sequence: sequential, trialTypes=5, nReps=1, seed=None
+10.5887 	EXP 	New trial (rep=0, index=0): OrderedDict([('conds_file', 'pos_neg_train.xlsx'), ('label_left', 'A = \nPositive'), ('label_right', 'L = \nNegative')])
+10.6298 	EXP 	instructs_text: autoDraw = False
+10.6298 	EXP 	instr_done_button: autoDraw = False
+10.6298 	EXP 	instr_done_label: autoDraw = False
+10.6298 	EXP 	ready_label_L: text = 'A = \nPositive'
+10.6298 	EXP 	ready_label_R: text = 'L = \nNegative'
+10.6298 	EXP 	main_ready_msg: autoDraw = True
+10.6298 	EXP 	button_L: autoDraw = True
+10.6298 	EXP 	ready_label_L: autoDraw = True
+10.6298 	EXP 	button_R: autoDraw = True
+10.6298 	EXP 	ready_label_R: autoDraw = True
+10.6569 	DATA 	Mouse:  Left button up, pos=(912,134)
+11.2267 	DATA 	Mouse: Left button down, pos=(753,187)
+11.3092 	DATA 	Mouse:  Left button up, pos=(753,187)
+11.6207 	DATA 	Mouse: Left button down, pos=(712,199)
+11.6356 	EXP 	Imported resources/pos_neg_train.xlsx as conditions, 10 conditions, 3 params
+11.6361 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+11.6364 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Nasty'), ('CorrAns', 'l')])
+11.6650 	EXP 	main_ready_msg: autoDraw = False
+11.6650 	EXP 	button_L: autoDraw = False
+11.6650 	EXP 	ready_label_L: autoDraw = False
+11.6650 	EXP 	button_R: autoDraw = False
+11.6650 	EXP 	ready_label_R: autoDraw = False
+11.6650 	EXP 	image_stim: image = 'stimuli/blank.png'
+11.6650 	EXP 	text_stim: text = 'Nasty'
+11.6650 	EXP 	trial_label_left: text = 'A = \nPositive'
+11.6650 	EXP 	trial_label_right: text = 'L = \nNegative'
+11.6650 	EXP 	fixation: autoDraw = True
+11.7069 	DATA 	Mouse:  Left button up, pos=(712,199)
+12.1433 	EXP 	fixation: autoDraw = False
+12.1433 	EXP 	image_stim: autoDraw = True
+12.1433 	EXP 	text_stim: autoDraw = True
+12.1433 	EXP 	button_left: autoDraw = True
+12.1433 	EXP 	trial_label_left: autoDraw = True
+12.1433 	EXP 	button_right: autoDraw = True
+12.1433 	EXP 	trial_label_right: autoDraw = True
+12.7061 	DATA 	Mouse: Left button down, pos=(1359,277)
+12.7339 	EXP 	fixation: autoDraw = False
+12.7339 	EXP 	image_stim: autoDraw = False
+12.7339 	EXP 	text_stim: autoDraw = False
+12.7339 	EXP 	button_left: autoDraw = False
+12.7339 	EXP 	trial_label_left: autoDraw = False
+12.7339 	EXP 	button_right: autoDraw = False
+12.7339 	EXP 	trial_label_right: autoDraw = False
+12.7339 	EXP 	feedback_msg: text = '+'
+12.7339 	EXP 	feedback_msg: autoDraw = True
+12.7783 	DATA 	Mouse:  Left button up, pos=(1359,277)
+13.7315 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Bad'), ('CorrAns', 'l')])
+13.7573 	EXP 	feedback_msg: autoDraw = False
+13.7573 	EXP 	image_stim: image = 'stimuli/blank.png'
+13.7573 	EXP 	text_stim: text = 'Bad'
+13.7573 	EXP 	trial_label_left: text = 'A = \nPositive'
+13.7573 	EXP 	trial_label_right: text = 'L = \nNegative'
+13.7573 	EXP 	fixation: autoDraw = True
+14.2472 	EXP 	fixation: autoDraw = False
+14.2472 	EXP 	image_stim: autoDraw = True
+14.2472 	EXP 	text_stim: autoDraw = True
+14.2472 	EXP 	button_left: autoDraw = True
+14.2472 	EXP 	trial_label_left: autoDraw = True
+14.2472 	EXP 	button_right: autoDraw = True
+14.2472 	EXP 	trial_label_right: autoDraw = True
+15.1028 	DATA 	Mouse: Left button down, pos=(1415,225)
+15.1277 	EXP 	fixation: autoDraw = False
+15.1277 	EXP 	image_stim: autoDraw = False
+15.1277 	EXP 	text_stim: autoDraw = False
+15.1277 	EXP 	button_left: autoDraw = False
+15.1277 	EXP 	trial_label_left: autoDraw = False
+15.1277 	EXP 	button_right: autoDraw = False
+15.1277 	EXP 	trial_label_right: autoDraw = False
+15.1277 	EXP 	feedback_msg: text = '+'
+15.1277 	EXP 	feedback_msg: autoDraw = True
+15.2135 	DATA 	Mouse:  Left button up, pos=(1415,225)
+16.1276 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Pleasure'), ('CorrAns', 'a')])
+16.1572 	EXP 	feedback_msg: autoDraw = False
+16.1572 	EXP 	image_stim: image = 'stimuli/blank.png'
+16.1572 	EXP 	text_stim: text = 'Pleasure'
+16.1572 	EXP 	trial_label_left: text = 'A = \nPositive'
+16.1572 	EXP 	trial_label_right: text = 'L = \nNegative'
+16.1572 	EXP 	fixation: autoDraw = True
+16.6506 	EXP 	fixation: autoDraw = False
+16.6506 	EXP 	image_stim: autoDraw = True
+16.6506 	EXP 	text_stim: autoDraw = True
+16.6506 	EXP 	button_left: autoDraw = True
+16.6506 	EXP 	trial_label_left: autoDraw = True
+16.6506 	EXP 	button_right: autoDraw = True
+16.6506 	EXP 	trial_label_right: autoDraw = True
+17.6171 	DATA 	Mouse: Left button down, pos=(622,206)
+17.6412 	EXP 	fixation: autoDraw = False
+17.6412 	EXP 	image_stim: autoDraw = False
+17.6412 	EXP 	text_stim: autoDraw = False
+17.6412 	EXP 	button_left: autoDraw = False
+17.6412 	EXP 	trial_label_left: autoDraw = False
+17.6412 	EXP 	button_right: autoDraw = False
+17.6412 	EXP 	trial_label_right: autoDraw = False
+17.6412 	EXP 	feedback_msg: text = '+'
+17.6412 	EXP 	feedback_msg: autoDraw = True
+17.6872 	DATA 	Mouse:  Left button up, pos=(622,206)
+18.6329 	EXP 	New trial (rep=0, index=3): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Hurt'), ('CorrAns', 'l')])
+18.6577 	EXP 	feedback_msg: autoDraw = False
+18.6577 	EXP 	image_stim: image = 'stimuli/blank.png'
+18.6577 	EXP 	text_stim: text = 'Hurt'
+18.6577 	EXP 	trial_label_left: text = 'A = \nPositive'
+18.6577 	EXP 	trial_label_right: text = 'L = \nNegative'
+18.6577 	EXP 	fixation: autoDraw = True
+19.1487 	EXP 	fixation: autoDraw = False
+19.1487 	EXP 	image_stim: autoDraw = True
+19.1487 	EXP 	text_stim: autoDraw = True
+19.1487 	EXP 	button_left: autoDraw = True
+19.1487 	EXP 	trial_label_left: autoDraw = True
+19.1487 	EXP 	button_right: autoDraw = True
+19.1487 	EXP 	trial_label_right: autoDraw = True
+20.1605 	DATA 	Mouse: Left button down, pos=(1388,238)
+20.1846 	EXP 	fixation: autoDraw = False
+20.1846 	EXP 	image_stim: autoDraw = False
+20.1846 	EXP 	text_stim: autoDraw = False
+20.1846 	EXP 	button_left: autoDraw = False
+20.1846 	EXP 	trial_label_left: autoDraw = False
+20.1846 	EXP 	button_right: autoDraw = False
+20.1846 	EXP 	trial_label_right: autoDraw = False
+20.1846 	EXP 	feedback_msg: text = '+'
+20.1846 	EXP 	feedback_msg: autoDraw = True
+20.2718 	DATA 	Mouse:  Left button up, pos=(1388,238)
+21.1772 	EXP 	New trial (rep=0, index=4): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Love'), ('CorrAns', 'a')])
+21.2036 	EXP 	feedback_msg: autoDraw = False
+21.2036 	EXP 	image_stim: image = 'stimuli/blank.png'
+21.2036 	EXP 	text_stim: text = 'Love'
+21.2036 	EXP 	trial_label_left: text = 'A = \nPositive'
+21.2036 	EXP 	trial_label_right: text = 'L = \nNegative'
+21.2036 	EXP 	fixation: autoDraw = True
+21.6756 	EXP 	fixation: autoDraw = False
+21.6756 	EXP 	image_stim: autoDraw = True
+21.6756 	EXP 	text_stim: autoDraw = True
+21.6756 	EXP 	button_left: autoDraw = True
+21.6756 	EXP 	trial_label_left: autoDraw = True
+21.6756 	EXP 	button_right: autoDraw = True
+21.6756 	EXP 	trial_label_right: autoDraw = True
+22.4519 	DATA 	Mouse: Left button down, pos=(597,205)
+22.4769 	EXP 	fixation: autoDraw = False
+22.4769 	EXP 	image_stim: autoDraw = False
+22.4769 	EXP 	text_stim: autoDraw = False
+22.4769 	EXP 	button_left: autoDraw = False
+22.4769 	EXP 	trial_label_left: autoDraw = False
+22.4769 	EXP 	button_right: autoDraw = False
+22.4769 	EXP 	trial_label_right: autoDraw = False
+22.4769 	EXP 	feedback_msg: text = '+'
+22.4769 	EXP 	feedback_msg: autoDraw = True
+22.5437 	DATA 	Mouse:  Left button up, pos=(597,205)
+23.4750 	EXP 	New trial (rep=0, index=5): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Happy'), ('CorrAns', 'a')])
+23.5017 	EXP 	feedback_msg: autoDraw = False
+23.5017 	EXP 	image_stim: image = 'stimuli/blank.png'
+23.5017 	EXP 	text_stim: text = 'Happy'
+23.5017 	EXP 	trial_label_left: text = 'A = \nPositive'
+23.5017 	EXP 	trial_label_right: text = 'L = \nNegative'
+23.5017 	EXP 	fixation: autoDraw = True
+23.9714 	EXP 	fixation: autoDraw = False
+23.9714 	EXP 	image_stim: autoDraw = True
+23.9714 	EXP 	text_stim: autoDraw = True
+23.9714 	EXP 	button_left: autoDraw = True
+23.9714 	EXP 	trial_label_left: autoDraw = True
+23.9714 	EXP 	button_right: autoDraw = True
+23.9714 	EXP 	trial_label_right: autoDraw = True
+24.5964 	DATA 	Mouse: Left button down, pos=(591,229)
+24.6520 	EXP 	fixation: autoDraw = False
+24.6520 	EXP 	image_stim: autoDraw = False
+24.6520 	EXP 	text_stim: autoDraw = False
+24.6520 	EXP 	button_left: autoDraw = False
+24.6520 	EXP 	trial_label_left: autoDraw = False
+24.6520 	EXP 	button_right: autoDraw = False
+24.6520 	EXP 	trial_label_right: autoDraw = False
+24.6520 	EXP 	feedback_msg: text = '+'
+24.6520 	EXP 	feedback_msg: autoDraw = True
+24.6967 	DATA 	Mouse:  Left button up, pos=(591,228)
+25.6450 	EXP 	New trial (rep=0, index=6): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Joy'), ('CorrAns', 'a')])
+25.6724 	EXP 	feedback_msg: autoDraw = False
+25.6724 	EXP 	image_stim: image = 'stimuli/blank.png'
+25.6724 	EXP 	text_stim: text = 'Joy'
+25.6724 	EXP 	trial_label_left: text = 'A = \nPositive'
+25.6724 	EXP 	trial_label_right: text = 'L = \nNegative'
+25.6724 	EXP 	fixation: autoDraw = True
+26.1621 	EXP 	fixation: autoDraw = False
+26.1621 	EXP 	image_stim: autoDraw = True
+26.1621 	EXP 	text_stim: autoDraw = True
+26.1621 	EXP 	button_left: autoDraw = True
+26.1621 	EXP 	trial_label_left: autoDraw = True
+26.1621 	EXP 	button_right: autoDraw = True
+26.1621 	EXP 	trial_label_right: autoDraw = True
+26.8608 	DATA 	Mouse: Left button down, pos=(1286,274)
+26.8888 	EXP 	fixation: autoDraw = False
+26.8888 	EXP 	image_stim: autoDraw = False
+26.8888 	EXP 	text_stim: autoDraw = False
+26.8888 	EXP 	button_left: autoDraw = False
+26.8888 	EXP 	trial_label_left: autoDraw = False
+26.8888 	EXP 	button_right: autoDraw = False
+26.8888 	EXP 	trial_label_right: autoDraw = False
+26.8888 	EXP 	feedback_msg: text = 'oops'
+26.8888 	EXP 	feedback_msg: autoDraw = True
+26.9548 	DATA 	Mouse:  Left button up, pos=(1286,274)
+27.8672 	EXP 	New trial (rep=0, index=7): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Evil'), ('CorrAns', 'l')])
+27.8929 	EXP 	feedback_msg: autoDraw = False
+27.8929 	EXP 	image_stim: image = 'stimuli/blank.png'
+27.8929 	EXP 	text_stim: text = 'Evil'
+27.8929 	EXP 	trial_label_left: text = 'A = \nPositive'
+27.8929 	EXP 	trial_label_right: text = 'L = \nNegative'
+27.8929 	EXP 	fixation: autoDraw = True
+28.3826 	EXP 	fixation: autoDraw = False
+28.3826 	EXP 	image_stim: autoDraw = True
+28.3826 	EXP 	text_stim: autoDraw = True
+28.3826 	EXP 	button_left: autoDraw = True
+28.3826 	EXP 	trial_label_left: autoDraw = True
+28.3826 	EXP 	button_right: autoDraw = True
+28.3826 	EXP 	trial_label_right: autoDraw = True
+29.2666 	DATA 	Mouse: Left button down, pos=(1381,255)
+29.2922 	EXP 	fixation: autoDraw = False
+29.2922 	EXP 	image_stim: autoDraw = False
+29.2922 	EXP 	text_stim: autoDraw = False
+29.2922 	EXP 	button_left: autoDraw = False
+29.2922 	EXP 	trial_label_left: autoDraw = False
+29.2922 	EXP 	button_right: autoDraw = False
+29.2922 	EXP 	trial_label_right: autoDraw = False
+29.2922 	EXP 	feedback_msg: text = '+'
+29.2922 	EXP 	feedback_msg: autoDraw = True
+29.3572 	DATA 	Mouse:  Left button up, pos=(1381,255)
+30.2887 	EXP 	New trial (rep=0, index=8): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Good'), ('CorrAns', 'a')])
+30.3160 	EXP 	feedback_msg: autoDraw = False
+30.3160 	EXP 	image_stim: image = 'stimuli/blank.png'
+30.3160 	EXP 	text_stim: text = 'Good'
+30.3160 	EXP 	trial_label_left: text = 'A = \nPositive'
+30.3160 	EXP 	trial_label_right: text = 'L = \nNegative'
+30.3160 	EXP 	fixation: autoDraw = True
+30.7873 	EXP 	fixation: autoDraw = False
+30.7873 	EXP 	image_stim: autoDraw = True
+30.7873 	EXP 	text_stim: autoDraw = True
+30.7873 	EXP 	button_left: autoDraw = True
+30.7873 	EXP 	trial_label_left: autoDraw = True
+30.7873 	EXP 	button_right: autoDraw = True
+30.7873 	EXP 	trial_label_right: autoDraw = True
+31.6015 	DATA 	Mouse: Left button down, pos=(676,233)
+31.6256 	EXP 	fixation: autoDraw = False
+31.6256 	EXP 	image_stim: autoDraw = False
+31.6256 	EXP 	text_stim: autoDraw = False
+31.6256 	EXP 	button_left: autoDraw = False
+31.6256 	EXP 	trial_label_left: autoDraw = False
+31.6256 	EXP 	button_right: autoDraw = False
+31.6256 	EXP 	trial_label_right: autoDraw = False
+31.6256 	EXP 	feedback_msg: text = '+'
+31.6256 	EXP 	feedback_msg: autoDraw = True
+31.6706 	DATA 	Mouse:  Left button up, pos=(676,233)
+32.6167 	EXP 	New trial (rep=0, index=9): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Agony'), ('CorrAns', 'l')])
+32.6409 	EXP 	feedback_msg: autoDraw = False
+32.6409 	EXP 	image_stim: image = 'stimuli/blank.png'
+32.6409 	EXP 	text_stim: text = 'Agony'
+32.6409 	EXP 	trial_label_left: text = 'A = \nPositive'
+32.6409 	EXP 	trial_label_right: text = 'L = \nNegative'
+32.6409 	EXP 	fixation: autoDraw = True
+33.1292 	EXP 	fixation: autoDraw = False
+33.1292 	EXP 	image_stim: autoDraw = True
+33.1292 	EXP 	text_stim: autoDraw = True
+33.1292 	EXP 	button_left: autoDraw = True
+33.1292 	EXP 	trial_label_left: autoDraw = True
+33.1292 	EXP 	button_right: autoDraw = True
+33.1292 	EXP 	trial_label_right: autoDraw = True
+34.0911 	DATA 	Mouse: Left button down, pos=(1307,235)
+34.1188 	EXP 	fixation: autoDraw = False
+34.1188 	EXP 	image_stim: autoDraw = False
+34.1188 	EXP 	text_stim: autoDraw = False
+34.1188 	EXP 	button_left: autoDraw = False
+34.1188 	EXP 	trial_label_left: autoDraw = False
+34.1188 	EXP 	button_right: autoDraw = False
+34.1188 	EXP 	trial_label_right: autoDraw = False
+34.1188 	EXP 	feedback_msg: text = '+'
+34.1188 	EXP 	feedback_msg: autoDraw = True
+34.1634 	DATA 	Mouse:  Left button up, pos=(1307,235)
+35.1170 	EXP 	New trial (rep=0, index=1): OrderedDict([('conds_file', 'cong_train.xlsx'), ('label_left', 'A = \nWhite'), ('label_right', 'L = \nBlack')])
+35.1532 	EXP 	feedback_msg: autoDraw = False
+35.1532 	EXP 	ready_label_L: text = 'A = \nWhite'
+35.1532 	EXP 	ready_label_R: text = 'L = \nBlack'
+35.1532 	EXP 	main_ready_msg: autoDraw = True
+35.1532 	EXP 	button_L: autoDraw = True
+35.1532 	EXP 	ready_label_L: autoDraw = True
+35.1532 	EXP 	button_R: autoDraw = True
+35.1532 	EXP 	ready_label_R: autoDraw = True
+38.5937 	DATA 	Keypress: space
+38.6183 	EXP 	Imported resources/cong_train.xlsx as conditions, 10 conditions, 3 params
+38.6186 	EXP 	Created sequence: random, trialTypes=10, nReps=1, seed=None
+38.6190 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimImage', 'stimuli/white_1.jpg'), ('stimWord', ' '), ('CorrAns', 'a')])
+38.6481 	EXP 	main_ready_msg: autoDraw = False
+38.6481 	EXP 	button_L: autoDraw = False
+38.6481 	EXP 	ready_label_L: autoDraw = False
+38.6481 	EXP 	button_R: autoDraw = False
+38.6481 	EXP 	ready_label_R: autoDraw = False
+38.6481 	EXP 	image_stim: image = 'stimuli/white_1.jpg'
+38.6481 	EXP 	text_stim: text = ' '
+38.6481 	EXP 	trial_label_left: text = 'A = \nWhite'
+38.6481 	EXP 	trial_label_right: text = 'L = \nBlack'
+38.6481 	EXP 	fixation: autoDraw = True
+39.1396 	EXP 	fixation: autoDraw = False
+39.1396 	EXP 	image_stim: autoDraw = True
+39.1396 	EXP 	text_stim: autoDraw = True
+39.1396 	EXP 	button_left: autoDraw = True
+39.1396 	EXP 	trial_label_left: autoDraw = True
+39.1396 	EXP 	button_right: autoDraw = True
+39.1396 	EXP 	trial_label_right: autoDraw = True
+39.9954 	DATA 	Mouse: Left button down, pos=(679,264)
+40.0219 	EXP 	fixation: autoDraw = False
+40.0219 	EXP 	image_stim: autoDraw = False
+40.0219 	EXP 	text_stim: autoDraw = False
+40.0219 	EXP 	button_left: autoDraw = False
+40.0219 	EXP 	trial_label_left: autoDraw = False
+40.0219 	EXP 	button_right: autoDraw = False
+40.0219 	EXP 	trial_label_right: autoDraw = False
+40.0219 	EXP 	feedback_msg: text = '+'
+40.0219 	EXP 	feedback_msg: autoDraw = True
+40.0672 	DATA 	Mouse:  Left button up, pos=(679,264)
+41.0048 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimImage', 'stimuli/black_3.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+41.0311 	EXP 	feedback_msg: autoDraw = False
+41.0311 	EXP 	image_stim: image = 'stimuli/black_3.jpg'
+41.0311 	EXP 	text_stim: text = ' '
+41.0311 	EXP 	trial_label_left: text = 'A = \nWhite'
+41.0311 	EXP 	trial_label_right: text = 'L = \nBlack'
+41.0311 	EXP 	fixation: autoDraw = True
+41.5210 	EXP 	fixation: autoDraw = False
+41.5210 	EXP 	image_stim: autoDraw = True
+41.5210 	EXP 	text_stim: autoDraw = True
+41.5210 	EXP 	button_left: autoDraw = True
+41.5210 	EXP 	trial_label_left: autoDraw = True
+41.5210 	EXP 	button_right: autoDraw = True
+41.5210 	EXP 	trial_label_right: autoDraw = True
+42.3564 	DATA 	Mouse: Left button down, pos=(1482,258)
+42.3822 	EXP 	fixation: autoDraw = False
+42.3822 	EXP 	image_stim: autoDraw = False
+42.3822 	EXP 	text_stim: autoDraw = False
+42.3822 	EXP 	button_left: autoDraw = False
+42.3822 	EXP 	trial_label_left: autoDraw = False
+42.3822 	EXP 	button_right: autoDraw = False
+42.3822 	EXP 	trial_label_right: autoDraw = False
+42.3822 	EXP 	feedback_msg: text = '+'
+42.3822 	EXP 	feedback_msg: autoDraw = True
+42.4909 	DATA 	Mouse:  Left button up, pos=(1474,258)
+43.3803 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimImage', 'stimuli/white_4.jpg'), ('stimWord', ' '), ('CorrAns', 'a')])
+43.4111 	EXP 	feedback_msg: autoDraw = False
+43.4111 	EXP 	image_stim: image = 'stimuli/white_4.jpg'
+43.4111 	EXP 	text_stim: text = ' '
+43.4111 	EXP 	trial_label_left: text = 'A = \nWhite'
+43.4111 	EXP 	trial_label_right: text = 'L = \nBlack'
+43.4111 	EXP 	fixation: autoDraw = True
+43.8896 	EXP 	fixation: autoDraw = False
+43.8896 	EXP 	image_stim: autoDraw = True
+43.8896 	EXP 	text_stim: autoDraw = True
+43.8896 	EXP 	button_left: autoDraw = True
+43.8896 	EXP 	trial_label_left: autoDraw = True
+43.8896 	EXP 	button_right: autoDraw = True
+43.8896 	EXP 	trial_label_right: autoDraw = True
+44.8559 	DATA 	Mouse: Left button down, pos=(637,259)
+44.8828 	EXP 	fixation: autoDraw = False
+44.8828 	EXP 	image_stim: autoDraw = False
+44.8828 	EXP 	text_stim: autoDraw = False
+44.8828 	EXP 	button_left: autoDraw = False
+44.8828 	EXP 	trial_label_left: autoDraw = False
+44.8828 	EXP 	button_right: autoDraw = False
+44.8828 	EXP 	trial_label_right: autoDraw = False
+44.8828 	EXP 	feedback_msg: text = '+'
+44.8828 	EXP 	feedback_msg: autoDraw = True
+44.9273 	DATA 	Mouse:  Left button up, pos=(637,259)
+45.8731 	EXP 	New trial (rep=0, index=3): OrderedDict([('stimImage', 'stimuli/white_2.jpg'), ('stimWord', ' '), ('CorrAns', 'a')])
+45.8973 	EXP 	feedback_msg: autoDraw = False
+45.8973 	EXP 	image_stim: image = 'stimuli/white_2.jpg'
+45.8973 	EXP 	text_stim: text = ' '
+45.8973 	EXP 	trial_label_left: text = 'A = \nWhite'
+45.8973 	EXP 	trial_label_right: text = 'L = \nBlack'
+45.8973 	EXP 	fixation: autoDraw = True
+46.3707 	EXP 	fixation: autoDraw = False
+46.3707 	EXP 	image_stim: autoDraw = True
+46.3707 	EXP 	text_stim: autoDraw = True
+46.3707 	EXP 	button_left: autoDraw = True
+46.3707 	EXP 	trial_label_left: autoDraw = True
+46.3707 	EXP 	button_right: autoDraw = True
+46.3707 	EXP 	trial_label_right: autoDraw = True
+47.5905 	DATA 	Mouse: Left button down, pos=(662,279)
+47.6172 	EXP 	fixation: autoDraw = False
+47.6172 	EXP 	image_stim: autoDraw = False
+47.6172 	EXP 	text_stim: autoDraw = False
+47.6172 	EXP 	button_left: autoDraw = False
+47.6172 	EXP 	trial_label_left: autoDraw = False
+47.6172 	EXP 	button_right: autoDraw = False
+47.6172 	EXP 	trial_label_right: autoDraw = False
+47.6172 	EXP 	feedback_msg: text = '+'
+47.6172 	EXP 	feedback_msg: autoDraw = True
+47.7035 	DATA 	Mouse:  Left button up, pos=(662,279)
+48.6124 	EXP 	New trial (rep=0, index=4): OrderedDict([('stimImage', 'stimuli/white_5.jpg'), ('stimWord', ' '), ('CorrAns', 'a')])
+48.6395 	EXP 	feedback_msg: autoDraw = False
+48.6395 	EXP 	image_stim: image = 'stimuli/white_5.jpg'
+48.6395 	EXP 	text_stim: text = ' '
+48.6395 	EXP 	trial_label_left: text = 'A = \nWhite'
+48.6395 	EXP 	trial_label_right: text = 'L = \nBlack'
+48.6395 	EXP 	fixation: autoDraw = True
+49.1333 	EXP 	fixation: autoDraw = False
+49.1333 	EXP 	image_stim: autoDraw = True
+49.1333 	EXP 	text_stim: autoDraw = True
+49.1333 	EXP 	button_left: autoDraw = True
+49.1333 	EXP 	trial_label_left: autoDraw = True
+49.1333 	EXP 	button_right: autoDraw = True
+49.1333 	EXP 	trial_label_right: autoDraw = True
+50.6535 	DATA 	Mouse: Left button down, pos=(660,279)
+50.6775 	EXP 	fixation: autoDraw = False
+50.6775 	EXP 	image_stim: autoDraw = False
+50.6775 	EXP 	text_stim: autoDraw = False
+50.6775 	EXP 	button_left: autoDraw = False
+50.6775 	EXP 	trial_label_left: autoDraw = False
+50.6775 	EXP 	button_right: autoDraw = False
+50.6775 	EXP 	trial_label_right: autoDraw = False
+50.6775 	EXP 	feedback_msg: text = '+'
+50.6775 	EXP 	feedback_msg: autoDraw = True
+50.7220 	DATA 	Mouse:  Left button up, pos=(660,279)
+51.6723 	EXP 	New trial (rep=0, index=5): OrderedDict([('stimImage', 'stimuli/black_2.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+51.6967 	EXP 	feedback_msg: autoDraw = False
+51.6967 	EXP 	image_stim: image = 'stimuli/black_2.jpg'
+51.6967 	EXP 	text_stim: text = ' '
+51.6967 	EXP 	trial_label_left: text = 'A = \nWhite'
+51.6967 	EXP 	trial_label_right: text = 'L = \nBlack'
+51.6967 	EXP 	fixation: autoDraw = True
+52.1867 	EXP 	fixation: autoDraw = False
+52.1867 	EXP 	image_stim: autoDraw = True
+52.1867 	EXP 	text_stim: autoDraw = True
+52.1867 	EXP 	button_left: autoDraw = True
+52.1867 	EXP 	trial_label_left: autoDraw = True
+52.1867 	EXP 	button_right: autoDraw = True
+52.1867 	EXP 	trial_label_right: autoDraw = True
+53.2614 	DATA 	Mouse: Left button down, pos=(1285,257)
+53.2853 	EXP 	fixation: autoDraw = False
+53.2853 	EXP 	image_stim: autoDraw = False
+53.2853 	EXP 	text_stim: autoDraw = False
+53.2853 	EXP 	button_left: autoDraw = False
+53.2853 	EXP 	trial_label_left: autoDraw = False
+53.2853 	EXP 	button_right: autoDraw = False
+53.2853 	EXP 	trial_label_right: autoDraw = False
+53.2853 	EXP 	feedback_msg: text = '+'
+53.2853 	EXP 	feedback_msg: autoDraw = True
+53.3296 	DATA 	Mouse:  Left button up, pos=(1285,257)
+54.2716 	EXP 	New trial (rep=0, index=6): OrderedDict([('stimImage', 'stimuli/black_4.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+54.2954 	EXP 	feedback_msg: autoDraw = False
+54.2954 	EXP 	image_stim: image = 'stimuli/black_4.jpg'
+54.2954 	EXP 	text_stim: text = ' '
+54.2954 	EXP 	trial_label_left: text = 'A = \nWhite'
+54.2954 	EXP 	trial_label_right: text = 'L = \nBlack'
+54.2954 	EXP 	fixation: autoDraw = True
+54.7665 	EXP 	fixation: autoDraw = False
+54.7665 	EXP 	image_stim: autoDraw = True
+54.7665 	EXP 	text_stim: autoDraw = True
+54.7665 	EXP 	button_left: autoDraw = True
+54.7665 	EXP 	trial_label_left: autoDraw = True
+54.7665 	EXP 	button_right: autoDraw = True
+54.7665 	EXP 	trial_label_right: autoDraw = True
+55.9790 	DATA 	Mouse: Left button down, pos=(1242,282)
+56.0041 	EXP 	fixation: autoDraw = False
+56.0041 	EXP 	image_stim: autoDraw = False
+56.0041 	EXP 	text_stim: autoDraw = False
+56.0041 	EXP 	button_left: autoDraw = False
+56.0041 	EXP 	trial_label_left: autoDraw = False
+56.0041 	EXP 	button_right: autoDraw = False
+56.0041 	EXP 	trial_label_right: autoDraw = False
+56.0041 	EXP 	feedback_msg: text = '+'
+56.0041 	EXP 	feedback_msg: autoDraw = True
+56.0702 	DATA 	Mouse:  Left button up, pos=(1242,282)
+57.0034 	EXP 	New trial (rep=0, index=7): OrderedDict([('stimImage', 'stimuli/black_1.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+57.0280 	EXP 	feedback_msg: autoDraw = False
+57.0280 	EXP 	image_stim: image = 'stimuli/black_1.jpg'
+57.0280 	EXP 	text_stim: text = ' '
+57.0280 	EXP 	trial_label_left: text = 'A = \nWhite'
+57.0280 	EXP 	trial_label_right: text = 'L = \nBlack'
+57.0280 	EXP 	fixation: autoDraw = True
+57.5045 	EXP 	fixation: autoDraw = False
+57.5045 	EXP 	image_stim: autoDraw = True
+57.5045 	EXP 	text_stim: autoDraw = True
+57.5045 	EXP 	button_left: autoDraw = True
+57.5045 	EXP 	trial_label_left: autoDraw = True
+57.5045 	EXP 	button_right: autoDraw = True
+57.5045 	EXP 	trial_label_right: autoDraw = True
+58.2421 	DATA 	Mouse: Left button down, pos=(1260,292)
+58.2678 	EXP 	fixation: autoDraw = False
+58.2678 	EXP 	image_stim: autoDraw = False
+58.2678 	EXP 	text_stim: autoDraw = False
+58.2678 	EXP 	button_left: autoDraw = False
+58.2678 	EXP 	trial_label_left: autoDraw = False
+58.2678 	EXP 	button_right: autoDraw = False
+58.2678 	EXP 	trial_label_right: autoDraw = False
+58.2678 	EXP 	feedback_msg: text = '+'
+58.2678 	EXP 	feedback_msg: autoDraw = True
+58.3121 	DATA 	Mouse:  Left button up, pos=(1260,292)
+59.2655 	EXP 	New trial (rep=0, index=8): OrderedDict([('stimImage', 'stimuli/white_3.jpg'), ('stimWord', ' '), ('CorrAns', 'a')])
+59.2888 	EXP 	feedback_msg: autoDraw = False
+59.2888 	EXP 	image_stim: image = 'stimuli/white_3.jpg'
+59.2888 	EXP 	text_stim: text = ' '
+59.2888 	EXP 	trial_label_left: text = 'A = \nWhite'
+59.2888 	EXP 	trial_label_right: text = 'L = \nBlack'
+59.2888 	EXP 	fixation: autoDraw = True
+59.7614 	EXP 	fixation: autoDraw = False
+59.7614 	EXP 	image_stim: autoDraw = True
+59.7614 	EXP 	text_stim: autoDraw = True
+59.7614 	EXP 	button_left: autoDraw = True
+59.7614 	EXP 	trial_label_left: autoDraw = True
+59.7614 	EXP 	button_right: autoDraw = True
+59.7614 	EXP 	trial_label_right: autoDraw = True
+60.8469 	DATA 	Mouse: Left button down, pos=(696,217)
+60.8714 	EXP 	fixation: autoDraw = False
+60.8714 	EXP 	image_stim: autoDraw = False
+60.8714 	EXP 	text_stim: autoDraw = False
+60.8714 	EXP 	button_left: autoDraw = False
+60.8714 	EXP 	trial_label_left: autoDraw = False
+60.8714 	EXP 	button_right: autoDraw = False
+60.8714 	EXP 	trial_label_right: autoDraw = False
+60.8714 	EXP 	feedback_msg: text = '+'
+60.8714 	EXP 	feedback_msg: autoDraw = True
+60.9192 	DATA 	Mouse:  Left button up, pos=(702,215)
+61.8559 	EXP 	New trial (rep=0, index=9): OrderedDict([('stimImage', 'stimuli/black_5.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+61.8799 	EXP 	feedback_msg: autoDraw = False
+61.8799 	EXP 	image_stim: image = 'stimuli/black_5.jpg'
+61.8799 	EXP 	text_stim: text = ' '
+61.8799 	EXP 	trial_label_left: text = 'A = \nWhite'
+61.8799 	EXP 	trial_label_right: text = 'L = \nBlack'
+61.8799 	EXP 	fixation: autoDraw = True
+62.3534 	EXP 	fixation: autoDraw = False
+62.3534 	EXP 	image_stim: autoDraw = True
+62.3534 	EXP 	text_stim: autoDraw = True
+62.3534 	EXP 	button_left: autoDraw = True
+62.3534 	EXP 	trial_label_left: autoDraw = True
+62.3534 	EXP 	button_right: autoDraw = True
+62.3534 	EXP 	trial_label_right: autoDraw = True
+63.2130 	DATA 	Mouse: Left button down, pos=(1283,214)
+63.2379 	EXP 	fixation: autoDraw = False
+63.2379 	EXP 	image_stim: autoDraw = False
+63.2379 	EXP 	text_stim: autoDraw = False
+63.2379 	EXP 	button_left: autoDraw = False
+63.2379 	EXP 	trial_label_left: autoDraw = False
+63.2379 	EXP 	button_right: autoDraw = False
+63.2379 	EXP 	trial_label_right: autoDraw = False
+63.2379 	EXP 	feedback_msg: text = '+'
+63.2379 	EXP 	feedback_msg: autoDraw = True
+63.3242 	DATA 	Mouse:  Left button up, pos=(1283,214)
+64.2346 	EXP 	New trial (rep=0, index=2): OrderedDict([('conds_file', 'cong_test.xlsx'), ('label_left', 'A = \nWhite or \nPositive'), ('label_right', 'L = \nBlack or \nNegative')])
+64.2656 	EXP 	feedback_msg: autoDraw = False
+64.2656 	EXP 	ready_label_L: text = 'A = \nWhite or \nPositive'
+64.2656 	EXP 	ready_label_R: text = 'L = \nBlack or \nNegative'
+64.2656 	EXP 	main_ready_msg: autoDraw = True
+64.2656 	EXP 	button_L: autoDraw = True
+64.2656 	EXP 	ready_label_L: autoDraw = True
+64.2656 	EXP 	button_R: autoDraw = True
+64.2656 	EXP 	ready_label_R: autoDraw = True
+66.1169 	DATA 	Keypress: space
+66.1528 	EXP 	Imported resources/cong_test.xlsx as conditions, 20 conditions, 3 params
+66.1533 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+66.1536 	EXP 	New trial (rep=0, index=0): OrderedDict([('stimImage', 'stimuli/black_5.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+66.1811 	EXP 	main_ready_msg: autoDraw = False
+66.1811 	EXP 	button_L: autoDraw = False
+66.1811 	EXP 	ready_label_L: autoDraw = False
+66.1811 	EXP 	button_R: autoDraw = False
+66.1811 	EXP 	ready_label_R: autoDraw = False
+66.1811 	EXP 	image_stim: image = 'stimuli/black_5.jpg'
+66.1811 	EXP 	text_stim: text = ' '
+66.1811 	EXP 	trial_label_left: text = 'A = \nWhite or \nPositive'
+66.1811 	EXP 	trial_label_right: text = 'L = \nBlack or \nNegative'
+66.1811 	EXP 	fixation: autoDraw = True
+66.6535 	EXP 	fixation: autoDraw = False
+66.6535 	EXP 	image_stim: autoDraw = True
+66.6535 	EXP 	text_stim: autoDraw = True
+66.6535 	EXP 	button_left: autoDraw = True
+66.6535 	EXP 	trial_label_left: autoDraw = True
+66.6535 	EXP 	button_right: autoDraw = True
+66.6535 	EXP 	trial_label_right: autoDraw = True
+67.6674 	DATA 	Mouse: Left button down, pos=(1305,239)
+67.7183 	EXP 	fixation: autoDraw = False
+67.7183 	EXP 	image_stim: autoDraw = False
+67.7183 	EXP 	text_stim: autoDraw = False
+67.7183 	EXP 	button_left: autoDraw = False
+67.7183 	EXP 	trial_label_left: autoDraw = False
+67.7183 	EXP 	button_right: autoDraw = False
+67.7183 	EXP 	trial_label_right: autoDraw = False
+67.7183 	EXP 	feedback_msg: text = '+'
+67.7183 	EXP 	feedback_msg: autoDraw = True
+67.7404 	DATA 	Mouse:  Left button up, pos=(1305,239)
+68.7094 	EXP 	New trial (rep=0, index=1): OrderedDict([('stimImage', 'stimuli/black_2.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+68.7351 	EXP 	feedback_msg: autoDraw = False
+68.7351 	EXP 	image_stim: image = 'stimuli/black_2.jpg'
+68.7351 	EXP 	text_stim: text = ' '
+68.7351 	EXP 	trial_label_left: text = 'A = \nWhite or \nPositive'
+68.7351 	EXP 	trial_label_right: text = 'L = \nBlack or \nNegative'
+68.7351 	EXP 	fixation: autoDraw = True
+69.2092 	EXP 	fixation: autoDraw = False
+69.2092 	EXP 	image_stim: autoDraw = True
+69.2092 	EXP 	text_stim: autoDraw = True
+69.2092 	EXP 	button_left: autoDraw = True
+69.2092 	EXP 	trial_label_left: autoDraw = True
+69.2092 	EXP 	button_right: autoDraw = True
+69.2092 	EXP 	trial_label_right: autoDraw = True
+70.0042 	DATA 	Mouse: Left button down, pos=(1298,247)
+70.0283 	EXP 	fixation: autoDraw = False
+70.0283 	EXP 	image_stim: autoDraw = False
+70.0283 	EXP 	text_stim: autoDraw = False
+70.0283 	EXP 	button_left: autoDraw = False
+70.0283 	EXP 	trial_label_left: autoDraw = False
+70.0283 	EXP 	button_right: autoDraw = False
+70.0283 	EXP 	trial_label_right: autoDraw = False
+70.0283 	EXP 	feedback_msg: text = '+'
+70.0283 	EXP 	feedback_msg: autoDraw = True
+70.1153 	DATA 	Mouse:  Left button up, pos=(1298,247)
+71.0259 	EXP 	New trial (rep=0, index=2): OrderedDict([('stimImage', 'stimuli/white_3.jpg'), ('stimWord', ' '), ('CorrAns', 'a')])
+71.0515 	EXP 	feedback_msg: autoDraw = False
+71.0515 	EXP 	image_stim: image = 'stimuli/white_3.jpg'
+71.0515 	EXP 	text_stim: text = ' '
+71.0515 	EXP 	trial_label_left: text = 'A = \nWhite or \nPositive'
+71.0515 	EXP 	trial_label_right: text = 'L = \nBlack or \nNegative'
+71.0515 	EXP 	fixation: autoDraw = True
+71.5247 	EXP 	fixation: autoDraw = False
+71.5247 	EXP 	image_stim: autoDraw = True
+71.5247 	EXP 	text_stim: autoDraw = True
+71.5247 	EXP 	button_left: autoDraw = True
+71.5247 	EXP 	trial_label_left: autoDraw = True
+71.5247 	EXP 	button_right: autoDraw = True
+71.5247 	EXP 	trial_label_right: autoDraw = True
+72.4594 	DATA 	Mouse: Left button down, pos=(634,221)
+72.4847 	EXP 	fixation: autoDraw = False
+72.4847 	EXP 	image_stim: autoDraw = False
+72.4847 	EXP 	text_stim: autoDraw = False
+72.4847 	EXP 	button_left: autoDraw = False
+72.4847 	EXP 	trial_label_left: autoDraw = False
+72.4847 	EXP 	button_right: autoDraw = False
+72.4847 	EXP 	trial_label_right: autoDraw = False
+72.4847 	EXP 	feedback_msg: text = '+'
+72.4847 	EXP 	feedback_msg: autoDraw = True
+72.5286 	DATA 	Mouse:  Left button up, pos=(634,221)
+73.4810 	EXP 	New trial (rep=0, index=3): OrderedDict([('stimImage', 'stimuli/black_3.jpg'), ('stimWord', ' '), ('CorrAns', 'l')])
+73.5071 	EXP 	feedback_msg: autoDraw = False
+73.5071 	EXP 	image_stim: image = 'stimuli/black_3.jpg'
+73.5071 	EXP 	text_stim: text = ' '
+73.5071 	EXP 	trial_label_left: text = 'A = \nWhite or \nPositive'
+73.5071 	EXP 	trial_label_right: text = 'L = \nBlack or \nNegative'
+73.5071 	EXP 	fixation: autoDraw = True
+73.9829 	EXP 	fixation: autoDraw = False
+73.9829 	EXP 	image_stim: autoDraw = True
+73.9829 	EXP 	text_stim: autoDraw = True
+73.9829 	EXP 	button_left: autoDraw = True
+73.9829 	EXP 	trial_label_left: autoDraw = True
+73.9829 	EXP 	button_right: autoDraw = True
+73.9829 	EXP 	trial_label_right: autoDraw = True
+74.5482 	DATA 	Mouse: Left button down, pos=(1265,254)
+74.5761 	EXP 	fixation: autoDraw = False
+74.5761 	EXP 	image_stim: autoDraw = False
+74.5761 	EXP 	text_stim: autoDraw = False
+74.5761 	EXP 	button_left: autoDraw = False
+74.5761 	EXP 	trial_label_left: autoDraw = False
+74.5761 	EXP 	button_right: autoDraw = False
+74.5761 	EXP 	trial_label_right: autoDraw = False
+74.5761 	EXP 	feedback_msg: text = '+'
+74.5761 	EXP 	feedback_msg: autoDraw = True
+74.6619 	DATA 	Mouse:  Left button up, pos=(1265,254)
+75.5724 	EXP 	New trial (rep=0, index=4): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Pleasure'), ('CorrAns', 'a')])
+75.5981 	EXP 	feedback_msg: autoDraw = False
+75.5981 	EXP 	image_stim: image = 'stimuli/blank.png'
+75.5981 	EXP 	text_stim: text = 'Pleasure'
+75.5981 	EXP 	trial_label_left: text = 'A = \nWhite or \nPositive'
+75.5981 	EXP 	trial_label_right: text = 'L = \nBlack or \nNegative'
+75.5981 	EXP 	fixation: autoDraw = True
+76.0860 	EXP 	fixation: autoDraw = False
+76.0860 	EXP 	image_stim: autoDraw = True
+76.0860 	EXP 	text_stim: autoDraw = True
+76.0860 	EXP 	button_left: autoDraw = True
+76.0860 	EXP 	trial_label_left: autoDraw = True
+76.0860 	EXP 	button_right: autoDraw = True
+76.0860 	EXP 	trial_label_right: autoDraw = True
+76.8723 	DATA 	Mouse: Left button down, pos=(578,232)
+76.8980 	EXP 	fixation: autoDraw = False
+76.8980 	EXP 	image_stim: autoDraw = False
+76.8980 	EXP 	text_stim: autoDraw = False
+76.8980 	EXP 	button_left: autoDraw = False
+76.8980 	EXP 	trial_label_left: autoDraw = False
+76.8980 	EXP 	button_right: autoDraw = False
+76.8980 	EXP 	trial_label_right: autoDraw = False
+76.8980 	EXP 	feedback_msg: text = '+'
+76.8980 	EXP 	feedback_msg: autoDraw = True
+76.9837 	DATA 	Mouse:  Left button up, pos=(578,232)
+77.8916 	EXP 	New trial (rep=0, index=5): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Nasty'), ('CorrAns', 'l')])
+77.9163 	EXP 	feedback_msg: autoDraw = False
+77.9163 	EXP 	image_stim: image = 'stimuli/blank.png'
+77.9163 	EXP 	text_stim: text = 'Nasty'
+77.9163 	EXP 	trial_label_left: text = 'A = \nWhite or \nPositive'
+77.9163 	EXP 	trial_label_right: text = 'L = \nBlack or \nNegative'
+77.9163 	EXP 	fixation: autoDraw = True
+78.3853 	EXP 	fixation: autoDraw = False
+78.3853 	EXP 	image_stim: autoDraw = True
+78.3853 	EXP 	text_stim: autoDraw = True
+78.3853 	EXP 	button_left: autoDraw = True
+78.3853 	EXP 	trial_label_left: autoDraw = True
+78.3853 	EXP 	button_right: autoDraw = True
+78.3853 	EXP 	trial_label_right: autoDraw = True
+79.0184 	DATA 	Mouse: Left button down, pos=(1378,267)
+79.0435 	EXP 	fixation: autoDraw = False
+79.0435 	EXP 	image_stim: autoDraw = False
+79.0435 	EXP 	text_stim: autoDraw = False
+79.0435 	EXP 	button_left: autoDraw = False
+79.0435 	EXP 	trial_label_left: autoDraw = False
+79.0435 	EXP 	button_right: autoDraw = False
+79.0435 	EXP 	trial_label_right: autoDraw = False
+79.0435 	EXP 	feedback_msg: text = '+'
+79.0435 	EXP 	feedback_msg: autoDraw = True
+79.0865 	DATA 	Mouse:  Left button up, pos=(1378,267)
+80.0371 	EXP 	New trial (rep=0, index=6): OrderedDict([('stimImage', 'stimuli/blank.png'), ('stimWord', 'Bad'), ('CorrAns', 'l')])
+80.0641 	EXP 	feedback_msg: autoDraw = False
+80.0641 	EXP 	image_stim: image = 'stimuli/blank.png'
+80.0641 	EXP 	text_stim: text = 'Bad'
+80.0641 	EXP 	trial_label_left: text = 'A = \nWhite or \nPositive'
+80.0641 	EXP 	trial_label_right: text = 'L = \nBlack or \nNegative'
+80.0641 	EXP 	fixation: autoDraw = True
+80.5351 	EXP 	fixation: autoDraw = False
+80.5351 	EXP 	image_stim: autoDraw = True
+80.5351 	EXP 	text_stim: autoDraw = True
+80.5351 	EXP 	button_left: autoDraw = True
+80.5351 	EXP 	trial_label_left: autoDraw = True
+80.5351 	EXP 	button_right: autoDraw = True
+80.5351 	EXP 	trial_label_right: autoDraw = True
+80.5390 	DATA 	Keypress: escape
+80.7304 	EXP 	window1: mouseVisible = True

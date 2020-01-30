@@ -31,10 +31,10 @@ J. Peirce, J.R. Gray, S. Simpson, M. MacAskill, R. Höchenberger, H. Sogo, E. Ka
 Customizing the task for other versions
 --------------------------------------------
 
-The implementation here uses a spreadsheet that defines the block order being
-used (you can see blocks_order1.xlsx and blocks_order2.xlsx) and these then
-call further conditions files (cong_train.xlsx, cong_test.xlsx etc.) on each
-block of trials to determine how the trials run *within* that block.
+The implementation here uses a spreadsheet files to define the block orders being
+used. You can see the block_order xlsx files and the conditions files for each block
+(cong_train.xlsx, cong_test.xlsx etc.) in the *resources* folder.
 
 To change the stimuli for your own task you can simply change the lines in the
-conditions files
+conditions files to set what is considered a congruent or incongruent train/test
+condition.

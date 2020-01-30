@@ -8,7 +8,7 @@ import { TrialHandler } from './lib/data-2020.1.js';
 import { Scheduler } from './lib/util-2020.1.js';
 import * as util from './lib/util-2020.1.js';
 import * as visual from './lib/visual-2020.1.js';
-import { Sound } from './lib/sound-2020.1.js';
+import * as sound from './lib/sound-2020.1.js';
 
 // init psychoJS:
 const psychoJS = new PsychoJS({
@@ -56,9 +56,30 @@ flowScheduler.add(quitPsychoJS, '', true);
 // quit if user presses Cancel in dialog box:
 dialogCancelScheduler.add(quitPsychoJS, '', false);
 
-psychoJS.start({expName, expInfo, resources: [
-  {'name': 'instructs.xlsx', 'path': 'resources/instructs.xlsx'}
-]
+psychoJS.start({
+  expName: expName,
+  expInfo: expInfo,
+  resources: [
+    {'name': 'resources/pos_neg_train.xlsx', 'path': 'resources/resources/pos_neg_train.xlsx'},
+    {'name': 'stimuli/black_1.jpg', 'path': 'resources/stimuli/black_1.jpg'},
+    {'name': 'resources/cong_test.xlsx', 'path': 'resources/resources/cong_test.xlsx'},
+    {'name': 'resources/incong_test.xlsx', 'path': 'resources/resources/incong_test.xlsx'},
+    {'name': 'stimuli/white_4.jpg', 'path': 'resources/stimuli/white_4.jpg'},
+    {'name': 'stimuli/blank.png', 'path': 'resources/stimuli/blank.png'},
+    {'name': 'resources/blocks_order1.xlsx', 'path': 'resources/resources/blocks_order1.xlsx'},
+    {'name': 'stimuli/white_5.jpg', 'path': 'resources/stimuli/white_5.jpg'},
+    {'name': 'stimuli/black_3.jpg', 'path': 'resources/stimuli/black_3.jpg'},
+    {'name': 'resources/cong_train.xlsx', 'path': 'resources/resources/cong_train.xlsx'},
+    {'name': 'stimuli/black_2.jpg', 'path': 'resources/stimuli/black_2.jpg'},
+    {'name': 'stimuli/white_3.jpg', 'path': 'resources/stimuli/white_3.jpg'},
+    {'name': 'stimuli/black_4.jpg', 'path': 'resources/stimuli/black_4.jpg'},
+    {'name': 'resources/incong_train.xlsx', 'path': 'resources/resources/incong_train.xlsx'},
+    {'name': 'stimuli/white_2.jpg', 'path': 'resources/stimuli/white_2.jpg'},
+    {'name': 'stimuli/white_1.jpg', 'path': 'resources/stimuli/white_1.jpg'},
+    {'name': 'resources/instructs.xlsx', 'path': 'resources/resources/instructs.xlsx'},
+    {'name': 'stimuli/black_5.jpg', 'path': 'resources/stimuli/black_5.jpg'},
+    {'name': 'resources/blocks_order2.xlsx', 'path': 'resources/resources/blocks_order2.xlsx'}
+  ]
 });
 
 
@@ -66,7 +87,7 @@ var frameDur;
 function updateInfo() {
   expInfo['date'] = util.MonotonicClock.getDateStr();  // add a simple timestamp
   expInfo['expName'] = expName;
-  expInfo['psychopyVersion'] = '2020.1.0rc1';
+  expInfo['psychopyVersion'] = '2020.1.0rc3';
   expInfo['OS'] = window.navigator.platform;
 
   // store frame rate of monitor if we can measure it successfully
@@ -117,10 +138,11 @@ var routineTimer;
 function experimentInit() {
   // Initialize components for Routine "instructions"
   instructionsClock = new util.Clock();
-  if (expInfo['order']=='random') {
-      expInfo['order'] = Math.floor(Math.random() * 2) + 1;
+  if ((expInfo["order"] === "random")) {
+      expInfo["order"] = (Math.floor((Math.random() * ((2 - 1) + 1))) + 1);
   }
-  blocks_file = "blocks_order"+expInfo['order']+".xlsx"
+  blocks_file = (("blocks_order" + expInfo["order"].toString()) + ".xlsx");
+  
   instructs_text = new visual.TextStim({
     win: psychoJS.window,
     name: 'instructs_text',
@@ -338,7 +360,7 @@ function instruct_pagesLoopBegin(thisScheduler) {
     psychoJS: psychoJS,
     nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
     extraInfo: expInfo, originPath: undefined,
-    trialList: 'instructs.xlsx',
+    trialList: 'resources/instructs.xlsx',
     seed: undefined, name: 'instruct_pages'
   });
   psychoJS.experiment.addLoop(instruct_pages); // add the loop to the experiment
@@ -372,7 +394,7 @@ function blocksLoopBegin(thisScheduler) {
     psychoJS: psychoJS,
     nReps: 1, method: TrialHandler.Method.SEQUENTIAL,
     extraInfo: expInfo, originPath: undefined,
-    trialList: blocks_file,
+    trialList: ('resources/' + blocks_file),
     seed: undefined, name: 'blocks'
   });
   psychoJS.experiment.addLoop(blocks); // add the loop to the experiment
@@ -403,7 +425,7 @@ function trialsLoopBegin(thisScheduler) {
     psychoJS: psychoJS,
     nReps: 1, method: TrialHandler.Method.RANDOM,
     extraInfo: expInfo, originPath: undefined,
-    trialList: conds_file,
+    trialList: ('resources/' + conds_file),
     seed: undefined, name: 'trials'
   });
   psychoJS.experiment.addLoop(trials); // add the loop to the experiment

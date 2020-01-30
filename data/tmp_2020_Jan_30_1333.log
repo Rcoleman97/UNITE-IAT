@@ -1,0 +1,10 @@
+1.0720 	WARNING 	PTB audio lib was requested but not loaded: psychtoolbox audio failed to import
+1.3733 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['PTB', 'sounddevice', 'pyo', 'pygame'] (in that order).
+3.8743 	WARNING 	Import Error: DLL load failed: %1 is not a valid Win32 application.. Using event module for keyboard component.
+14.1464 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color='black', colorSpace='named', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001764C9221D0>, gamma=array([[2.],
+       [2.],
+       [2.]], dtype=float32), gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001764C97EA20>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.1464 	EXP 	window1: recordFrameIntervals = False
+14.3442 	EXP 	window1: recordFrameIntervals = True
+14.5637 	EXP 	window1: recordFrameIntervals = False
+14.6086 	EXP 	window1: mouseVisible = True
