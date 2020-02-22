@@ -1,0 +1,1592 @@
+0.18599999999999994	EXP	Created Window = Window( name=Window, fullscr=true, color=#000000, units=height, waitBlanking=true, autoLog=true, size=[1922,1065] )
+3.8449999999999998	DATA	Keydown: 1
+9.876999999999999	EXP	Created instructs_text = TextStim( name=instructs_text, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=default text, font=Arial, color=#FFFFFF, contrast=1, height=0.03, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.884	EXP	Created instr_done_button = Rect( name=instr_done_button, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,-0.4], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.05],[0.2,-0.05],[0.2,0.05],[-0.2,0.05]], closeShape=true, contrast=1, depth=-3, interpolate=true, width=0.4, height=0.1 )
+9.885	EXP	Created instr_done_label = TextStim( name=instr_done_label, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,-0.4], size=undefined, text=Next..., font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.888	EXP	Created main_ready_msg = TextStim( name=main_ready_msg, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Take note of the categories below
+ 
+Position your ~, font=Arial, color=#FFFFFF, contrast=1, height=0.03, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.89	EXP	Created button_L = Rect( name=button_L, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-1, interpolate=true, width=0.4, height=0.2 )
+9.892	EXP	Created ready_label_L = TextStim( name=ready_label_L, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.894	EXP	Created button_R = Rect( name=button_R, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-3, interpolate=true, width=0.4, height=0.2 )
+9.895	EXP	Created ready_label_R = TextStim( name=ready_label_R, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.898	EXP	Created fixation = TextStim( name=fixation, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=+, font=Arial, color=#FFFFFF, contrast=1, height=0.1, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.9	EXP	Created image_stim = ImageStim( name=image_stim, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.5,0.5], image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-1, flipHoriz=null, flipVert=null )
+9.901	EXP	Created text_stim = TextStim( name=text_stim, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=default text, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.903	EXP	Created button_left = Rect( name=button_left, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-6, interpolate=true, width=0.4, height=0.2 )
+9.905	EXP	Created trial_label_left = TextStim( name=trial_label_left, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.906	EXP	Created button_right = Rect( name=button_right, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-8, interpolate=true, width=0.4, height=0.2 )
+9.907	EXP	Created trial_label_right = TextStim( name=trial_label_right, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.907	EXP	Created feedback_msg = TextStim( name=feedback_msg, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=default text, font=Arial, color=#FFFFFF, contrast=1, height=0.1, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.908	EXP	Created thanks_text = TextStim( name=thanks_text, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=The End. 
+ 
+Thank you for your participation., font=Arial, color=#FFFFFF, contrast=1, height=0.1, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+9.995	EXP	instructs_text: units = "height"
+9.995	EXP	instructs_text: ori = 0
+9.995	EXP	instructs_text: opacity = 1
+9.995	EXP	instructs_text: pos = [0,0]
+9.995	EXP	instructs_text: size = undefined
+9.995	EXP	instructs_text: text = "default text"
+9.995	EXP	instructs_text: font = "Arial"
+9.995	EXP	instructs_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+9.995	EXP	instructs_text: contrast = 1
+9.995	EXP	instructs_text: height = 0.03
+9.995	EXP	instructs_text: bold = false
+9.995	EXP	instructs_text: italic = false
+9.995	EXP	instructs_text: alignHoriz = "left"
+9.995	EXP	instructs_text: alignVert = "center"
+9.995	EXP	instructs_text: wrapWidth = 1
+9.995	EXP	instructs_text: flipHoriz = false
+9.995	EXP	instructs_text: flipVert = false
+9.995	EXP	instr_done_button: units = "height"
+9.995	EXP	instr_done_button: ori = 0
+9.995	EXP	instr_done_button: opacity = 1
+9.995	EXP	instr_done_button: pos = [0,-0.4]
+9.995	EXP	instr_done_button: size = [1,1]
+9.995	EXP	instr_done_button: lineWidth = 1
+9.995	EXP	instr_done_button: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	instr_done_button: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+9.995	EXP	instr_done_button: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+9.995	EXP	instr_done_button: closeShape = true
+9.995	EXP	instr_done_button: contrast = 1
+9.995	EXP	instr_done_button: depth = -3
+9.995	EXP	instr_done_button: interpolate = true
+9.995	EXP	instr_done_button: width = 0.4
+9.995	EXP	instr_done_button: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+9.995	EXP	instr_done_button: height = 0.1
+9.995	EXP	instr_done_button: vertices = [[-0.2,-0.05],[0.2,-0.05],[0.2,0.05],[-0.2,0.05]]
+9.995	EXP	instr_done_button: vertices = [[-0.2,-0.05],[0.2,-0.05],[0.2,0.05],[-0.2,0.05]]
+9.995	EXP	instr_done_label: units = "height"
+9.995	EXP	instr_done_label: ori = 0
+9.995	EXP	instr_done_label: opacity = 1
+9.995	EXP	instr_done_label: pos = [0,-0.4]
+9.995	EXP	instr_done_label: size = undefined
+9.995	EXP	instr_done_label: text = "Next..."
+9.995	EXP	instr_done_label: font = "Arial"
+9.995	EXP	instr_done_label: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	instr_done_label: contrast = 1
+9.995	EXP	instr_done_label: height = 0.05
+9.995	EXP	instr_done_label: bold = false
+9.995	EXP	instr_done_label: italic = false
+9.995	EXP	instr_done_label: alignHoriz = "left"
+9.995	EXP	instr_done_label: alignVert = "center"
+9.995	EXP	instr_done_label: wrapWidth = 1
+9.995	EXP	instr_done_label: flipHoriz = false
+9.995	EXP	instr_done_label: flipVert = false
+9.995	EXP	main_ready_msg: units = "height"
+9.995	EXP	main_ready_msg: ori = 0
+9.995	EXP	main_ready_msg: opacity = 1
+9.995	EXP	main_ready_msg: pos = [0,0]
+9.995	EXP	main_ready_msg: size = undefined
+9.995	EXP	main_ready_msg: text = "Take note of the categories below\n \nPosition your index fingers \n \nPress the space bar (or one of the green buttons) to begin"
+9.995	EXP	main_ready_msg: font = "Arial"
+9.995	EXP	main_ready_msg: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+9.995	EXP	main_ready_msg: contrast = 1
+9.995	EXP	main_ready_msg: height = 0.03
+9.995	EXP	main_ready_msg: bold = false
+9.995	EXP	main_ready_msg: italic = false
+9.995	EXP	main_ready_msg: alignHoriz = "left"
+9.995	EXP	main_ready_msg: alignVert = "center"
+9.995	EXP	main_ready_msg: wrapWidth = 1
+9.995	EXP	main_ready_msg: flipHoriz = false
+9.995	EXP	main_ready_msg: flipVert = false
+9.995	EXP	button_L: units = "height"
+9.995	EXP	button_L: ori = 0
+9.995	EXP	button_L: opacity = 1
+9.995	EXP	button_L: pos = [-0.4,-0.3]
+9.995	EXP	button_L: size = [1,1]
+9.995	EXP	button_L: lineWidth = 1
+9.995	EXP	button_L: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	button_L: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+9.995	EXP	button_L: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+9.995	EXP	button_L: closeShape = true
+9.995	EXP	button_L: contrast = 1
+9.995	EXP	button_L: depth = -1
+9.995	EXP	button_L: interpolate = true
+9.995	EXP	button_L: width = 0.4
+9.995	EXP	button_L: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+9.995	EXP	button_L: height = 0.2
+9.995	EXP	button_L: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	button_L: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	ready_label_L: units = "height"
+9.995	EXP	ready_label_L: ori = 0
+9.995	EXP	ready_label_L: opacity = 1
+9.995	EXP	ready_label_L: pos = [-0.4,-0.3]
+9.995	EXP	ready_label_L: size = undefined
+9.995	EXP	ready_label_L: text = "default text"
+9.995	EXP	ready_label_L: font = "Arial"
+9.995	EXP	ready_label_L: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	ready_label_L: contrast = 1
+9.995	EXP	ready_label_L: height = 0.05
+9.995	EXP	ready_label_L: bold = false
+9.995	EXP	ready_label_L: italic = false
+9.995	EXP	ready_label_L: alignHoriz = "left"
+9.995	EXP	ready_label_L: alignVert = "center"
+9.995	EXP	ready_label_L: wrapWidth = 1
+9.995	EXP	ready_label_L: flipHoriz = false
+9.995	EXP	ready_label_L: flipVert = false
+9.995	EXP	button_R: units = "height"
+9.995	EXP	button_R: ori = 0
+9.995	EXP	button_R: opacity = 1
+9.995	EXP	button_R: pos = [0.4,-0.3]
+9.995	EXP	button_R: size = [1,1]
+9.995	EXP	button_R: lineWidth = 1
+9.995	EXP	button_R: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	button_R: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+9.995	EXP	button_R: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+9.995	EXP	button_R: closeShape = true
+9.995	EXP	button_R: contrast = 1
+9.995	EXP	button_R: depth = -3
+9.995	EXP	button_R: interpolate = true
+9.995	EXP	button_R: width = 0.4
+9.995	EXP	button_R: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+9.995	EXP	button_R: height = 0.2
+9.995	EXP	button_R: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	button_R: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	ready_label_R: units = "height"
+9.995	EXP	ready_label_R: ori = 0
+9.995	EXP	ready_label_R: opacity = 1
+9.995	EXP	ready_label_R: pos = [0.4,-0.3]
+9.995	EXP	ready_label_R: size = undefined
+9.995	EXP	ready_label_R: text = "default text"
+9.995	EXP	ready_label_R: font = "Arial"
+9.995	EXP	ready_label_R: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	ready_label_R: contrast = 1
+9.995	EXP	ready_label_R: height = 0.05
+9.995	EXP	ready_label_R: bold = false
+9.995	EXP	ready_label_R: italic = false
+9.995	EXP	ready_label_R: alignHoriz = "left"
+9.995	EXP	ready_label_R: alignVert = "center"
+9.995	EXP	ready_label_R: wrapWidth = 1
+9.995	EXP	ready_label_R: flipHoriz = false
+9.995	EXP	ready_label_R: flipVert = false
+9.995	EXP	fixation: units = "height"
+9.995	EXP	fixation: ori = 0
+9.995	EXP	fixation: opacity = 1
+9.995	EXP	fixation: pos = [0,0]
+9.995	EXP	fixation: size = undefined
+9.995	EXP	fixation: text = "+"
+9.995	EXP	fixation: font = "Arial"
+9.995	EXP	fixation: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+9.995	EXP	fixation: contrast = 1
+9.995	EXP	fixation: height = 0.1
+9.995	EXP	fixation: bold = false
+9.995	EXP	fixation: italic = false
+9.995	EXP	fixation: alignHoriz = "left"
+9.995	EXP	fixation: alignVert = "center"
+9.995	EXP	fixation: wrapWidth = 1
+9.995	EXP	fixation: flipHoriz = false
+9.995	EXP	fixation: flipVert = false
+9.995	EXP	image_stim: units = "height"
+9.995	EXP	image_stim: ori = 0
+9.995	EXP	image_stim: opacity = 1
+9.995	EXP	image_stim: pos = [0,0]
+9.995	EXP	image_stim: size = [0.5,0.5]
+9.995	EXP	image_stim: image = undefined
+9.995	EXP	image_stim: mask = undefined
+9.995	EXP	image_stim: color = {"_rgb":[1,1,1]}
+9.995	EXP	image_stim: contrast = 1
+9.995	EXP	image_stim: texRes = 128
+9.995	EXP	image_stim: interpolate = true
+9.995	EXP	image_stim: depth = -1
+9.995	EXP	image_stim: flipHoriz = false
+9.995	EXP	image_stim: flipVert = false
+9.995	EXP	text_stim: units = "height"
+9.995	EXP	text_stim: ori = 0
+9.995	EXP	text_stim: opacity = 1
+9.995	EXP	text_stim: pos = [0,0]
+9.995	EXP	text_stim: size = undefined
+9.995	EXP	text_stim: text = "default text"
+9.995	EXP	text_stim: font = "Arial"
+9.995	EXP	text_stim: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+9.995	EXP	text_stim: contrast = 1
+9.995	EXP	text_stim: height = 0.05
+9.995	EXP	text_stim: bold = false
+9.995	EXP	text_stim: italic = false
+9.995	EXP	text_stim: alignHoriz = "left"
+9.995	EXP	text_stim: alignVert = "center"
+9.995	EXP	text_stim: wrapWidth = 1
+9.995	EXP	text_stim: flipHoriz = false
+9.995	EXP	text_stim: flipVert = false
+9.995	EXP	button_left: units = "height"
+9.995	EXP	button_left: ori = 0
+9.995	EXP	button_left: opacity = 1
+9.995	EXP	button_left: pos = [-0.4,-0.3]
+9.995	EXP	button_left: size = [1,1]
+9.995	EXP	button_left: lineWidth = 1
+9.995	EXP	button_left: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	button_left: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+9.995	EXP	button_left: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+9.995	EXP	button_left: closeShape = true
+9.995	EXP	button_left: contrast = 1
+9.995	EXP	button_left: depth = -6
+9.995	EXP	button_left: interpolate = true
+9.995	EXP	button_left: width = 0.4
+9.995	EXP	button_left: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+9.995	EXP	button_left: height = 0.2
+9.995	EXP	button_left: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	button_left: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	trial_label_left: units = "height"
+9.995	EXP	trial_label_left: ori = 0
+9.995	EXP	trial_label_left: opacity = 1
+9.995	EXP	trial_label_left: pos = [-0.4,-0.3]
+9.995	EXP	trial_label_left: size = undefined
+9.995	EXP	trial_label_left: text = "default text"
+9.995	EXP	trial_label_left: font = "Arial"
+9.995	EXP	trial_label_left: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	trial_label_left: contrast = 1
+9.995	EXP	trial_label_left: height = 0.05
+9.995	EXP	trial_label_left: bold = false
+9.995	EXP	trial_label_left: italic = false
+9.995	EXP	trial_label_left: alignHoriz = "left"
+9.995	EXP	trial_label_left: alignVert = "center"
+9.995	EXP	trial_label_left: wrapWidth = 1
+9.995	EXP	trial_label_left: flipHoriz = false
+9.995	EXP	trial_label_left: flipVert = false
+9.995	EXP	button_right: units = "height"
+9.995	EXP	button_right: ori = 0
+9.995	EXP	button_right: opacity = 1
+9.995	EXP	button_right: pos = [0.4,-0.3]
+9.995	EXP	button_right: size = [1,1]
+9.995	EXP	button_right: lineWidth = 1
+9.995	EXP	button_right: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	button_right: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+9.995	EXP	button_right: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+9.995	EXP	button_right: closeShape = true
+9.995	EXP	button_right: contrast = 1
+9.995	EXP	button_right: depth = -8
+9.995	EXP	button_right: interpolate = true
+9.995	EXP	button_right: width = 0.4
+9.995	EXP	button_right: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+9.995	EXP	button_right: height = 0.2
+9.995	EXP	button_right: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	button_right: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+9.995	EXP	trial_label_right: units = "height"
+9.995	EXP	trial_label_right: ori = 0
+9.995	EXP	trial_label_right: opacity = 1
+9.995	EXP	trial_label_right: pos = [0.4,-0.3]
+9.995	EXP	trial_label_right: size = undefined
+9.995	EXP	trial_label_right: text = "default text"
+9.995	EXP	trial_label_right: font = "Arial"
+9.995	EXP	trial_label_right: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+9.995	EXP	trial_label_right: contrast = 1
+9.995	EXP	trial_label_right: height = 0.05
+9.995	EXP	trial_label_right: bold = false
+9.995	EXP	trial_label_right: italic = false
+9.995	EXP	trial_label_right: alignHoriz = "left"
+9.995	EXP	trial_label_right: alignVert = "center"
+9.995	EXP	trial_label_right: wrapWidth = 1
+9.995	EXP	trial_label_right: flipHoriz = false
+9.995	EXP	trial_label_right: flipVert = false
+9.995	EXP	feedback_msg: units = "height"
+9.995	EXP	feedback_msg: ori = 0
+9.995	EXP	feedback_msg: opacity = 1
+9.995	EXP	feedback_msg: pos = [0,0]
+9.995	EXP	feedback_msg: size = undefined
+9.995	EXP	feedback_msg: text = "default text"
+9.995	EXP	feedback_msg: font = "Arial"
+9.995	EXP	feedback_msg: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+9.995	EXP	feedback_msg: contrast = 1
+9.995	EXP	feedback_msg: height = 0.1
+9.995	EXP	feedback_msg: bold = false
+9.995	EXP	feedback_msg: italic = false
+9.995	EXP	feedback_msg: alignHoriz = "left"
+9.995	EXP	feedback_msg: alignVert = "center"
+9.995	EXP	feedback_msg: wrapWidth = 1
+9.995	EXP	feedback_msg: flipHoriz = false
+9.995	EXP	feedback_msg: flipVert = false
+9.995	EXP	thanks_text: units = "height"
+9.995	EXP	thanks_text: ori = 0
+9.995	EXP	thanks_text: opacity = 1
+9.995	EXP	thanks_text: pos = [0,0]
+9.995	EXP	thanks_text: size = undefined
+9.995	EXP	thanks_text: text = "The End. \n \nThank you for your participation."
+9.995	EXP	thanks_text: font = "Arial"
+9.995	EXP	thanks_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+9.995	EXP	thanks_text: contrast = 1
+9.995	EXP	thanks_text: height = 0.1
+9.995	EXP	thanks_text: bold = false
+9.995	EXP	thanks_text: italic = false
+9.995	EXP	thanks_text: alignHoriz = "left"
+9.995	EXP	thanks_text: alignVert = "center"
+9.995	EXP	thanks_text: wrapWidth = 1
+9.995	EXP	thanks_text: flipHoriz = false
+9.995	EXP	thanks_text: flipVert = false
+9.995	EXP	instructs_text: text = "You will be presented with words or images to classify into categories using either the 'A' or 'L' key. \r\n \r\nTry to go as fast as possible while making as few mistakes as possible. \r\n"
+9.995	EXP	instructs_text: autoDraw = true
+9.995	EXP	instr_done_button: autoDraw = true
+9.995	EXP	instr_done_label: autoDraw = true
+21.802	DATA	Mouse: 0 button down, pos=(970,1048)
+21.84	EXP	instructs_text: autoDraw = false
+21.84	EXP	instr_done_button: autoDraw = false
+21.84	EXP	instr_done_label: autoDraw = false
+21.84	EXP	instructs_text: text = "Keep in mind: \r\n \r\n1) Labels at the top of the screen indicate which catogory goes with which key. \r\n \r\n2) Each word or image has a correct catogory classification \r\n \r\n3) Keep your index fingers on the A and L keys to enable a rapid response. \r\n \r\n4) The test gives no results if you go slow- please try to go as fast as possible \r\n"
+21.84	EXP	instructs_text: autoDraw = true
+21.84	EXP	instr_done_button: autoDraw = true
+21.84	EXP	instr_done_label: autoDraw = true
+21.934	DATA	Mouse: 0 button down, pos=(970,1048)
+37.946000000000005	DATA	Mouse: 0 button down, pos=(913,1078)
+38.018	EXP	instructs_text: autoDraw = false
+38.018	EXP	instr_done_button: autoDraw = false
+38.018	EXP	instr_done_label: autoDraw = false
+38.018	EXP	ready_label_L: text = "A = \r\nPositive"
+38.018	EXP	ready_label_R: text = "L = \r\nNegative"
+38.018	EXP	main_ready_msg: autoDraw = true
+38.018	EXP	button_L: autoDraw = true
+38.018	EXP	ready_label_L: autoDraw = true
+38.018	EXP	button_R: autoDraw = true
+38.018	EXP	ready_label_R: autoDraw = true
+38.092000000000006	DATA	Mouse: 0 button down, pos=(913,1078)
+52.120000000000005	DATA	Keydown:  
+52.184000000000005	EXP	main_ready_msg: autoDraw = false
+52.184000000000005	EXP	button_L: autoDraw = false
+52.184000000000005	EXP	ready_label_L: autoDraw = false
+52.184000000000005	EXP	button_R: autoDraw = false
+52.184000000000005	EXP	ready_label_R: autoDraw = false
+52.184000000000005	EXP	image_stim: image = {}
+52.184000000000005	EXP	text_stim: text = "Evil"
+52.184000000000005	EXP	trial_label_left: text = "A = \r\nPositive"
+52.184000000000005	EXP	trial_label_right: text = "L = \r\nNegative"
+52.184000000000005	EXP	fixation: autoDraw = true
+52.667	EXP	fixation: autoDraw = false
+52.716	EXP	image_stim: autoDraw = true
+52.716	EXP	text_stim: autoDraw = true
+52.716	EXP	button_left: autoDraw = true
+52.716	EXP	trial_label_left: autoDraw = true
+52.716	EXP	button_right: autoDraw = true
+52.716	EXP	trial_label_right: autoDraw = true
+53.937000000000005	DATA	Keydown: a
+53.955000000000005	EXP	fixation: autoDraw = false
+53.955000000000005	EXP	image_stim: autoDraw = false
+53.955000000000005	EXP	text_stim: autoDraw = false
+53.955000000000005	EXP	button_left: autoDraw = false
+53.955000000000005	EXP	trial_label_left: autoDraw = false
+53.955000000000005	EXP	button_right: autoDraw = false
+53.955000000000005	EXP	trial_label_right: autoDraw = false
+53.955000000000005	EXP	feedback_msg: text = "oops"
+53.955000000000005	EXP	feedback_msg: autoDraw = true
+54.95	EXP	feedback_msg: autoDraw = false
+54.95	EXP	feedback_msg: autoDraw = false
+54.95	EXP	image_stim: image = {}
+54.95	EXP	text_stim: text = "Nasty"
+54.95	EXP	trial_label_left: text = "A = \r\nPositive"
+54.95	EXP	trial_label_right: text = "L = \r\nNegative"
+54.95	EXP	fixation: autoDraw = true
+55.447	EXP	fixation: autoDraw = false
+55.479000000000006	EXP	image_stim: autoDraw = true
+55.479000000000006	EXP	text_stim: autoDraw = true
+55.479000000000006	EXP	button_left: autoDraw = true
+55.479000000000006	EXP	trial_label_left: autoDraw = true
+55.479000000000006	EXP	button_right: autoDraw = true
+55.479000000000006	EXP	trial_label_right: autoDraw = true
+56.618	DATA	Keydown: l
+56.636	EXP	fixation: autoDraw = false
+56.636	EXP	image_stim: autoDraw = false
+56.636	EXP	text_stim: autoDraw = false
+56.636	EXP	button_left: autoDraw = false
+56.636	EXP	trial_label_left: autoDraw = false
+56.636	EXP	button_right: autoDraw = false
+56.636	EXP	trial_label_right: autoDraw = false
+56.636	EXP	feedback_msg: text = "+"
+56.636	EXP	feedback_msg: autoDraw = true
+57.632000000000005	EXP	feedback_msg: autoDraw = false
+57.632000000000005	EXP	feedback_msg: autoDraw = false
+57.632000000000005	EXP	image_stim: image = {}
+57.632000000000005	EXP	text_stim: text = "Good"
+57.632000000000005	EXP	trial_label_left: text = "A = \r\nPositive"
+57.632000000000005	EXP	trial_label_right: text = "L = \r\nNegative"
+57.632000000000005	EXP	fixation: autoDraw = true
+58.13	EXP	fixation: autoDraw = false
+58.165000000000006	EXP	image_stim: autoDraw = true
+58.165000000000006	EXP	text_stim: autoDraw = true
+58.165000000000006	EXP	button_left: autoDraw = true
+58.165000000000006	EXP	trial_label_left: autoDraw = true
+58.165000000000006	EXP	button_right: autoDraw = true
+58.165000000000006	EXP	trial_label_right: autoDraw = true
+59.55500000000001	DATA	Keydown: a
+59.569	EXP	fixation: autoDraw = false
+59.569	EXP	image_stim: autoDraw = false
+59.569	EXP	text_stim: autoDraw = false
+59.569	EXP	button_left: autoDraw = false
+59.569	EXP	trial_label_left: autoDraw = false
+59.569	EXP	button_right: autoDraw = false
+59.569	EXP	trial_label_right: autoDraw = false
+59.569	EXP	feedback_msg: text = "+"
+59.569	EXP	feedback_msg: autoDraw = true
+60.564	EXP	feedback_msg: autoDraw = false
+60.564	EXP	feedback_msg: autoDraw = false
+60.564	EXP	image_stim: image = {}
+60.564	EXP	text_stim: text = "Joy"
+60.564	EXP	trial_label_left: text = "A = \r\nPositive"
+60.564	EXP	trial_label_right: text = "L = \r\nNegative"
+60.564	EXP	fixation: autoDraw = true
+61.062000000000005	EXP	fixation: autoDraw = false
+61.096000000000004	EXP	image_stim: autoDraw = true
+61.096000000000004	EXP	text_stim: autoDraw = true
+61.096000000000004	EXP	button_left: autoDraw = true
+61.096000000000004	EXP	trial_label_left: autoDraw = true
+61.096000000000004	EXP	button_right: autoDraw = true
+61.096000000000004	EXP	trial_label_right: autoDraw = true
+61.918000000000006	DATA	Keydown: a
+61.933	EXP	fixation: autoDraw = false
+61.933	EXP	image_stim: autoDraw = false
+61.933	EXP	text_stim: autoDraw = false
+61.933	EXP	button_left: autoDraw = false
+61.933	EXP	trial_label_left: autoDraw = false
+61.933	EXP	button_right: autoDraw = false
+61.933	EXP	trial_label_right: autoDraw = false
+61.933	EXP	feedback_msg: text = "+"
+61.933	EXP	feedback_msg: autoDraw = true
+62.92700000000001	EXP	feedback_msg: autoDraw = false
+62.92700000000001	EXP	feedback_msg: autoDraw = false
+62.92700000000001	EXP	image_stim: image = {}
+62.92700000000001	EXP	text_stim: text = "Bad"
+62.92700000000001	EXP	trial_label_left: text = "A = \r\nPositive"
+62.92700000000001	EXP	trial_label_right: text = "L = \r\nNegative"
+62.92700000000001	EXP	fixation: autoDraw = true
+63.42700000000001	EXP	fixation: autoDraw = false
+63.46000000000001	EXP	image_stim: autoDraw = true
+63.46000000000001	EXP	text_stim: autoDraw = true
+63.46000000000001	EXP	button_left: autoDraw = true
+63.46000000000001	EXP	trial_label_left: autoDraw = true
+63.46000000000001	EXP	button_right: autoDraw = true
+63.46000000000001	EXP	trial_label_right: autoDraw = true
+65.447	DATA	Keydown: l
+65.46600000000001	EXP	fixation: autoDraw = false
+65.46600000000001	EXP	image_stim: autoDraw = false
+65.46600000000001	EXP	text_stim: autoDraw = false
+65.46600000000001	EXP	button_left: autoDraw = false
+65.46600000000001	EXP	trial_label_left: autoDraw = false
+65.46600000000001	EXP	button_right: autoDraw = false
+65.46600000000001	EXP	trial_label_right: autoDraw = false
+65.46600000000001	EXP	feedback_msg: text = "+"
+65.46600000000001	EXP	feedback_msg: autoDraw = true
+66.46000000000001	EXP	feedback_msg: autoDraw = false
+66.46000000000001	EXP	feedback_msg: autoDraw = false
+66.46000000000001	EXP	image_stim: image = {}
+66.46000000000001	EXP	text_stim: text = "Agony"
+66.46000000000001	EXP	trial_label_left: text = "A = \r\nPositive"
+66.46000000000001	EXP	trial_label_right: text = "L = \r\nNegative"
+66.46000000000001	EXP	fixation: autoDraw = true
+66.958	EXP	fixation: autoDraw = false
+66.989	EXP	image_stim: autoDraw = true
+66.989	EXP	text_stim: autoDraw = true
+66.989	EXP	button_left: autoDraw = true
+66.989	EXP	trial_label_left: autoDraw = true
+66.989	EXP	button_right: autoDraw = true
+66.989	EXP	trial_label_right: autoDraw = true
+68.06	DATA	Keydown: l
+68.077	EXP	fixation: autoDraw = false
+68.077	EXP	image_stim: autoDraw = false
+68.077	EXP	text_stim: autoDraw = false
+68.077	EXP	button_left: autoDraw = false
+68.077	EXP	trial_label_left: autoDraw = false
+68.077	EXP	button_right: autoDraw = false
+68.077	EXP	trial_label_right: autoDraw = false
+68.077	EXP	feedback_msg: text = "+"
+68.077	EXP	feedback_msg: autoDraw = true
+69.074	EXP	feedback_msg: autoDraw = false
+69.074	EXP	feedback_msg: autoDraw = false
+69.074	EXP	image_stim: image = {}
+69.074	EXP	text_stim: text = "Pleasure"
+69.074	EXP	trial_label_left: text = "A = \r\nPositive"
+69.074	EXP	trial_label_right: text = "L = \r\nNegative"
+69.074	EXP	fixation: autoDraw = true
+69.575	EXP	fixation: autoDraw = false
+69.611	EXP	image_stim: autoDraw = true
+69.611	EXP	text_stim: autoDraw = true
+69.611	EXP	button_left: autoDraw = true
+69.611	EXP	trial_label_left: autoDraw = true
+69.611	EXP	button_right: autoDraw = true
+69.611	EXP	trial_label_right: autoDraw = true
+70.7	DATA	Keydown: a
+70.71300000000001	EXP	fixation: autoDraw = false
+70.71300000000001	EXP	image_stim: autoDraw = false
+70.71300000000001	EXP	text_stim: autoDraw = false
+70.71300000000001	EXP	button_left: autoDraw = false
+70.71300000000001	EXP	trial_label_left: autoDraw = false
+70.71300000000001	EXP	button_right: autoDraw = false
+70.71300000000001	EXP	trial_label_right: autoDraw = false
+70.71300000000001	EXP	feedback_msg: text = "+"
+70.71300000000001	EXP	feedback_msg: autoDraw = true
+71.708	EXP	feedback_msg: autoDraw = false
+71.708	EXP	feedback_msg: autoDraw = false
+71.708	EXP	image_stim: image = {}
+71.708	EXP	text_stim: text = "Hurt"
+71.708	EXP	trial_label_left: text = "A = \r\nPositive"
+71.708	EXP	trial_label_right: text = "L = \r\nNegative"
+71.708	EXP	fixation: autoDraw = true
+72.206	EXP	fixation: autoDraw = false
+72.236	EXP	image_stim: autoDraw = true
+72.236	EXP	text_stim: autoDraw = true
+72.236	EXP	button_left: autoDraw = true
+72.236	EXP	trial_label_left: autoDraw = true
+72.236	EXP	button_right: autoDraw = true
+72.236	EXP	trial_label_right: autoDraw = true
+73.548	DATA	Keydown: l
+73.562	EXP	fixation: autoDraw = false
+73.562	EXP	image_stim: autoDraw = false
+73.562	EXP	text_stim: autoDraw = false
+73.562	EXP	button_left: autoDraw = false
+73.562	EXP	trial_label_left: autoDraw = false
+73.562	EXP	button_right: autoDraw = false
+73.562	EXP	trial_label_right: autoDraw = false
+73.562	EXP	feedback_msg: text = "+"
+73.562	EXP	feedback_msg: autoDraw = true
+74.555	EXP	feedback_msg: autoDraw = false
+74.555	EXP	feedback_msg: autoDraw = false
+74.555	EXP	image_stim: image = {}
+74.555	EXP	text_stim: text = "Love"
+74.555	EXP	trial_label_left: text = "A = \r\nPositive"
+74.555	EXP	trial_label_right: text = "L = \r\nNegative"
+74.555	EXP	fixation: autoDraw = true
+75.053	EXP	fixation: autoDraw = false
+75.08500000000001	EXP	image_stim: autoDraw = true
+75.08500000000001	EXP	text_stim: autoDraw = true
+75.08500000000001	EXP	button_left: autoDraw = true
+75.08500000000001	EXP	trial_label_left: autoDraw = true
+75.08500000000001	EXP	button_right: autoDraw = true
+75.08500000000001	EXP	trial_label_right: autoDraw = true
+76.09700000000001	DATA	Keydown: a
+76.10900000000001	EXP	fixation: autoDraw = false
+76.10900000000001	EXP	image_stim: autoDraw = false
+76.10900000000001	EXP	text_stim: autoDraw = false
+76.10900000000001	EXP	button_left: autoDraw = false
+76.10900000000001	EXP	trial_label_left: autoDraw = false
+76.10900000000001	EXP	button_right: autoDraw = false
+76.10900000000001	EXP	trial_label_right: autoDraw = false
+76.10900000000001	EXP	feedback_msg: text = "+"
+76.10900000000001	EXP	feedback_msg: autoDraw = true
+77.105	EXP	feedback_msg: autoDraw = false
+77.105	EXP	feedback_msg: autoDraw = false
+77.105	EXP	image_stim: image = {}
+77.105	EXP	text_stim: text = "Happy"
+77.105	EXP	trial_label_left: text = "A = \r\nPositive"
+77.105	EXP	trial_label_right: text = "L = \r\nNegative"
+77.105	EXP	fixation: autoDraw = true
+77.602	EXP	fixation: autoDraw = false
+77.634	EXP	image_stim: autoDraw = true
+77.634	EXP	text_stim: autoDraw = true
+77.634	EXP	button_left: autoDraw = true
+77.634	EXP	trial_label_left: autoDraw = true
+77.634	EXP	button_right: autoDraw = true
+77.634	EXP	trial_label_right: autoDraw = true
+78.69200000000001	DATA	Keydown: a
+78.711	EXP	fixation: autoDraw = false
+78.711	EXP	image_stim: autoDraw = false
+78.711	EXP	text_stim: autoDraw = false
+78.711	EXP	button_left: autoDraw = false
+78.711	EXP	trial_label_left: autoDraw = false
+78.711	EXP	button_right: autoDraw = false
+78.711	EXP	trial_label_right: autoDraw = false
+78.711	EXP	feedback_msg: text = "+"
+78.711	EXP	feedback_msg: autoDraw = true
+79.714	EXP	feedback_msg: autoDraw = false
+79.714	EXP	feedback_msg: autoDraw = false
+79.714	EXP	ready_label_L: text = "A = \r\nWhite"
+79.714	EXP	ready_label_R: text = "L = \r\nBlack"
+79.714	EXP	main_ready_msg: autoDraw = true
+79.714	EXP	button_L: autoDraw = true
+79.714	EXP	ready_label_L: autoDraw = true
+79.714	EXP	button_R: autoDraw = true
+79.714	EXP	ready_label_R: autoDraw = true
+91.068	DATA	Keydown:  
+91.12	EXP	main_ready_msg: autoDraw = false
+91.12	EXP	button_L: autoDraw = false
+91.12	EXP	ready_label_L: autoDraw = false
+91.12	EXP	button_R: autoDraw = false
+91.12	EXP	ready_label_R: autoDraw = false
+91.12	EXP	image_stim: image = {}
+91.12	EXP	text_stim: text = null
+91.12	EXP	trial_label_left: text = "A = \r\nWhite"
+91.12	EXP	trial_label_right: text = "L = \r\nBlack"
+91.12	EXP	fixation: autoDraw = true
+91.614	EXP	fixation: autoDraw = false
+91.651	EXP	image_stim: autoDraw = true
+91.651	EXP	text_stim: autoDraw = true
+91.651	EXP	button_left: autoDraw = true
+91.651	EXP	trial_label_left: autoDraw = true
+91.651	EXP	button_right: autoDraw = true
+91.651	EXP	trial_label_right: autoDraw = true
+93.799	DATA	Keydown: l
+93.81700000000001	EXP	fixation: autoDraw = false
+93.81700000000001	EXP	image_stim: autoDraw = false
+93.81700000000001	EXP	text_stim: autoDraw = false
+93.81700000000001	EXP	button_left: autoDraw = false
+93.81700000000001	EXP	trial_label_left: autoDraw = false
+93.81700000000001	EXP	button_right: autoDraw = false
+93.81700000000001	EXP	trial_label_right: autoDraw = false
+93.81700000000001	EXP	feedback_msg: text = "+"
+93.81700000000001	EXP	feedback_msg: autoDraw = true
+94.811	EXP	feedback_msg: autoDraw = false
+94.811	EXP	feedback_msg: autoDraw = false
+94.811	EXP	image_stim: image = {}
+94.811	EXP	text_stim: text = null
+94.811	EXP	trial_label_left: text = "A = \r\nWhite"
+94.811	EXP	trial_label_right: text = "L = \r\nBlack"
+94.811	EXP	fixation: autoDraw = true
+95.31	EXP	fixation: autoDraw = false
+95.351	EXP	image_stim: autoDraw = true
+95.351	EXP	text_stim: autoDraw = true
+95.351	EXP	button_left: autoDraw = true
+95.351	EXP	trial_label_left: autoDraw = true
+95.351	EXP	button_right: autoDraw = true
+95.351	EXP	trial_label_right: autoDraw = true
+96.3	DATA	Keydown: l
+96.318	EXP	fixation: autoDraw = false
+96.318	EXP	image_stim: autoDraw = false
+96.318	EXP	text_stim: autoDraw = false
+96.318	EXP	button_left: autoDraw = false
+96.318	EXP	trial_label_left: autoDraw = false
+96.318	EXP	button_right: autoDraw = false
+96.318	EXP	trial_label_right: autoDraw = false
+96.318	EXP	feedback_msg: text = "+"
+96.318	EXP	feedback_msg: autoDraw = true
+97.312	EXP	feedback_msg: autoDraw = false
+97.312	EXP	feedback_msg: autoDraw = false
+97.312	EXP	image_stim: image = {}
+97.312	EXP	text_stim: text = null
+97.312	EXP	trial_label_left: text = "A = \r\nWhite"
+97.312	EXP	trial_label_right: text = "L = \r\nBlack"
+97.312	EXP	fixation: autoDraw = true
+97.809	EXP	fixation: autoDraw = false
+97.848	EXP	image_stim: autoDraw = true
+97.848	EXP	text_stim: autoDraw = true
+97.848	EXP	button_left: autoDraw = true
+97.848	EXP	trial_label_left: autoDraw = true
+97.848	EXP	button_right: autoDraw = true
+97.848	EXP	trial_label_right: autoDraw = true
+99.797	DATA	Keydown: l
+99.812	EXP	fixation: autoDraw = false
+99.812	EXP	image_stim: autoDraw = false
+99.812	EXP	text_stim: autoDraw = false
+99.812	EXP	button_left: autoDraw = false
+99.812	EXP	trial_label_left: autoDraw = false
+99.812	EXP	button_right: autoDraw = false
+99.812	EXP	trial_label_right: autoDraw = false
+99.812	EXP	feedback_msg: text = "oops"
+99.812	EXP	feedback_msg: autoDraw = true
+100.808	EXP	feedback_msg: autoDraw = false
+100.808	EXP	feedback_msg: autoDraw = false
+100.808	EXP	image_stim: image = {}
+100.808	EXP	text_stim: text = null
+100.808	EXP	trial_label_left: text = "A = \r\nWhite"
+100.808	EXP	trial_label_right: text = "L = \r\nBlack"
+100.808	EXP	fixation: autoDraw = true
+101.307	EXP	fixation: autoDraw = false
+101.34	EXP	image_stim: autoDraw = true
+101.34	EXP	text_stim: autoDraw = true
+101.34	EXP	button_left: autoDraw = true
+101.34	EXP	trial_label_left: autoDraw = true
+101.34	EXP	button_right: autoDraw = true
+101.34	EXP	trial_label_right: autoDraw = true
+102.715	DATA	Keydown: l
+102.726	EXP	fixation: autoDraw = false
+102.726	EXP	image_stim: autoDraw = false
+102.726	EXP	text_stim: autoDraw = false
+102.726	EXP	button_left: autoDraw = false
+102.726	EXP	trial_label_left: autoDraw = false
+102.726	EXP	button_right: autoDraw = false
+102.726	EXP	trial_label_right: autoDraw = false
+102.726	EXP	feedback_msg: text = "+"
+102.726	EXP	feedback_msg: autoDraw = true
+103.724	EXP	feedback_msg: autoDraw = false
+103.724	EXP	feedback_msg: autoDraw = false
+103.724	EXP	image_stim: image = {}
+103.724	EXP	text_stim: text = null
+103.724	EXP	trial_label_left: text = "A = \r\nWhite"
+103.724	EXP	trial_label_right: text = "L = \r\nBlack"
+103.724	EXP	fixation: autoDraw = true
+104.236	EXP	fixation: autoDraw = false
+104.236	EXP	image_stim: autoDraw = true
+104.236	EXP	text_stim: autoDraw = true
+104.236	EXP	button_left: autoDraw = true
+104.236	EXP	trial_label_left: autoDraw = true
+104.236	EXP	button_right: autoDraw = true
+104.236	EXP	trial_label_right: autoDraw = true
+105.242	DATA	Keydown: a
+105.259	EXP	fixation: autoDraw = false
+105.259	EXP	image_stim: autoDraw = false
+105.259	EXP	text_stim: autoDraw = false
+105.259	EXP	button_left: autoDraw = false
+105.259	EXP	trial_label_left: autoDraw = false
+105.259	EXP	button_right: autoDraw = false
+105.259	EXP	trial_label_right: autoDraw = false
+105.259	EXP	feedback_msg: text = "+"
+105.259	EXP	feedback_msg: autoDraw = true
+106.256	EXP	feedback_msg: autoDraw = false
+106.256	EXP	feedback_msg: autoDraw = false
+106.256	EXP	image_stim: image = {}
+106.256	EXP	text_stim: text = null
+106.256	EXP	trial_label_left: text = "A = \r\nWhite"
+106.256	EXP	trial_label_right: text = "L = \r\nBlack"
+106.256	EXP	fixation: autoDraw = true
+106.754	EXP	fixation: autoDraw = false
+106.78	EXP	image_stim: autoDraw = true
+106.78	EXP	text_stim: autoDraw = true
+106.78	EXP	button_left: autoDraw = true
+106.78	EXP	trial_label_left: autoDraw = true
+106.78	EXP	button_right: autoDraw = true
+106.78	EXP	trial_label_right: autoDraw = true
+107.59100000000001	DATA	Keydown: l
+107.608	EXP	fixation: autoDraw = false
+107.608	EXP	image_stim: autoDraw = false
+107.608	EXP	text_stim: autoDraw = false
+107.608	EXP	button_left: autoDraw = false
+107.608	EXP	trial_label_left: autoDraw = false
+107.608	EXP	button_right: autoDraw = false
+107.608	EXP	trial_label_right: autoDraw = false
+107.608	EXP	feedback_msg: text = "+"
+107.608	EXP	feedback_msg: autoDraw = true
+108.605	EXP	feedback_msg: autoDraw = false
+108.605	EXP	feedback_msg: autoDraw = false
+108.605	EXP	image_stim: image = {}
+108.605	EXP	text_stim: text = null
+108.605	EXP	trial_label_left: text = "A = \r\nWhite"
+108.605	EXP	trial_label_right: text = "L = \r\nBlack"
+108.605	EXP	fixation: autoDraw = true
+109.10300000000001	EXP	fixation: autoDraw = false
+109.13600000000001	EXP	image_stim: autoDraw = true
+109.13600000000001	EXP	text_stim: autoDraw = true
+109.13600000000001	EXP	button_left: autoDraw = true
+109.13600000000001	EXP	trial_label_left: autoDraw = true
+109.13600000000001	EXP	button_right: autoDraw = true
+109.13600000000001	EXP	trial_label_right: autoDraw = true
+110.412	DATA	Keydown: l
+110.425	EXP	fixation: autoDraw = false
+110.425	EXP	image_stim: autoDraw = false
+110.425	EXP	text_stim: autoDraw = false
+110.425	EXP	button_left: autoDraw = false
+110.425	EXP	trial_label_left: autoDraw = false
+110.425	EXP	button_right: autoDraw = false
+110.425	EXP	trial_label_right: autoDraw = false
+110.425	EXP	feedback_msg: text = "+"
+110.425	EXP	feedback_msg: autoDraw = true
+111.421	EXP	feedback_msg: autoDraw = false
+111.421	EXP	feedback_msg: autoDraw = false
+111.421	EXP	image_stim: image = {}
+111.421	EXP	text_stim: text = null
+111.421	EXP	trial_label_left: text = "A = \r\nWhite"
+111.421	EXP	trial_label_right: text = "L = \r\nBlack"
+111.421	EXP	fixation: autoDraw = true
+111.918	EXP	fixation: autoDraw = false
+111.949	EXP	image_stim: autoDraw = true
+111.949	EXP	text_stim: autoDraw = true
+111.949	EXP	button_left: autoDraw = true
+111.949	EXP	trial_label_left: autoDraw = true
+111.949	EXP	button_right: autoDraw = true
+111.949	EXP	trial_label_right: autoDraw = true
+112.723	DATA	Keydown: a
+112.74000000000001	EXP	fixation: autoDraw = false
+112.74000000000001	EXP	image_stim: autoDraw = false
+112.74000000000001	EXP	text_stim: autoDraw = false
+112.74000000000001	EXP	button_left: autoDraw = false
+112.74000000000001	EXP	trial_label_left: autoDraw = false
+112.74000000000001	EXP	button_right: autoDraw = false
+112.74000000000001	EXP	trial_label_right: autoDraw = false
+112.74000000000001	EXP	feedback_msg: text = "+"
+112.74000000000001	EXP	feedback_msg: autoDraw = true
+113.736	EXP	feedback_msg: autoDraw = false
+113.736	EXP	feedback_msg: autoDraw = false
+113.736	EXP	image_stim: image = {}
+113.736	EXP	text_stim: text = null
+113.736	EXP	trial_label_left: text = "A = \r\nWhite"
+113.736	EXP	trial_label_right: text = "L = \r\nBlack"
+113.736	EXP	fixation: autoDraw = true
+114.23400000000001	EXP	fixation: autoDraw = false
+114.26700000000001	EXP	image_stim: autoDraw = true
+114.26700000000001	EXP	text_stim: autoDraw = true
+114.26700000000001	EXP	button_left: autoDraw = true
+114.26700000000001	EXP	trial_label_left: autoDraw = true
+114.26700000000001	EXP	button_right: autoDraw = true
+114.26700000000001	EXP	trial_label_right: autoDraw = true
+115.324	DATA	Keydown: a
+115.337	EXP	fixation: autoDraw = false
+115.337	EXP	image_stim: autoDraw = false
+115.337	EXP	text_stim: autoDraw = false
+115.337	EXP	button_left: autoDraw = false
+115.337	EXP	trial_label_left: autoDraw = false
+115.337	EXP	button_right: autoDraw = false
+115.337	EXP	trial_label_right: autoDraw = false
+115.337	EXP	feedback_msg: text = "+"
+115.337	EXP	feedback_msg: autoDraw = true
+116.33500000000001	EXP	feedback_msg: autoDraw = false
+116.33500000000001	EXP	feedback_msg: autoDraw = false
+116.33500000000001	EXP	image_stim: image = {}
+116.33500000000001	EXP	text_stim: text = null
+116.33500000000001	EXP	trial_label_left: text = "A = \r\nWhite"
+116.33500000000001	EXP	trial_label_right: text = "L = \r\nBlack"
+116.33500000000001	EXP	fixation: autoDraw = true
+116.83200000000001	EXP	fixation: autoDraw = false
+116.866	EXP	image_stim: autoDraw = true
+116.866	EXP	text_stim: autoDraw = true
+116.866	EXP	button_left: autoDraw = true
+116.866	EXP	trial_label_left: autoDraw = true
+116.866	EXP	button_right: autoDraw = true
+116.866	EXP	trial_label_right: autoDraw = true
+118.187	DATA	Keydown: a
+118.20100000000001	EXP	fixation: autoDraw = false
+118.20100000000001	EXP	image_stim: autoDraw = false
+118.20100000000001	EXP	text_stim: autoDraw = false
+118.20100000000001	EXP	button_left: autoDraw = false
+118.20100000000001	EXP	trial_label_left: autoDraw = false
+118.20100000000001	EXP	button_right: autoDraw = false
+118.20100000000001	EXP	trial_label_right: autoDraw = false
+118.20100000000001	EXP	feedback_msg: text = "+"
+118.20100000000001	EXP	feedback_msg: autoDraw = true
+119.208	EXP	feedback_msg: autoDraw = false
+119.208	EXP	feedback_msg: autoDraw = false
+119.208	EXP	ready_label_L: text = "A = \r\nWhite or \r\nPositive"
+119.208	EXP	ready_label_R: text = "L = \r\nBlack or \r\nNegative"
+119.208	EXP	main_ready_msg: autoDraw = true
+119.208	EXP	button_L: autoDraw = true
+119.208	EXP	ready_label_L: autoDraw = true
+119.208	EXP	button_R: autoDraw = true
+119.208	EXP	ready_label_R: autoDraw = true
+123.034	DATA	Keydown:  
+123.077	EXP	main_ready_msg: autoDraw = false
+123.077	EXP	button_L: autoDraw = false
+123.077	EXP	ready_label_L: autoDraw = false
+123.077	EXP	button_R: autoDraw = false
+123.077	EXP	ready_label_R: autoDraw = false
+123.077	EXP	image_stim: image = {}
+123.077	EXP	text_stim: text = "Love"
+123.077	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+123.077	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+123.077	EXP	fixation: autoDraw = true
+123.602	EXP	fixation: autoDraw = false
+123.602	EXP	image_stim: autoDraw = true
+123.602	EXP	text_stim: autoDraw = true
+123.602	EXP	button_left: autoDraw = true
+123.602	EXP	trial_label_left: autoDraw = true
+123.602	EXP	button_right: autoDraw = true
+123.602	EXP	trial_label_right: autoDraw = true
+124.637	DATA	Keydown: a
+124.653	EXP	fixation: autoDraw = false
+124.653	EXP	image_stim: autoDraw = false
+124.653	EXP	text_stim: autoDraw = false
+124.653	EXP	button_left: autoDraw = false
+124.653	EXP	trial_label_left: autoDraw = false
+124.653	EXP	button_right: autoDraw = false
+124.653	EXP	trial_label_right: autoDraw = false
+124.653	EXP	feedback_msg: text = "+"
+124.653	EXP	feedback_msg: autoDraw = true
+125.64500000000001	EXP	feedback_msg: autoDraw = false
+125.64500000000001	EXP	feedback_msg: autoDraw = false
+125.64500000000001	EXP	image_stim: image = {}
+125.64500000000001	EXP	text_stim: text = null
+125.64500000000001	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+125.64500000000001	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+125.64500000000001	EXP	fixation: autoDraw = true
+126.144	EXP	fixation: autoDraw = false
+126.176	EXP	image_stim: autoDraw = true
+126.176	EXP	text_stim: autoDraw = true
+126.176	EXP	button_left: autoDraw = true
+126.176	EXP	trial_label_left: autoDraw = true
+126.176	EXP	button_right: autoDraw = true
+126.176	EXP	trial_label_right: autoDraw = true
+127.33200000000001	DATA	Keydown: a
+127.348	EXP	fixation: autoDraw = false
+127.348	EXP	image_stim: autoDraw = false
+127.348	EXP	text_stim: autoDraw = false
+127.348	EXP	button_left: autoDraw = false
+127.348	EXP	trial_label_left: autoDraw = false
+127.348	EXP	button_right: autoDraw = false
+127.348	EXP	trial_label_right: autoDraw = false
+127.348	EXP	feedback_msg: text = "+"
+127.348	EXP	feedback_msg: autoDraw = true
+128.34599999999998	EXP	feedback_msg: autoDraw = false
+128.34599999999998	EXP	feedback_msg: autoDraw = false
+128.34599999999998	EXP	image_stim: image = {}
+128.34599999999998	EXP	text_stim: text = "Bad"
+128.34599999999998	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+128.34599999999998	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+128.34599999999998	EXP	fixation: autoDraw = true
+128.843	EXP	fixation: autoDraw = false
+128.879	EXP	image_stim: autoDraw = true
+128.879	EXP	text_stim: autoDraw = true
+128.879	EXP	button_left: autoDraw = true
+128.879	EXP	trial_label_left: autoDraw = true
+128.879	EXP	button_right: autoDraw = true
+128.879	EXP	trial_label_right: autoDraw = true
+129.51399999999998	DATA	Keydown: l
+129.53099999999998	EXP	fixation: autoDraw = false
+129.53099999999998	EXP	image_stim: autoDraw = false
+129.53099999999998	EXP	text_stim: autoDraw = false
+129.53099999999998	EXP	button_left: autoDraw = false
+129.53099999999998	EXP	trial_label_left: autoDraw = false
+129.53099999999998	EXP	button_right: autoDraw = false
+129.53099999999998	EXP	trial_label_right: autoDraw = false
+129.53099999999998	EXP	feedback_msg: text = "+"
+129.53099999999998	EXP	feedback_msg: autoDraw = true
+130.529	EXP	feedback_msg: autoDraw = false
+130.529	EXP	feedback_msg: autoDraw = false
+130.529	EXP	image_stim: image = {}
+130.529	EXP	text_stim: text = "Nasty"
+130.529	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+130.529	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+130.529	EXP	fixation: autoDraw = true
+131.027	EXP	fixation: autoDraw = false
+131.063	EXP	image_stim: autoDraw = true
+131.063	EXP	text_stim: autoDraw = true
+131.063	EXP	button_left: autoDraw = true
+131.063	EXP	trial_label_left: autoDraw = true
+131.063	EXP	button_right: autoDraw = true
+131.063	EXP	trial_label_right: autoDraw = true
+131.97699999999998	DATA	Keydown: l
+131.994	EXP	fixation: autoDraw = false
+131.994	EXP	image_stim: autoDraw = false
+131.994	EXP	text_stim: autoDraw = false
+131.994	EXP	button_left: autoDraw = false
+131.994	EXP	trial_label_left: autoDraw = false
+131.994	EXP	button_right: autoDraw = false
+131.994	EXP	trial_label_right: autoDraw = false
+131.994	EXP	feedback_msg: text = "+"
+131.994	EXP	feedback_msg: autoDraw = true
+132.992	EXP	feedback_msg: autoDraw = false
+132.992	EXP	feedback_msg: autoDraw = false
+132.992	EXP	image_stim: image = {}
+132.992	EXP	text_stim: text = "Agony"
+132.992	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+132.992	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+132.992	EXP	fixation: autoDraw = true
+133.48999999999998	EXP	fixation: autoDraw = false
+133.522	EXP	image_stim: autoDraw = true
+133.522	EXP	text_stim: autoDraw = true
+133.522	EXP	button_left: autoDraw = true
+133.522	EXP	trial_label_left: autoDraw = true
+133.522	EXP	button_right: autoDraw = true
+133.522	EXP	trial_label_right: autoDraw = true
+134.492	DATA	Keydown: l
+134.509	EXP	fixation: autoDraw = false
+134.509	EXP	image_stim: autoDraw = false
+134.509	EXP	text_stim: autoDraw = false
+134.509	EXP	button_left: autoDraw = false
+134.509	EXP	trial_label_left: autoDraw = false
+134.509	EXP	button_right: autoDraw = false
+134.509	EXP	trial_label_right: autoDraw = false
+134.509	EXP	feedback_msg: text = "+"
+134.509	EXP	feedback_msg: autoDraw = true
+135.506	EXP	feedback_msg: autoDraw = false
+135.506	EXP	feedback_msg: autoDraw = false
+135.506	EXP	image_stim: image = {}
+135.506	EXP	text_stim: text = "Happy"
+135.506	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+135.506	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+135.506	EXP	fixation: autoDraw = true
+136.006	EXP	fixation: autoDraw = false
+136.03699999999998	EXP	image_stim: autoDraw = true
+136.03699999999998	EXP	text_stim: autoDraw = true
+136.03699999999998	EXP	button_left: autoDraw = true
+136.03699999999998	EXP	trial_label_left: autoDraw = true
+136.03699999999998	EXP	button_right: autoDraw = true
+136.03699999999998	EXP	trial_label_right: autoDraw = true
+137.408	DATA	Keydown: a
+137.42499999999998	EXP	fixation: autoDraw = false
+137.42499999999998	EXP	image_stim: autoDraw = false
+137.42499999999998	EXP	text_stim: autoDraw = false
+137.42499999999998	EXP	button_left: autoDraw = false
+137.42499999999998	EXP	trial_label_left: autoDraw = false
+137.42499999999998	EXP	button_right: autoDraw = false
+137.42499999999998	EXP	trial_label_right: autoDraw = false
+137.42499999999998	EXP	feedback_msg: text = "+"
+137.42499999999998	EXP	feedback_msg: autoDraw = true
+138.422	EXP	feedback_msg: autoDraw = false
+138.422	EXP	feedback_msg: autoDraw = false
+138.422	EXP	image_stim: image = {}
+138.422	EXP	text_stim: text = "Evil"
+138.422	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+138.422	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+138.422	EXP	fixation: autoDraw = true
+138.921	EXP	fixation: autoDraw = false
+138.953	EXP	image_stim: autoDraw = true
+138.953	EXP	text_stim: autoDraw = true
+138.953	EXP	button_left: autoDraw = true
+138.953	EXP	trial_label_left: autoDraw = true
+138.953	EXP	button_right: autoDraw = true
+138.953	EXP	trial_label_right: autoDraw = true
+139.673	DATA	Keydown: l
+139.691	EXP	fixation: autoDraw = false
+139.691	EXP	image_stim: autoDraw = false
+139.691	EXP	text_stim: autoDraw = false
+139.691	EXP	button_left: autoDraw = false
+139.691	EXP	trial_label_left: autoDraw = false
+139.691	EXP	button_right: autoDraw = false
+139.691	EXP	trial_label_right: autoDraw = false
+139.691	EXP	feedback_msg: text = "+"
+139.691	EXP	feedback_msg: autoDraw = true
+140.688	EXP	feedback_msg: autoDraw = false
+140.688	EXP	feedback_msg: autoDraw = false
+140.688	EXP	image_stim: image = {}
+140.688	EXP	text_stim: text = "Joy"
+140.688	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+140.688	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+140.688	EXP	fixation: autoDraw = true
+141.202	EXP	fixation: autoDraw = false
+141.202	EXP	image_stim: autoDraw = true
+141.202	EXP	text_stim: autoDraw = true
+141.202	EXP	button_left: autoDraw = true
+141.202	EXP	trial_label_left: autoDraw = true
+141.202	EXP	button_right: autoDraw = true
+141.202	EXP	trial_label_right: autoDraw = true
+142.057	DATA	Keydown: a
+142.07399999999998	EXP	fixation: autoDraw = false
+142.07399999999998	EXP	image_stim: autoDraw = false
+142.07399999999998	EXP	text_stim: autoDraw = false
+142.07399999999998	EXP	button_left: autoDraw = false
+142.07399999999998	EXP	trial_label_left: autoDraw = false
+142.07399999999998	EXP	button_right: autoDraw = false
+142.07399999999998	EXP	trial_label_right: autoDraw = false
+142.07399999999998	EXP	feedback_msg: text = "+"
+142.07399999999998	EXP	feedback_msg: autoDraw = true
+143.069	EXP	feedback_msg: autoDraw = false
+143.069	EXP	feedback_msg: autoDraw = false
+143.069	EXP	image_stim: image = {}
+143.069	EXP	text_stim: text = "Good"
+143.069	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+143.069	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+143.069	EXP	fixation: autoDraw = true
+143.56799999999998	EXP	fixation: autoDraw = false
+143.59799999999998	EXP	image_stim: autoDraw = true
+143.59799999999998	EXP	text_stim: autoDraw = true
+143.59799999999998	EXP	button_left: autoDraw = true
+143.59799999999998	EXP	trial_label_left: autoDraw = true
+143.59799999999998	EXP	button_right: autoDraw = true
+143.59799999999998	EXP	trial_label_right: autoDraw = true
+145.289	DATA	Keydown: a
+145.30499999999998	EXP	fixation: autoDraw = false
+145.30499999999998	EXP	image_stim: autoDraw = false
+145.30499999999998	EXP	text_stim: autoDraw = false
+145.30499999999998	EXP	button_left: autoDraw = false
+145.30499999999998	EXP	trial_label_left: autoDraw = false
+145.30499999999998	EXP	button_right: autoDraw = false
+145.30499999999998	EXP	trial_label_right: autoDraw = false
+145.30499999999998	EXP	feedback_msg: text = "+"
+145.30499999999998	EXP	feedback_msg: autoDraw = true
+146.302	EXP	feedback_msg: autoDraw = false
+146.302	EXP	feedback_msg: autoDraw = false
+146.302	EXP	image_stim: image = {}
+146.302	EXP	text_stim: text = null
+146.302	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+146.302	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+146.302	EXP	fixation: autoDraw = true
+146.79999999999998	EXP	fixation: autoDraw = false
+146.833	EXP	image_stim: autoDraw = true
+146.833	EXP	text_stim: autoDraw = true
+146.833	EXP	button_left: autoDraw = true
+146.833	EXP	trial_label_left: autoDraw = true
+146.833	EXP	button_right: autoDraw = true
+146.833	EXP	trial_label_right: autoDraw = true
+148.022	DATA	Keydown: a
+148.039	EXP	fixation: autoDraw = false
+148.039	EXP	image_stim: autoDraw = false
+148.039	EXP	text_stim: autoDraw = false
+148.039	EXP	button_left: autoDraw = false
+148.039	EXP	trial_label_left: autoDraw = false
+148.039	EXP	button_right: autoDraw = false
+148.039	EXP	trial_label_right: autoDraw = false
+148.039	EXP	feedback_msg: text = "+"
+148.039	EXP	feedback_msg: autoDraw = true
+149.034	EXP	feedback_msg: autoDraw = false
+149.034	EXP	feedback_msg: autoDraw = false
+149.034	EXP	image_stim: image = {}
+149.034	EXP	text_stim: text = null
+149.034	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+149.034	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+149.034	EXP	fixation: autoDraw = true
+149.53199999999998	EXP	fixation: autoDraw = false
+149.565	EXP	image_stim: autoDraw = true
+149.565	EXP	text_stim: autoDraw = true
+149.565	EXP	button_left: autoDraw = true
+149.565	EXP	trial_label_left: autoDraw = true
+149.565	EXP	button_right: autoDraw = true
+149.565	EXP	trial_label_right: autoDraw = true
+150.23499999999999	DATA	Keydown: a
+150.253	EXP	fixation: autoDraw = false
+150.253	EXP	image_stim: autoDraw = false
+150.253	EXP	text_stim: autoDraw = false
+150.253	EXP	button_left: autoDraw = false
+150.253	EXP	trial_label_left: autoDraw = false
+150.253	EXP	button_right: autoDraw = false
+150.253	EXP	trial_label_right: autoDraw = false
+150.253	EXP	feedback_msg: text = "+"
+150.253	EXP	feedback_msg: autoDraw = true
+151.249	EXP	feedback_msg: autoDraw = false
+151.249	EXP	feedback_msg: autoDraw = false
+151.249	EXP	image_stim: image = {}
+151.249	EXP	text_stim: text = null
+151.249	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+151.249	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+151.249	EXP	fixation: autoDraw = true
+151.74699999999999	EXP	fixation: autoDraw = false
+151.78099999999998	EXP	image_stim: autoDraw = true
+151.78099999999998	EXP	text_stim: autoDraw = true
+151.78099999999998	EXP	button_left: autoDraw = true
+151.78099999999998	EXP	trial_label_left: autoDraw = true
+151.78099999999998	EXP	button_right: autoDraw = true
+151.78099999999998	EXP	trial_label_right: autoDraw = true
+152.423	DATA	Keydown: l
+152.435	EXP	fixation: autoDraw = false
+152.435	EXP	image_stim: autoDraw = false
+152.435	EXP	text_stim: autoDraw = false
+152.435	EXP	button_left: autoDraw = false
+152.435	EXP	trial_label_left: autoDraw = false
+152.435	EXP	button_right: autoDraw = false
+152.435	EXP	trial_label_right: autoDraw = false
+152.435	EXP	feedback_msg: text = "+"
+152.435	EXP	feedback_msg: autoDraw = true
+153.432	EXP	feedback_msg: autoDraw = false
+153.432	EXP	feedback_msg: autoDraw = false
+153.432	EXP	image_stim: image = {}
+153.432	EXP	text_stim: text = null
+153.432	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+153.432	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+153.432	EXP	fixation: autoDraw = true
+153.92999999999998	EXP	fixation: autoDraw = false
+153.96699999999998	EXP	image_stim: autoDraw = true
+153.96699999999998	EXP	text_stim: autoDraw = true
+153.96699999999998	EXP	button_left: autoDraw = true
+153.96699999999998	EXP	trial_label_left: autoDraw = true
+153.96699999999998	EXP	button_right: autoDraw = true
+153.96699999999998	EXP	trial_label_right: autoDraw = true
+154.565	DATA	Keydown: l
+154.582	EXP	fixation: autoDraw = false
+154.582	EXP	image_stim: autoDraw = false
+154.582	EXP	text_stim: autoDraw = false
+154.582	EXP	button_left: autoDraw = false
+154.582	EXP	trial_label_left: autoDraw = false
+154.582	EXP	button_right: autoDraw = false
+154.582	EXP	trial_label_right: autoDraw = false
+154.582	EXP	feedback_msg: text = "+"
+154.582	EXP	feedback_msg: autoDraw = true
+155.57999999999998	EXP	feedback_msg: autoDraw = false
+155.57999999999998	EXP	feedback_msg: autoDraw = false
+155.57999999999998	EXP	image_stim: image = {}
+155.57999999999998	EXP	text_stim: text = null
+155.57999999999998	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+155.57999999999998	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+155.57999999999998	EXP	fixation: autoDraw = true
+156.07899999999998	EXP	fixation: autoDraw = false
+156.11399999999998	EXP	image_stim: autoDraw = true
+156.11399999999998	EXP	text_stim: autoDraw = true
+156.11399999999998	EXP	button_left: autoDraw = true
+156.11399999999998	EXP	trial_label_left: autoDraw = true
+156.11399999999998	EXP	button_right: autoDraw = true
+156.11399999999998	EXP	trial_label_right: autoDraw = true
+157.22099999999998	DATA	Keydown: a
+157.23399999999998	EXP	fixation: autoDraw = false
+157.23399999999998	EXP	image_stim: autoDraw = false
+157.23399999999998	EXP	text_stim: autoDraw = false
+157.23399999999998	EXP	button_left: autoDraw = false
+157.23399999999998	EXP	trial_label_left: autoDraw = false
+157.23399999999998	EXP	button_right: autoDraw = false
+157.23399999999998	EXP	trial_label_right: autoDraw = false
+157.23399999999998	EXP	feedback_msg: text = "+"
+157.23399999999998	EXP	feedback_msg: autoDraw = true
+158.22699999999998	EXP	feedback_msg: autoDraw = false
+158.22699999999998	EXP	feedback_msg: autoDraw = false
+158.22699999999998	EXP	image_stim: image = {}
+158.22699999999998	EXP	text_stim: text = "Hurt"
+158.22699999999998	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+158.22699999999998	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+158.22699999999998	EXP	fixation: autoDraw = true
+158.72699999999998	EXP	fixation: autoDraw = false
+158.761	EXP	image_stim: autoDraw = true
+158.761	EXP	text_stim: autoDraw = true
+158.761	EXP	button_left: autoDraw = true
+158.761	EXP	trial_label_left: autoDraw = true
+158.761	EXP	button_right: autoDraw = true
+158.761	EXP	trial_label_right: autoDraw = true
+159.49599999999998	DATA	Keydown: l
+159.51399999999998	EXP	fixation: autoDraw = false
+159.51399999999998	EXP	image_stim: autoDraw = false
+159.51399999999998	EXP	text_stim: autoDraw = false
+159.51399999999998	EXP	button_left: autoDraw = false
+159.51399999999998	EXP	trial_label_left: autoDraw = false
+159.51399999999998	EXP	button_right: autoDraw = false
+159.51399999999998	EXP	trial_label_right: autoDraw = false
+159.51399999999998	EXP	feedback_msg: text = "+"
+159.51399999999998	EXP	feedback_msg: autoDraw = true
+160.51	EXP	feedback_msg: autoDraw = false
+160.51	EXP	feedback_msg: autoDraw = false
+160.51	EXP	image_stim: image = {}
+160.51	EXP	text_stim: text = null
+160.51	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+160.51	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+160.51	EXP	fixation: autoDraw = true
+161.009	EXP	fixation: autoDraw = false
+161.042	EXP	image_stim: autoDraw = true
+161.042	EXP	text_stim: autoDraw = true
+161.042	EXP	button_left: autoDraw = true
+161.042	EXP	trial_label_left: autoDraw = true
+161.042	EXP	button_right: autoDraw = true
+161.042	EXP	trial_label_right: autoDraw = true
+162.801	DATA	Keydown: l
+162.815	EXP	fixation: autoDraw = false
+162.815	EXP	image_stim: autoDraw = false
+162.815	EXP	text_stim: autoDraw = false
+162.815	EXP	button_left: autoDraw = false
+162.815	EXP	trial_label_left: autoDraw = false
+162.815	EXP	button_right: autoDraw = false
+162.815	EXP	trial_label_right: autoDraw = false
+162.815	EXP	feedback_msg: text = "+"
+162.815	EXP	feedback_msg: autoDraw = true
+163.81099999999998	EXP	feedback_msg: autoDraw = false
+163.81099999999998	EXP	feedback_msg: autoDraw = false
+163.81099999999998	EXP	image_stim: image = {}
+163.81099999999998	EXP	text_stim: text = null
+163.81099999999998	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+163.81099999999998	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+163.81099999999998	EXP	fixation: autoDraw = true
+164.308	EXP	fixation: autoDraw = false
+164.345	EXP	image_stim: autoDraw = true
+164.345	EXP	text_stim: autoDraw = true
+164.345	EXP	button_left: autoDraw = true
+164.345	EXP	trial_label_left: autoDraw = true
+164.345	EXP	button_right: autoDraw = true
+164.345	EXP	trial_label_right: autoDraw = true
+165	DATA	Keydown: l
+165.01399999999998	EXP	fixation: autoDraw = false
+165.01399999999998	EXP	image_stim: autoDraw = false
+165.01399999999998	EXP	text_stim: autoDraw = false
+165.01399999999998	EXP	button_left: autoDraw = false
+165.01399999999998	EXP	trial_label_left: autoDraw = false
+165.01399999999998	EXP	button_right: autoDraw = false
+165.01399999999998	EXP	trial_label_right: autoDraw = false
+165.01399999999998	EXP	feedback_msg: text = "+"
+165.01399999999998	EXP	feedback_msg: autoDraw = true
+166.00799999999998	EXP	feedback_msg: autoDraw = false
+166.00799999999998	EXP	feedback_msg: autoDraw = false
+166.00799999999998	EXP	image_stim: image = {}
+166.00799999999998	EXP	text_stim: text = "Pleasure"
+166.00799999999998	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+166.00799999999998	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+166.00799999999998	EXP	fixation: autoDraw = true
+166.50699999999998	EXP	fixation: autoDraw = false
+166.54	EXP	image_stim: autoDraw = true
+166.54	EXP	text_stim: autoDraw = true
+166.54	EXP	button_left: autoDraw = true
+166.54	EXP	trial_label_left: autoDraw = true
+166.54	EXP	button_right: autoDraw = true
+166.54	EXP	trial_label_right: autoDraw = true
+167.445	DATA	Keydown: a
+167.46099999999998	EXP	fixation: autoDraw = false
+167.46099999999998	EXP	image_stim: autoDraw = false
+167.46099999999998	EXP	text_stim: autoDraw = false
+167.46099999999998	EXP	button_left: autoDraw = false
+167.46099999999998	EXP	trial_label_left: autoDraw = false
+167.46099999999998	EXP	button_right: autoDraw = false
+167.46099999999998	EXP	trial_label_right: autoDraw = false
+167.46099999999998	EXP	feedback_msg: text = "+"
+167.46099999999998	EXP	feedback_msg: autoDraw = true
+168.459	EXP	feedback_msg: autoDraw = false
+168.459	EXP	feedback_msg: autoDraw = false
+168.459	EXP	image_stim: image = {}
+168.459	EXP	text_stim: text = null
+168.459	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+168.459	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+168.459	EXP	fixation: autoDraw = true
+168.95499999999998	EXP	fixation: autoDraw = false
+168.99099999999999	EXP	image_stim: autoDraw = true
+168.99099999999999	EXP	text_stim: autoDraw = true
+168.99099999999999	EXP	button_left: autoDraw = true
+168.99099999999999	EXP	trial_label_left: autoDraw = true
+168.99099999999999	EXP	button_right: autoDraw = true
+168.99099999999999	EXP	trial_label_right: autoDraw = true
+169.92399999999998	DATA	Keydown: l
+169.94	EXP	fixation: autoDraw = false
+169.94	EXP	image_stim: autoDraw = false
+169.94	EXP	text_stim: autoDraw = false
+169.94	EXP	button_left: autoDraw = false
+169.94	EXP	trial_label_left: autoDraw = false
+169.94	EXP	button_right: autoDraw = false
+169.94	EXP	trial_label_right: autoDraw = false
+169.94	EXP	feedback_msg: text = "+"
+169.94	EXP	feedback_msg: autoDraw = true
+170.938	EXP	feedback_msg: autoDraw = false
+170.938	EXP	feedback_msg: autoDraw = false
+170.938	EXP	image_stim: image = {}
+170.938	EXP	text_stim: text = null
+170.938	EXP	trial_label_left: text = "A = \r\nWhite or \r\nPositive"
+170.938	EXP	trial_label_right: text = "L = \r\nBlack or \r\nNegative"
+170.938	EXP	fixation: autoDraw = true
+171.43699999999998	EXP	fixation: autoDraw = false
+171.469	EXP	image_stim: autoDraw = true
+171.469	EXP	text_stim: autoDraw = true
+171.469	EXP	button_left: autoDraw = true
+171.469	EXP	trial_label_left: autoDraw = true
+171.469	EXP	button_right: autoDraw = true
+171.469	EXP	trial_label_right: autoDraw = true
+172.625	DATA	Keydown: a
+172.63899999999998	EXP	fixation: autoDraw = false
+172.63899999999998	EXP	image_stim: autoDraw = false
+172.63899999999998	EXP	text_stim: autoDraw = false
+172.63899999999998	EXP	button_left: autoDraw = false
+172.63899999999998	EXP	trial_label_left: autoDraw = false
+172.63899999999998	EXP	button_right: autoDraw = false
+172.63899999999998	EXP	trial_label_right: autoDraw = false
+172.63899999999998	EXP	feedback_msg: text = "+"
+172.63899999999998	EXP	feedback_msg: autoDraw = true
+173.64499999999998	EXP	feedback_msg: autoDraw = false
+173.64499999999998	EXP	feedback_msg: autoDraw = false
+173.64499999999998	EXP	ready_label_L: text = "A = \r\nBlack"
+173.64499999999998	EXP	ready_label_R: text = "L = \r\nWhite"
+173.64499999999998	EXP	main_ready_msg: autoDraw = true
+173.64499999999998	EXP	button_L: autoDraw = true
+173.64499999999998	EXP	ready_label_L: autoDraw = true
+173.64499999999998	EXP	button_R: autoDraw = true
+173.64499999999998	EXP	ready_label_R: autoDraw = true
+177.40699999999998	DATA	Keydown:  
+177.43699999999998	EXP	main_ready_msg: autoDraw = false
+177.43699999999998	EXP	button_L: autoDraw = false
+177.43699999999998	EXP	ready_label_L: autoDraw = false
+177.43699999999998	EXP	button_R: autoDraw = false
+177.43699999999998	EXP	ready_label_R: autoDraw = false
+177.43699999999998	EXP	image_stim: image = {}
+177.43699999999998	EXP	text_stim: text = undefined
+177.43699999999998	EXP	trial_label_left: text = "A = \r\nBlack"
+177.43699999999998	EXP	trial_label_right: text = "L = \r\nWhite"
+177.43699999999998	EXP	fixation: autoDraw = true
+177.934	EXP	fixation: autoDraw = false
+177.96499999999997	EXP	image_stim: autoDraw = true
+177.96499999999997	EXP	text_stim: autoDraw = true
+177.96499999999997	EXP	button_left: autoDraw = true
+177.96499999999997	EXP	trial_label_left: autoDraw = true
+177.96499999999997	EXP	button_right: autoDraw = true
+177.96499999999997	EXP	trial_label_right: autoDraw = true
+178.938	DATA	Keydown: a
+178.95399999999998	EXP	fixation: autoDraw = false
+178.95399999999998	EXP	image_stim: autoDraw = false
+178.95399999999998	EXP	text_stim: autoDraw = false
+178.95399999999998	EXP	button_left: autoDraw = false
+178.95399999999998	EXP	trial_label_left: autoDraw = false
+178.95399999999998	EXP	button_right: autoDraw = false
+178.95399999999998	EXP	trial_label_right: autoDraw = false
+178.95399999999998	EXP	feedback_msg: text = "+"
+178.95399999999998	EXP	feedback_msg: autoDraw = true
+179.952	EXP	feedback_msg: autoDraw = false
+179.952	EXP	feedback_msg: autoDraw = false
+179.952	EXP	image_stim: image = {}
+179.952	EXP	text_stim: text = undefined
+179.952	EXP	trial_label_left: text = "A = \r\nBlack"
+179.952	EXP	trial_label_right: text = "L = \r\nWhite"
+179.952	EXP	fixation: autoDraw = true
+180.44899999999998	EXP	fixation: autoDraw = false
+180.481	EXP	image_stim: autoDraw = true
+180.481	EXP	text_stim: autoDraw = true
+180.481	EXP	button_left: autoDraw = true
+180.481	EXP	trial_label_left: autoDraw = true
+180.481	EXP	button_right: autoDraw = true
+180.481	EXP	trial_label_right: autoDraw = true
+181.402	DATA	Keydown: l
+181.41899999999998	EXP	fixation: autoDraw = false
+181.41899999999998	EXP	image_stim: autoDraw = false
+181.41899999999998	EXP	text_stim: autoDraw = false
+181.41899999999998	EXP	button_left: autoDraw = false
+181.41899999999998	EXP	trial_label_left: autoDraw = false
+181.41899999999998	EXP	button_right: autoDraw = false
+181.41899999999998	EXP	trial_label_right: autoDraw = false
+181.41899999999998	EXP	feedback_msg: text = "+"
+181.41899999999998	EXP	feedback_msg: autoDraw = true
+182.41799999999998	EXP	feedback_msg: autoDraw = false
+182.41799999999998	EXP	feedback_msg: autoDraw = false
+182.41799999999998	EXP	image_stim: image = {}
+182.41799999999998	EXP	text_stim: text = undefined
+182.41799999999998	EXP	trial_label_left: text = "A = \r\nBlack"
+182.41799999999998	EXP	trial_label_right: text = "L = \r\nWhite"
+182.41799999999998	EXP	fixation: autoDraw = true
+182.915	EXP	fixation: autoDraw = false
+182.946	EXP	image_stim: autoDraw = true
+182.946	EXP	text_stim: autoDraw = true
+182.946	EXP	button_left: autoDraw = true
+182.946	EXP	trial_label_left: autoDraw = true
+182.946	EXP	button_right: autoDraw = true
+182.946	EXP	trial_label_right: autoDraw = true
+183.784	DATA	Keydown: l
+183.801	EXP	fixation: autoDraw = false
+183.801	EXP	image_stim: autoDraw = false
+183.801	EXP	text_stim: autoDraw = false
+183.801	EXP	button_left: autoDraw = false
+183.801	EXP	trial_label_left: autoDraw = false
+183.801	EXP	button_right: autoDraw = false
+183.801	EXP	trial_label_right: autoDraw = false
+183.801	EXP	feedback_msg: text = "+"
+183.801	EXP	feedback_msg: autoDraw = true
+184.803	EXP	feedback_msg: autoDraw = false
+184.803	EXP	feedback_msg: autoDraw = false
+184.803	EXP	image_stim: image = {}
+184.803	EXP	text_stim: text = undefined
+184.803	EXP	trial_label_left: text = "A = \r\nBlack"
+184.803	EXP	trial_label_right: text = "L = \r\nWhite"
+184.803	EXP	fixation: autoDraw = true
+185.296	EXP	fixation: autoDraw = false
+185.326	EXP	image_stim: autoDraw = true
+185.326	EXP	text_stim: autoDraw = true
+185.326	EXP	button_left: autoDraw = true
+185.326	EXP	trial_label_left: autoDraw = true
+185.326	EXP	button_right: autoDraw = true
+185.326	EXP	trial_label_right: autoDraw = true
+186.035	DATA	Keydown: l
+186.052	EXP	fixation: autoDraw = false
+186.052	EXP	image_stim: autoDraw = false
+186.052	EXP	text_stim: autoDraw = false
+186.052	EXP	button_left: autoDraw = false
+186.052	EXP	trial_label_left: autoDraw = false
+186.052	EXP	button_right: autoDraw = false
+186.052	EXP	trial_label_right: autoDraw = false
+186.052	EXP	feedback_msg: text = "oops"
+186.052	EXP	feedback_msg: autoDraw = true
+187.051	EXP	feedback_msg: autoDraw = false
+187.051	EXP	feedback_msg: autoDraw = false
+187.051	EXP	image_stim: image = {}
+187.051	EXP	text_stim: text = undefined
+187.051	EXP	trial_label_left: text = "A = \r\nBlack"
+187.051	EXP	trial_label_right: text = "L = \r\nWhite"
+187.051	EXP	fixation: autoDraw = true
+187.546	EXP	fixation: autoDraw = false
+187.57899999999998	EXP	image_stim: autoDraw = true
+187.57899999999998	EXP	text_stim: autoDraw = true
+187.57899999999998	EXP	button_left: autoDraw = true
+187.57899999999998	EXP	trial_label_left: autoDraw = true
+187.57899999999998	EXP	button_right: autoDraw = true
+187.57899999999998	EXP	trial_label_right: autoDraw = true
+189.40099999999998	DATA	Keydown: l
+189.416	EXP	fixation: autoDraw = false
+189.416	EXP	image_stim: autoDraw = false
+189.416	EXP	text_stim: autoDraw = false
+189.416	EXP	button_left: autoDraw = false
+189.416	EXP	trial_label_left: autoDraw = false
+189.416	EXP	button_right: autoDraw = false
+189.416	EXP	trial_label_right: autoDraw = false
+189.416	EXP	feedback_msg: text = "+"
+189.416	EXP	feedback_msg: autoDraw = true
+190.414	EXP	feedback_msg: autoDraw = false
+190.414	EXP	feedback_msg: autoDraw = false
+190.414	EXP	image_stim: image = {}
+190.414	EXP	text_stim: text = undefined
+190.414	EXP	trial_label_left: text = "A = \r\nBlack"
+190.414	EXP	trial_label_right: text = "L = \r\nWhite"
+190.414	EXP	fixation: autoDraw = true
+190.911	EXP	fixation: autoDraw = false
+190.94299999999998	EXP	image_stim: autoDraw = true
+190.94299999999998	EXP	text_stim: autoDraw = true
+190.94299999999998	EXP	button_left: autoDraw = true
+190.94299999999998	EXP	trial_label_left: autoDraw = true
+190.94299999999998	EXP	button_right: autoDraw = true
+190.94299999999998	EXP	trial_label_right: autoDraw = true
+191.78199999999998	DATA	Keydown: l
+191.801	EXP	fixation: autoDraw = false
+191.801	EXP	image_stim: autoDraw = false
+191.801	EXP	text_stim: autoDraw = false
+191.801	EXP	button_left: autoDraw = false
+191.801	EXP	trial_label_left: autoDraw = false
+191.801	EXP	button_right: autoDraw = false
+191.801	EXP	trial_label_right: autoDraw = false
+191.801	EXP	feedback_msg: text = "+"
+191.801	EXP	feedback_msg: autoDraw = true
+192.79399999999998	EXP	feedback_msg: autoDraw = false
+192.79399999999998	EXP	feedback_msg: autoDraw = false
+192.79399999999998	EXP	image_stim: image = {}
+192.79399999999998	EXP	text_stim: text = undefined
+192.79399999999998	EXP	trial_label_left: text = "A = \r\nBlack"
+192.79399999999998	EXP	trial_label_right: text = "L = \r\nWhite"
+192.79399999999998	EXP	fixation: autoDraw = true
+193.29299999999998	EXP	fixation: autoDraw = false
+193.32399999999998	EXP	image_stim: autoDraw = true
+193.32399999999998	EXP	text_stim: autoDraw = true
+193.32399999999998	EXP	button_left: autoDraw = true
+193.32399999999998	EXP	trial_label_left: autoDraw = true
+193.32399999999998	EXP	button_right: autoDraw = true
+193.32399999999998	EXP	trial_label_right: autoDraw = true
+194.063	DATA	Keydown: l
+194.07999999999998	EXP	fixation: autoDraw = false
+194.07999999999998	EXP	image_stim: autoDraw = false
+194.07999999999998	EXP	text_stim: autoDraw = false
+194.07999999999998	EXP	button_left: autoDraw = false
+194.07999999999998	EXP	trial_label_left: autoDraw = false
+194.07999999999998	EXP	button_right: autoDraw = false
+194.07999999999998	EXP	trial_label_right: autoDraw = false
+194.07999999999998	EXP	feedback_msg: text = "+"
+194.07999999999998	EXP	feedback_msg: autoDraw = true
+195.078	EXP	feedback_msg: autoDraw = false
+195.078	EXP	feedback_msg: autoDraw = false
+195.078	EXP	image_stim: image = {}
+195.078	EXP	text_stim: text = undefined
+195.078	EXP	trial_label_left: text = "A = \r\nBlack"
+195.078	EXP	trial_label_right: text = "L = \r\nWhite"
+195.078	EXP	fixation: autoDraw = true
+195.575	EXP	fixation: autoDraw = false
+195.60899999999998	EXP	image_stim: autoDraw = true
+195.60899999999998	EXP	text_stim: autoDraw = true
+195.60899999999998	EXP	button_left: autoDraw = true
+195.60899999999998	EXP	trial_label_left: autoDraw = true
+195.60899999999998	EXP	button_right: autoDraw = true
+195.60899999999998	EXP	trial_label_right: autoDraw = true
+196.196	DATA	Keydown: a
+196.213	EXP	fixation: autoDraw = false
+196.213	EXP	image_stim: autoDraw = false
+196.213	EXP	text_stim: autoDraw = false
+196.213	EXP	button_left: autoDraw = false
+196.213	EXP	trial_label_left: autoDraw = false
+196.213	EXP	button_right: autoDraw = false
+196.213	EXP	trial_label_right: autoDraw = false
+196.213	EXP	feedback_msg: text = "+"
+196.213	EXP	feedback_msg: autoDraw = true
+197.209	EXP	feedback_msg: autoDraw = false
+197.209	EXP	feedback_msg: autoDraw = false
+197.209	EXP	image_stim: image = {}
+197.209	EXP	text_stim: text = undefined
+197.209	EXP	trial_label_left: text = "A = \r\nBlack"
+197.209	EXP	trial_label_right: text = "L = \r\nWhite"
+197.209	EXP	fixation: autoDraw = true
+197.707	EXP	fixation: autoDraw = false
+197.74099999999999	EXP	image_stim: autoDraw = true
+197.74099999999999	EXP	text_stim: autoDraw = true
+197.74099999999999	EXP	button_left: autoDraw = true
+197.74099999999999	EXP	trial_label_left: autoDraw = true
+197.74099999999999	EXP	button_right: autoDraw = true
+197.74099999999999	EXP	trial_label_right: autoDraw = true
+198.594	DATA	Keydown: a
+198.60999999999999	EXP	fixation: autoDraw = false
+198.60999999999999	EXP	image_stim: autoDraw = false
+198.60999999999999	EXP	text_stim: autoDraw = false
+198.60999999999999	EXP	button_left: autoDraw = false
+198.60999999999999	EXP	trial_label_left: autoDraw = false
+198.60999999999999	EXP	button_right: autoDraw = false
+198.60999999999999	EXP	trial_label_right: autoDraw = false
+198.60999999999999	EXP	feedback_msg: text = "+"
+198.60999999999999	EXP	feedback_msg: autoDraw = true
+199.60799999999998	EXP	feedback_msg: autoDraw = false
+199.60799999999998	EXP	feedback_msg: autoDraw = false
+199.60799999999998	EXP	image_stim: image = {}
+199.60799999999998	EXP	text_stim: text = undefined
+199.60799999999998	EXP	trial_label_left: text = "A = \r\nBlack"
+199.60799999999998	EXP	trial_label_right: text = "L = \r\nWhite"
+199.60799999999998	EXP	fixation: autoDraw = true
+200.107	EXP	fixation: autoDraw = false
+200.13899999999998	EXP	image_stim: autoDraw = true
+200.13899999999998	EXP	text_stim: autoDraw = true
+200.13899999999998	EXP	button_left: autoDraw = true
+200.13899999999998	EXP	trial_label_left: autoDraw = true
+200.13899999999998	EXP	button_right: autoDraw = true
+200.13899999999998	EXP	trial_label_right: autoDraw = true
+200.694	DATA	Keydown: a
+200.70999999999998	EXP	fixation: autoDraw = false
+200.70999999999998	EXP	image_stim: autoDraw = false
+200.70999999999998	EXP	text_stim: autoDraw = false
+200.70999999999998	EXP	button_left: autoDraw = false
+200.70999999999998	EXP	trial_label_left: autoDraw = false
+200.70999999999998	EXP	button_right: autoDraw = false
+200.70999999999998	EXP	trial_label_right: autoDraw = false
+200.70999999999998	EXP	feedback_msg: text = "+"
+200.70999999999998	EXP	feedback_msg: autoDraw = true
+201.71699999999998	EXP	feedback_msg: autoDraw = false
+201.71699999999998	EXP	feedback_msg: autoDraw = false
+201.71699999999998	EXP	ready_label_L: text = "A = \r\nBlack or \r\nPositive"
+201.71699999999998	EXP	ready_label_R: text = "L = \r\nWhite or \r\nNegative"
+201.71699999999998	EXP	main_ready_msg: autoDraw = true
+201.71699999999998	EXP	button_L: autoDraw = true
+201.71699999999998	EXP	ready_label_L: autoDraw = true
+201.71699999999998	EXP	button_R: autoDraw = true
+201.71699999999998	EXP	ready_label_R: autoDraw = true
+215.12599999999998	DATA	Keydown: Escape
