@@ -1,0 +1,568 @@
+0.10130500000013853	EXP	Created Window = Window( name=Window, fullscr=true, color=#000000, units=height, waitBlanking=true, autoLog=true, size=[1440,772] )
+0.24842499999977008	DATA	Mouse: wheel shift=(0,1), pos=(0,0)
+0.26018500000009226	DATA	Mouse: wheel shift=(0,2), pos=(0,0)
+0.29100500000004104	DATA	Mouse: wheel shift=(-5,20), pos=(0,0)
+0.33704499999930704	DATA	Mouse: wheel shift=(-6,39), pos=(0,0)
+0.3433150000000751	DATA	Mouse: wheel shift=(-1,5), pos=(0,0)
+0.4396499999993466	DATA	Mouse: wheel shift=(-5,16), pos=(0,0)
+0.5294549999998708	DATA	Mouse: wheel shift=(0,3), pos=(0,0)
+2.3707100000001446	DATA	Keydown: 1
+3.207539999999426	DATA	Keydown: Enter
+38.88281000000006	EXP	Created instructs_text = TextStim( name=instructs_text, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=default text, font=Arial, color=#FFFFFF, contrast=1, height=0.03, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.886679999999615	EXP	Created instr_done_button = Rect( name=instr_done_button, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,-0.4], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.05],[0.2,-0.05],[0.2,0.05],[-0.2,0.05]], closeShape=true, contrast=1, depth=-3, interpolate=true, width=0.4, height=0.1 )
+38.88732499999969	EXP	Created instr_done_label = TextStim( name=instr_done_label, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,-0.4], size=undefined, text=Next..., font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.88828999999987	EXP	Created main_ready_msg = TextStim( name=main_ready_msg, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=Take note of the categories below
+ 
+Position your ~, font=Arial, color=#FFFFFF, contrast=1, height=0.03, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.890370000000075	EXP	Created button_L = Rect( name=button_L, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-1, interpolate=true, width=0.4, height=0.2 )
+38.89083500000015	EXP	Created ready_label_L = TextStim( name=ready_label_L, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.89278000000013	EXP	Created button_R = Rect( name=button_R, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-3, interpolate=true, width=0.4, height=0.2 )
+38.893519999999626	EXP	Created ready_label_R = TextStim( name=ready_label_R, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.8942049999996	EXP	Created fixation = TextStim( name=fixation, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=+, font=Arial, color=#FFFFFF, contrast=1, height=0.1, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.90750500000013	EXP	Created image_stim = ImageStim( name=image_stim, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=[0.5,0.5], image=undefined, mask=undefined, color=#ffffff, contrast=1, texRes=128, interpolate=true, depth=-1, flipHoriz=null, flipVert=null )
+38.908440000000155	EXP	Created text_stim = TextStim( name=text_stim, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=default text, font=Arial, color=#FFFFFF, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.91085500000008	EXP	Created button_left = Rect( name=button_left, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-6, interpolate=true, width=0.4, height=0.2 )
+38.9124699999993	EXP	Created trial_label_left = TextStim( name=trial_label_left, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[-0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.91683000000012	EXP	Created button_right = Rect( name=button_right, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=[1,1], lineWidth=1, lineColor=#006400, fillColor=#90EE90, vertices=[[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]], closeShape=true, contrast=1, depth=-8, interpolate=true, width=0.4, height=0.2 )
+38.921550000000025	EXP	Created trial_label_right = TextStim( name=trial_label_right, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0.4,-0.3], size=undefined, text=default text, font=Arial, color=#006400, contrast=1, height=0.05, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.922379999999976	EXP	Created feedback_msg = TextStim( name=feedback_msg, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=default text, font=Arial, color=#FFFFFF, contrast=1, height=0.1, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+38.922944999999345	EXP	Created thanks_text = TextStim( name=thanks_text, win=Window( name=Window, fullscr=true, color=#000000, ~), autoDraw=null, autoLog=true, units=height, ori=null, opacity=1, pos=[0,0], size=undefined, text=The End. 
+ 
+Thank you for your participation., font=Arial, color=#FFFFFF, contrast=1, height=0.1, bold=null, italic=null, alignHoriz=left, alignVert=center, wrapWidth=1, flipHoriz=null, flipVert=null )
+39.289004999999634	EXP	instructs_text: units = "height"
+39.289004999999634	EXP	instructs_text: ori = 0
+39.289004999999634	EXP	instructs_text: opacity = 1
+39.289004999999634	EXP	instructs_text: pos = [0,0]
+39.289004999999634	EXP	instructs_text: size = undefined
+39.289004999999634	EXP	instructs_text: text = "default text"
+39.289004999999634	EXP	instructs_text: font = "Arial"
+39.289004999999634	EXP	instructs_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+39.289004999999634	EXP	instructs_text: contrast = 1
+39.289004999999634	EXP	instructs_text: height = 0.03
+39.289004999999634	EXP	instructs_text: bold = false
+39.289004999999634	EXP	instructs_text: italic = false
+39.289004999999634	EXP	instructs_text: alignHoriz = "left"
+39.289004999999634	EXP	instructs_text: alignVert = "center"
+39.289004999999634	EXP	instructs_text: wrapWidth = 1
+39.289004999999634	EXP	instructs_text: flipHoriz = false
+39.289004999999634	EXP	instructs_text: flipVert = false
+39.289004999999634	EXP	instr_done_button: units = "height"
+39.289004999999634	EXP	instr_done_button: ori = 0
+39.289004999999634	EXP	instr_done_button: opacity = 1
+39.289004999999634	EXP	instr_done_button: pos = [0,-0.4]
+39.289004999999634	EXP	instr_done_button: size = [1,1]
+39.289004999999634	EXP	instr_done_button: lineWidth = 1
+39.289004999999634	EXP	instr_done_button: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	instr_done_button: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+39.289004999999634	EXP	instr_done_button: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+39.289004999999634	EXP	instr_done_button: closeShape = true
+39.289004999999634	EXP	instr_done_button: contrast = 1
+39.289004999999634	EXP	instr_done_button: depth = -3
+39.289004999999634	EXP	instr_done_button: interpolate = true
+39.289004999999634	EXP	instr_done_button: width = 0.4
+39.289004999999634	EXP	instr_done_button: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+39.289004999999634	EXP	instr_done_button: height = 0.1
+39.289004999999634	EXP	instr_done_button: vertices = [[-0.2,-0.05],[0.2,-0.05],[0.2,0.05],[-0.2,0.05]]
+39.289004999999634	EXP	instr_done_button: vertices = [[-0.2,-0.05],[0.2,-0.05],[0.2,0.05],[-0.2,0.05]]
+39.289004999999634	EXP	instr_done_label: units = "height"
+39.289004999999634	EXP	instr_done_label: ori = 0
+39.289004999999634	EXP	instr_done_label: opacity = 1
+39.289004999999634	EXP	instr_done_label: pos = [0,-0.4]
+39.289004999999634	EXP	instr_done_label: size = undefined
+39.289004999999634	EXP	instr_done_label: text = "Next..."
+39.289004999999634	EXP	instr_done_label: font = "Arial"
+39.289004999999634	EXP	instr_done_label: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	instr_done_label: contrast = 1
+39.289004999999634	EXP	instr_done_label: height = 0.05
+39.289004999999634	EXP	instr_done_label: bold = false
+39.289004999999634	EXP	instr_done_label: italic = false
+39.289004999999634	EXP	instr_done_label: alignHoriz = "left"
+39.289004999999634	EXP	instr_done_label: alignVert = "center"
+39.289004999999634	EXP	instr_done_label: wrapWidth = 1
+39.289004999999634	EXP	instr_done_label: flipHoriz = false
+39.289004999999634	EXP	instr_done_label: flipVert = false
+39.289004999999634	EXP	main_ready_msg: units = "height"
+39.289004999999634	EXP	main_ready_msg: ori = 0
+39.289004999999634	EXP	main_ready_msg: opacity = 1
+39.289004999999634	EXP	main_ready_msg: pos = [0,0]
+39.289004999999634	EXP	main_ready_msg: size = undefined
+39.289004999999634	EXP	main_ready_msg: text = "Take note of the categories below\n \nPosition your index fingers \n \nPress the space bar (or one of the green buttons) to begin"
+39.289004999999634	EXP	main_ready_msg: font = "Arial"
+39.289004999999634	EXP	main_ready_msg: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+39.289004999999634	EXP	main_ready_msg: contrast = 1
+39.289004999999634	EXP	main_ready_msg: height = 0.03
+39.289004999999634	EXP	main_ready_msg: bold = false
+39.289004999999634	EXP	main_ready_msg: italic = false
+39.289004999999634	EXP	main_ready_msg: alignHoriz = "left"
+39.289004999999634	EXP	main_ready_msg: alignVert = "center"
+39.289004999999634	EXP	main_ready_msg: wrapWidth = 1
+39.289004999999634	EXP	main_ready_msg: flipHoriz = false
+39.289004999999634	EXP	main_ready_msg: flipVert = false
+39.289004999999634	EXP	button_L: units = "height"
+39.289004999999634	EXP	button_L: ori = 0
+39.289004999999634	EXP	button_L: opacity = 1
+39.289004999999634	EXP	button_L: pos = [-0.4,-0.3]
+39.289004999999634	EXP	button_L: size = [1,1]
+39.289004999999634	EXP	button_L: lineWidth = 1
+39.289004999999634	EXP	button_L: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	button_L: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+39.289004999999634	EXP	button_L: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+39.289004999999634	EXP	button_L: closeShape = true
+39.289004999999634	EXP	button_L: contrast = 1
+39.289004999999634	EXP	button_L: depth = -1
+39.289004999999634	EXP	button_L: interpolate = true
+39.289004999999634	EXP	button_L: width = 0.4
+39.289004999999634	EXP	button_L: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+39.289004999999634	EXP	button_L: height = 0.2
+39.289004999999634	EXP	button_L: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	button_L: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	ready_label_L: units = "height"
+39.289004999999634	EXP	ready_label_L: ori = 0
+39.289004999999634	EXP	ready_label_L: opacity = 1
+39.289004999999634	EXP	ready_label_L: pos = [-0.4,-0.3]
+39.289004999999634	EXP	ready_label_L: size = undefined
+39.289004999999634	EXP	ready_label_L: text = "default text"
+39.289004999999634	EXP	ready_label_L: font = "Arial"
+39.289004999999634	EXP	ready_label_L: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	ready_label_L: contrast = 1
+39.289004999999634	EXP	ready_label_L: height = 0.05
+39.289004999999634	EXP	ready_label_L: bold = false
+39.289004999999634	EXP	ready_label_L: italic = false
+39.289004999999634	EXP	ready_label_L: alignHoriz = "left"
+39.289004999999634	EXP	ready_label_L: alignVert = "center"
+39.289004999999634	EXP	ready_label_L: wrapWidth = 1
+39.289004999999634	EXP	ready_label_L: flipHoriz = false
+39.289004999999634	EXP	ready_label_L: flipVert = false
+39.289004999999634	EXP	button_R: units = "height"
+39.289004999999634	EXP	button_R: ori = 0
+39.289004999999634	EXP	button_R: opacity = 1
+39.289004999999634	EXP	button_R: pos = [0.4,-0.3]
+39.289004999999634	EXP	button_R: size = [1,1]
+39.289004999999634	EXP	button_R: lineWidth = 1
+39.289004999999634	EXP	button_R: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	button_R: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+39.289004999999634	EXP	button_R: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+39.289004999999634	EXP	button_R: closeShape = true
+39.289004999999634	EXP	button_R: contrast = 1
+39.289004999999634	EXP	button_R: depth = -3
+39.289004999999634	EXP	button_R: interpolate = true
+39.289004999999634	EXP	button_R: width = 0.4
+39.289004999999634	EXP	button_R: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+39.289004999999634	EXP	button_R: height = 0.2
+39.289004999999634	EXP	button_R: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	button_R: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	ready_label_R: units = "height"
+39.289004999999634	EXP	ready_label_R: ori = 0
+39.289004999999634	EXP	ready_label_R: opacity = 1
+39.289004999999634	EXP	ready_label_R: pos = [0.4,-0.3]
+39.289004999999634	EXP	ready_label_R: size = undefined
+39.289004999999634	EXP	ready_label_R: text = "default text"
+39.289004999999634	EXP	ready_label_R: font = "Arial"
+39.289004999999634	EXP	ready_label_R: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	ready_label_R: contrast = 1
+39.289004999999634	EXP	ready_label_R: height = 0.05
+39.289004999999634	EXP	ready_label_R: bold = false
+39.289004999999634	EXP	ready_label_R: italic = false
+39.289004999999634	EXP	ready_label_R: alignHoriz = "left"
+39.289004999999634	EXP	ready_label_R: alignVert = "center"
+39.289004999999634	EXP	ready_label_R: wrapWidth = 1
+39.289004999999634	EXP	ready_label_R: flipHoriz = false
+39.289004999999634	EXP	ready_label_R: flipVert = false
+39.289004999999634	EXP	fixation: units = "height"
+39.289004999999634	EXP	fixation: ori = 0
+39.289004999999634	EXP	fixation: opacity = 1
+39.289004999999634	EXP	fixation: pos = [0,0]
+39.289004999999634	EXP	fixation: size = undefined
+39.289004999999634	EXP	fixation: text = "+"
+39.289004999999634	EXP	fixation: font = "Arial"
+39.289004999999634	EXP	fixation: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+39.289004999999634	EXP	fixation: contrast = 1
+39.289004999999634	EXP	fixation: height = 0.1
+39.289004999999634	EXP	fixation: bold = false
+39.289004999999634	EXP	fixation: italic = false
+39.289004999999634	EXP	fixation: alignHoriz = "left"
+39.289004999999634	EXP	fixation: alignVert = "center"
+39.289004999999634	EXP	fixation: wrapWidth = 1
+39.289004999999634	EXP	fixation: flipHoriz = false
+39.289004999999634	EXP	fixation: flipVert = false
+39.289004999999634	EXP	image_stim: units = "height"
+39.289004999999634	EXP	image_stim: ori = 0
+39.289004999999634	EXP	image_stim: opacity = 1
+39.289004999999634	EXP	image_stim: pos = [0,0]
+39.289004999999634	EXP	image_stim: size = [0.5,0.5]
+39.289004999999634	EXP	image_stim: image = undefined
+39.289004999999634	EXP	image_stim: mask = undefined
+39.289004999999634	EXP	image_stim: color = {"_rgb":[1,1,1]}
+39.289004999999634	EXP	image_stim: contrast = 1
+39.289004999999634	EXP	image_stim: texRes = 128
+39.289004999999634	EXP	image_stim: interpolate = true
+39.289004999999634	EXP	image_stim: depth = -1
+39.289004999999634	EXP	image_stim: flipHoriz = false
+39.289004999999634	EXP	image_stim: flipVert = false
+39.289004999999634	EXP	text_stim: units = "height"
+39.289004999999634	EXP	text_stim: ori = 0
+39.289004999999634	EXP	text_stim: opacity = 1
+39.289004999999634	EXP	text_stim: pos = [0,0]
+39.289004999999634	EXP	text_stim: size = undefined
+39.289004999999634	EXP	text_stim: text = "default text"
+39.289004999999634	EXP	text_stim: font = "Arial"
+39.289004999999634	EXP	text_stim: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+39.289004999999634	EXP	text_stim: contrast = 1
+39.289004999999634	EXP	text_stim: height = 0.05
+39.289004999999634	EXP	text_stim: bold = false
+39.289004999999634	EXP	text_stim: italic = false
+39.289004999999634	EXP	text_stim: alignHoriz = "left"
+39.289004999999634	EXP	text_stim: alignVert = "center"
+39.289004999999634	EXP	text_stim: wrapWidth = 1
+39.289004999999634	EXP	text_stim: flipHoriz = false
+39.289004999999634	EXP	text_stim: flipVert = false
+39.289004999999634	EXP	button_left: units = "height"
+39.289004999999634	EXP	button_left: ori = 0
+39.289004999999634	EXP	button_left: opacity = 1
+39.289004999999634	EXP	button_left: pos = [-0.4,-0.3]
+39.289004999999634	EXP	button_left: size = [1,1]
+39.289004999999634	EXP	button_left: lineWidth = 1
+39.289004999999634	EXP	button_left: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	button_left: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+39.289004999999634	EXP	button_left: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+39.289004999999634	EXP	button_left: closeShape = true
+39.289004999999634	EXP	button_left: contrast = 1
+39.289004999999634	EXP	button_left: depth = -6
+39.289004999999634	EXP	button_left: interpolate = true
+39.289004999999634	EXP	button_left: width = 0.4
+39.289004999999634	EXP	button_left: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+39.289004999999634	EXP	button_left: height = 0.2
+39.289004999999634	EXP	button_left: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	button_left: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	trial_label_left: units = "height"
+39.289004999999634	EXP	trial_label_left: ori = 0
+39.289004999999634	EXP	trial_label_left: opacity = 1
+39.289004999999634	EXP	trial_label_left: pos = [-0.4,-0.3]
+39.289004999999634	EXP	trial_label_left: size = undefined
+39.289004999999634	EXP	trial_label_left: text = "default text"
+39.289004999999634	EXP	trial_label_left: font = "Arial"
+39.289004999999634	EXP	trial_label_left: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	trial_label_left: contrast = 1
+39.289004999999634	EXP	trial_label_left: height = 0.05
+39.289004999999634	EXP	trial_label_left: bold = false
+39.289004999999634	EXP	trial_label_left: italic = false
+39.289004999999634	EXP	trial_label_left: alignHoriz = "left"
+39.289004999999634	EXP	trial_label_left: alignVert = "center"
+39.289004999999634	EXP	trial_label_left: wrapWidth = 1
+39.289004999999634	EXP	trial_label_left: flipHoriz = false
+39.289004999999634	EXP	trial_label_left: flipVert = false
+39.289004999999634	EXP	button_right: units = "height"
+39.289004999999634	EXP	button_right: ori = 0
+39.289004999999634	EXP	button_right: opacity = 1
+39.289004999999634	EXP	button_right: pos = [0.4,-0.3]
+39.289004999999634	EXP	button_right: size = [1,1]
+39.289004999999634	EXP	button_right: lineWidth = 1
+39.289004999999634	EXP	button_right: lineColor = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	button_right: fillColor = {"_hex":"#90EE90","_rgb":[0.5647058823529412,0.9333333333333333,0.5647058823529412]}
+39.289004999999634	EXP	button_right: vertices = [[-0.5,0],[0,0.5],[0.5,0]]
+39.289004999999634	EXP	button_right: closeShape = true
+39.289004999999634	EXP	button_right: contrast = 1
+39.289004999999634	EXP	button_right: depth = -8
+39.289004999999634	EXP	button_right: interpolate = true
+39.289004999999634	EXP	button_right: width = 0.4
+39.289004999999634	EXP	button_right: vertices = [[-0.2,null],[0.2,null],[0.2,null],[-0.2,null]]
+39.289004999999634	EXP	button_right: height = 0.2
+39.289004999999634	EXP	button_right: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	button_right: vertices = [[-0.2,-0.1],[0.2,-0.1],[0.2,0.1],[-0.2,0.1]]
+39.289004999999634	EXP	trial_label_right: units = "height"
+39.289004999999634	EXP	trial_label_right: ori = 0
+39.289004999999634	EXP	trial_label_right: opacity = 1
+39.289004999999634	EXP	trial_label_right: pos = [0.4,-0.3]
+39.289004999999634	EXP	trial_label_right: size = undefined
+39.289004999999634	EXP	trial_label_right: text = "default text"
+39.289004999999634	EXP	trial_label_right: font = "Arial"
+39.289004999999634	EXP	trial_label_right: color = {"_hex":"#006400","_rgb":[0,0.39215686274509803,0]}
+39.289004999999634	EXP	trial_label_right: contrast = 1
+39.289004999999634	EXP	trial_label_right: height = 0.05
+39.289004999999634	EXP	trial_label_right: bold = false
+39.289004999999634	EXP	trial_label_right: italic = false
+39.289004999999634	EXP	trial_label_right: alignHoriz = "left"
+39.289004999999634	EXP	trial_label_right: alignVert = "center"
+39.289004999999634	EXP	trial_label_right: wrapWidth = 1
+39.289004999999634	EXP	trial_label_right: flipHoriz = false
+39.289004999999634	EXP	trial_label_right: flipVert = false
+39.289004999999634	EXP	feedback_msg: units = "height"
+39.289004999999634	EXP	feedback_msg: ori = 0
+39.289004999999634	EXP	feedback_msg: opacity = 1
+39.289004999999634	EXP	feedback_msg: pos = [0,0]
+39.289004999999634	EXP	feedback_msg: size = undefined
+39.289004999999634	EXP	feedback_msg: text = "default text"
+39.289004999999634	EXP	feedback_msg: font = "Arial"
+39.289004999999634	EXP	feedback_msg: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+39.289004999999634	EXP	feedback_msg: contrast = 1
+39.289004999999634	EXP	feedback_msg: height = 0.1
+39.289004999999634	EXP	feedback_msg: bold = false
+39.289004999999634	EXP	feedback_msg: italic = false
+39.289004999999634	EXP	feedback_msg: alignHoriz = "left"
+39.289004999999634	EXP	feedback_msg: alignVert = "center"
+39.289004999999634	EXP	feedback_msg: wrapWidth = 1
+39.289004999999634	EXP	feedback_msg: flipHoriz = false
+39.289004999999634	EXP	feedback_msg: flipVert = false
+39.289004999999634	EXP	thanks_text: units = "height"
+39.289004999999634	EXP	thanks_text: ori = 0
+39.289004999999634	EXP	thanks_text: opacity = 1
+39.289004999999634	EXP	thanks_text: pos = [0,0]
+39.289004999999634	EXP	thanks_text: size = undefined
+39.289004999999634	EXP	thanks_text: text = "The End. \n \nThank you for your participation."
+39.289004999999634	EXP	thanks_text: font = "Arial"
+39.289004999999634	EXP	thanks_text: color = {"_hex":"#FFFFFF","_rgb":[1,1,1]}
+39.289004999999634	EXP	thanks_text: contrast = 1
+39.289004999999634	EXP	thanks_text: height = 0.1
+39.289004999999634	EXP	thanks_text: bold = false
+39.289004999999634	EXP	thanks_text: italic = false
+39.289004999999634	EXP	thanks_text: alignHoriz = "left"
+39.289004999999634	EXP	thanks_text: alignVert = "center"
+39.289004999999634	EXP	thanks_text: wrapWidth = 1
+39.289004999999634	EXP	thanks_text: flipHoriz = false
+39.289004999999634	EXP	thanks_text: flipVert = false
+39.289004999999634	EXP	instructs_text: text = "You will be presented with words or images to classify into categories using either the 'A' or 'L' key. \r\n \r\nTry to go as fast as possible while making as few mistakes as possible. \r\n"
+39.289004999999634	EXP	instructs_text: autoDraw = true
+39.289004999999634	EXP	instr_done_button: autoDraw = true
+39.289004999999634	EXP	instr_done_label: autoDraw = true
+46.20002999999997	DATA	Mouse: 0 button down, pos=(667.73046875,806.7109375)
+46.200299999999515	DATA	Mouse: 0 button down, pos=(667.73046875,806.7109375)
+47.60556499999984	DATA	Mouse: 0 button down, pos=(679.8203125,809.2734375)
+47.620779999999286	EXP	instructs_text: autoDraw = false
+47.620779999999286	EXP	instr_done_button: autoDraw = false
+47.620779999999286	EXP	instr_done_label: autoDraw = false
+47.620779999999286	EXP	instructs_text: text = "Keep in mind: \r\n \r\n1) Labels at the top of the screen indicate which catogory goes with which key. \r\n \r\n2) Each word or image has a correct catogory classification \r\n \r\n3) Keep your index fingers on the A and L keys to enable a rapid response. \r\n \r\n4) The test gives no results if you go slow- please try to go as fast as possible \r\n"
+47.620779999999286	EXP	instructs_text: autoDraw = true
+47.620779999999286	EXP	instr_done_button: autoDraw = true
+47.620779999999286	EXP	instr_done_label: autoDraw = true
+47.741839999999684	DATA	Mouse: 0 button down, pos=(679.8203125,809.2734375)
+49.58626000000004	DATA	Mouse: 0 button down, pos=(686.546875,819.5703125)
+49.621900000000096	EXP	instructs_text: autoDraw = false
+49.621900000000096	EXP	instr_done_button: autoDraw = false
+49.621900000000096	EXP	instr_done_label: autoDraw = false
+49.621900000000096	EXP	ready_label_L: text = "A = \r\nPositive"
+49.621900000000096	EXP	ready_label_R: text = "L = \r\nNegative"
+49.621900000000096	EXP	main_ready_msg: autoDraw = true
+49.621900000000096	EXP	button_L: autoDraw = true
+49.621900000000096	EXP	ready_label_L: autoDraw = true
+49.621900000000096	EXP	button_R: autoDraw = true
+49.621900000000096	EXP	ready_label_R: autoDraw = true
+49.76220000000012	DATA	Mouse: 0 button down, pos=(686.546875,819.5703125)
+54.16622499999994	DATA	Keydown: Enter
+54.53816000000006	DATA	Keydown: a
+54.598579999999856	DATA	Keydown: a
+55.73172499999964	DATA	Keydown: l
+56.11459500000001	DATA	Keydown:  
+56.15371999999934	EXP	main_ready_msg: autoDraw = false
+56.15371999999934	EXP	button_L: autoDraw = false
+56.15371999999934	EXP	ready_label_L: autoDraw = false
+56.15371999999934	EXP	button_R: autoDraw = false
+56.15371999999934	EXP	ready_label_R: autoDraw = false
+56.15371999999934	EXP	image_stim: image = {}
+56.15371999999934	EXP	text_stim: text = "Agony"
+56.15371999999934	EXP	trial_label_left: text = "A = \r\nPositive"
+56.15371999999934	EXP	trial_label_right: text = "L = \r\nNegative"
+56.15371999999934	EXP	fixation: autoDraw = true
+56.64736999999968	EXP	fixation: autoDraw = false
+56.67250999999942	EXP	image_stim: autoDraw = true
+56.67250999999942	EXP	text_stim: autoDraw = true
+56.67250999999942	EXP	button_left: autoDraw = true
+56.67250999999942	EXP	trial_label_left: autoDraw = true
+56.67250999999942	EXP	button_right: autoDraw = true
+56.67250999999942	EXP	trial_label_right: autoDraw = true
+57.44923999999992	DATA	Keydown: a
+57.46433999999954	EXP	fixation: autoDraw = false
+57.46433999999954	EXP	image_stim: autoDraw = false
+57.46433999999954	EXP	text_stim: autoDraw = false
+57.46433999999954	EXP	button_left: autoDraw = false
+57.46433999999954	EXP	trial_label_left: autoDraw = false
+57.46433999999954	EXP	button_right: autoDraw = false
+57.46433999999954	EXP	trial_label_right: autoDraw = false
+57.46433999999954	EXP	feedback_msg: text = "oops"
+57.46433999999954	EXP	feedback_msg: autoDraw = true
+57.54792499999985	DATA	Keydown: a
+58.46421999999984	EXP	feedback_msg: autoDraw = false
+58.46421999999984	EXP	feedback_msg: autoDraw = false
+58.46421999999984	EXP	image_stim: image = {}
+58.46421999999984	EXP	text_stim: text = "Happy"
+58.46421999999984	EXP	trial_label_left: text = "A = \r\nPositive"
+58.46421999999984	EXP	trial_label_right: text = "L = \r\nNegative"
+58.46421999999984	EXP	fixation: autoDraw = true
+58.96402499999931	EXP	fixation: autoDraw = false
+58.98335499999939	EXP	image_stim: autoDraw = true
+58.98335499999939	EXP	text_stim: autoDraw = true
+58.98335499999939	EXP	button_left: autoDraw = true
+58.98335499999939	EXP	trial_label_left: autoDraw = true
+58.98335499999939	EXP	button_right: autoDraw = true
+58.98335499999939	EXP	trial_label_right: autoDraw = true
+60.41561499999989	DATA	Keydown: a
+60.431179999999586	EXP	fixation: autoDraw = false
+60.431179999999586	EXP	image_stim: autoDraw = false
+60.431179999999586	EXP	text_stim: autoDraw = false
+60.431179999999586	EXP	button_left: autoDraw = false
+60.431179999999586	EXP	trial_label_left: autoDraw = false
+60.431179999999586	EXP	button_right: autoDraw = false
+60.431179999999586	EXP	trial_label_right: autoDraw = false
+60.431179999999586	EXP	feedback_msg: text = "+"
+60.431179999999586	EXP	feedback_msg: autoDraw = true
+61.42997500000001	EXP	feedback_msg: autoDraw = false
+61.42997500000001	EXP	feedback_msg: autoDraw = false
+61.42997500000001	EXP	image_stim: image = {}
+61.42997500000001	EXP	text_stim: text = "Evil"
+61.42997500000001	EXP	trial_label_left: text = "A = \r\nPositive"
+61.42997500000001	EXP	trial_label_right: text = "L = \r\nNegative"
+61.42997500000001	EXP	fixation: autoDraw = true
+61.93045499999971	EXP	fixation: autoDraw = false
+61.95111999999972	EXP	image_stim: autoDraw = true
+61.95111999999972	EXP	text_stim: autoDraw = true
+61.95111999999972	EXP	button_left: autoDraw = true
+61.95111999999972	EXP	trial_label_left: autoDraw = true
+61.95111999999972	EXP	button_right: autoDraw = true
+61.95111999999972	EXP	trial_label_right: autoDraw = true
+63.42182999999932	DATA	Keydown: l
+63.43071999999938	EXP	fixation: autoDraw = false
+63.43071999999938	EXP	image_stim: autoDraw = false
+63.43071999999938	EXP	text_stim: autoDraw = false
+63.43071999999938	EXP	button_left: autoDraw = false
+63.43071999999938	EXP	trial_label_left: autoDraw = false
+63.43071999999938	EXP	button_right: autoDraw = false
+63.43071999999938	EXP	trial_label_right: autoDraw = false
+63.43071999999938	EXP	feedback_msg: text = "+"
+63.43071999999938	EXP	feedback_msg: autoDraw = true
+65.13533999999983	EXP	feedback_msg: autoDraw = false
+65.13533999999983	EXP	feedback_msg: autoDraw = false
+65.13533999999983	EXP	image_stim: image = {}
+65.13533999999983	EXP	text_stim: text = "Pleasure"
+65.13533999999983	EXP	trial_label_left: text = "A = \r\nPositive"
+65.13533999999983	EXP	trial_label_right: text = "L = \r\nNegative"
+65.13533999999983	EXP	fixation: autoDraw = true
+65.6841549999999	EXP	fixation: autoDraw = false
+65.6841549999999	EXP	image_stim: autoDraw = true
+65.6841549999999	EXP	text_stim: autoDraw = true
+65.6841549999999	EXP	button_left: autoDraw = true
+65.6841549999999	EXP	trial_label_left: autoDraw = true
+65.6841549999999	EXP	button_right: autoDraw = true
+65.6841549999999	EXP	trial_label_right: autoDraw = true
+111.84059499999967	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+111.87467000000017	DATA	Mouse: wheel shift=(-5,43), pos=(1026.828125,315.59375)
+111.8939649999993	DATA	Mouse: wheel shift=(-4,32), pos=(1026.828125,315.59375)
+111.90779999999997	DATA	Mouse: wheel shift=(-4,37), pos=(1026.828125,315.59375)
+111.92702000000007	DATA	Mouse: wheel shift=(-4,34), pos=(1026.828125,315.59375)
+111.94202499999939	DATA	Mouse: wheel shift=(-4,32), pos=(1026.828125,315.59375)
+111.95949500000005	DATA	Mouse: wheel shift=(-4,23), pos=(1026.828125,315.59375)
+111.9746949999999	DATA	Mouse: wheel shift=(-2,6), pos=(1026.828125,315.59375)
+111.99280999999974	DATA	Mouse: wheel shift=(0,26), pos=(1026.828125,315.59375)
+112.0072449999998	DATA	Mouse: wheel shift=(0,26), pos=(1026.828125,315.59375)
+112.02531999999975	DATA	Mouse: wheel shift=(0,26), pos=(1026.828125,315.59375)
+112.0422499999995	DATA	Mouse: wheel shift=(0,26), pos=(1026.828125,315.59375)
+112.05798499999946	DATA	Mouse: wheel shift=(0,25), pos=(1026.828125,315.59375)
+112.07598999999936	DATA	Mouse: wheel shift=(0,25), pos=(1026.828125,315.59375)
+112.09267	DATA	Mouse: wheel shift=(0,24), pos=(1026.828125,315.59375)
+112.10712499999953	DATA	Mouse: wheel shift=(0,24), pos=(1026.828125,315.59375)
+112.12552999999934	DATA	Mouse: wheel shift=(0,22), pos=(1026.828125,315.59375)
+112.14118499999951	DATA	Mouse: wheel shift=(0,20), pos=(1026.828125,315.59375)
+112.16124499999933	DATA	Mouse: wheel shift=(0,19), pos=(1026.828125,315.59375)
+112.17496500000016	DATA	Mouse: wheel shift=(0,17), pos=(1026.828125,315.59375)
+112.19120999999997	DATA	Mouse: wheel shift=(0,16), pos=(1026.828125,315.59375)
+112.20795999999973	DATA	Mouse: wheel shift=(0,14), pos=(1026.828125,315.59375)
+112.22667499999989	DATA	Mouse: wheel shift=(0,13), pos=(1026.828125,315.59375)
+112.24108999999953	DATA	Mouse: wheel shift=(0,12), pos=(1026.828125,315.59375)
+112.25940999999965	DATA	Mouse: wheel shift=(0,11), pos=(1026.828125,315.59375)
+112.27539499999968	DATA	Mouse: wheel shift=(0,10), pos=(1026.828125,315.59375)
+112.29501999999957	DATA	Mouse: wheel shift=(0,9), pos=(1026.828125,315.59375)
+112.3071399999999	DATA	Mouse: wheel shift=(0,8), pos=(1026.828125,315.59375)
+112.32496999999967	DATA	Mouse: wheel shift=(0,8), pos=(1026.828125,315.59375)
+112.34185999999956	DATA	Mouse: wheel shift=(0,7), pos=(1026.828125,315.59375)
+112.35834499999966	DATA	Mouse: wheel shift=(0,7), pos=(1026.828125,315.59375)
+112.37497499999971	DATA	Mouse: wheel shift=(0,6), pos=(1026.828125,315.59375)
+112.39295499999935	DATA	Mouse: wheel shift=(0,5), pos=(1026.828125,315.59375)
+112.40855499999998	DATA	Mouse: wheel shift=(0,5), pos=(1026.828125,315.59375)
+112.42429499999982	DATA	Mouse: wheel shift=(0,5), pos=(1026.828125,315.59375)
+112.45748000000005	DATA	Mouse: wheel shift=(0,9), pos=(1026.828125,315.59375)
+112.47483999999984	DATA	Mouse: wheel shift=(0,4), pos=(1026.828125,315.59375)
+112.49118	DATA	Mouse: wheel shift=(0,4), pos=(1026.828125,315.59375)
+112.50702000000003	DATA	Mouse: wheel shift=(0,3), pos=(1026.828125,315.59375)
+112.52476500000012	DATA	Mouse: wheel shift=(0,3), pos=(1026.828125,315.59375)
+112.54055499999959	DATA	Mouse: wheel shift=(0,3), pos=(1026.828125,315.59375)
+112.55776499999956	DATA	Mouse: wheel shift=(0,2), pos=(1026.828125,315.59375)
+112.57439499999964	DATA	Mouse: wheel shift=(0,2), pos=(1026.828125,315.59375)
+112.5927249999995	DATA	Mouse: wheel shift=(0,2), pos=(1026.828125,315.59375)
+112.60762499999966	DATA	Mouse: wheel shift=(0,2), pos=(1026.828125,315.59375)
+112.62496499999996	DATA	Mouse: wheel shift=(0,2), pos=(1026.828125,315.59375)
+112.64170999999988	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.65821499999947	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.67409999999929	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.6915599999993	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.70768999999927	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.7401799999998	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.7575449999995	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.79143999999998	DATA	Mouse: wheel shift=(0,1), pos=(1026.828125,315.59375)
+112.89953999999942	DATA	Keydown: a
+112.91395499999999	EXP	fixation: autoDraw = false
+112.91395499999999	EXP	image_stim: autoDraw = false
+112.91395499999999	EXP	text_stim: autoDraw = false
+112.91395499999999	EXP	button_left: autoDraw = false
+112.91395499999999	EXP	trial_label_left: autoDraw = false
+112.91395499999999	EXP	button_right: autoDraw = false
+112.91395499999999	EXP	trial_label_right: autoDraw = false
+112.91395499999999	EXP	feedback_msg: text = "+"
+112.91395499999999	EXP	feedback_msg: autoDraw = true
+113.91065999999955	EXP	feedback_msg: autoDraw = false
+113.91065999999955	EXP	feedback_msg: autoDraw = false
+113.91065999999955	EXP	image_stim: image = {}
+113.91065999999955	EXP	text_stim: text = "Hurt"
+113.91065999999955	EXP	trial_label_left: text = "A = \r\nPositive"
+113.91065999999955	EXP	trial_label_right: text = "L = \r\nNegative"
+113.91065999999955	EXP	fixation: autoDraw = true
+114.39726999999948	DATA	Keydown:  
+114.41622499999995	EXP	fixation: autoDraw = false
+114.41622499999995	EXP	image_stim: autoDraw = true
+114.41622499999995	EXP	text_stim: autoDraw = true
+114.41622499999995	EXP	button_left: autoDraw = true
+114.41622499999995	EXP	trial_label_left: autoDraw = true
+114.41622499999995	EXP	button_right: autoDraw = true
+114.41622499999995	EXP	trial_label_right: autoDraw = true
+115.6894050000001	DATA	Keydown: l
+115.69652999999926	EXP	fixation: autoDraw = false
+115.69652999999926	EXP	image_stim: autoDraw = false
+115.69652999999926	EXP	text_stim: autoDraw = false
+115.69652999999926	EXP	button_left: autoDraw = false
+115.69652999999926	EXP	trial_label_left: autoDraw = false
+115.69652999999926	EXP	button_right: autoDraw = false
+115.69652999999926	EXP	trial_label_right: autoDraw = false
+115.69652999999926	EXP	feedback_msg: text = "+"
+115.69652999999926	EXP	feedback_msg: autoDraw = true
+116.56062999999995	DATA	Keydown:  
+116.6973449999996	EXP	feedback_msg: autoDraw = false
+116.6973449999996	EXP	feedback_msg: autoDraw = false
+116.6973449999996	EXP	image_stim: image = {}
+116.6973449999996	EXP	text_stim: text = "Love"
+116.6973449999996	EXP	trial_label_left: text = "A = \r\nPositive"
+116.6973449999996	EXP	trial_label_right: text = "L = \r\nNegative"
+116.6973449999996	EXP	fixation: autoDraw = true
+117.12156499999946	DATA	Keydown:  
+117.19338499999957	EXP	fixation: autoDraw = false
+117.21624499999962	EXP	image_stim: autoDraw = true
+117.21624499999962	EXP	text_stim: autoDraw = true
+117.21624499999962	EXP	button_left: autoDraw = true
+117.21624499999962	EXP	trial_label_left: autoDraw = true
+117.21624499999962	EXP	button_right: autoDraw = true
+117.21624499999962	EXP	trial_label_right: autoDraw = true
+118.44927499999993	DATA	Keydown: a
+118.46365999999944	EXP	fixation: autoDraw = false
+118.46365999999944	EXP	image_stim: autoDraw = false
+118.46365999999944	EXP	text_stim: autoDraw = false
+118.46365999999944	EXP	button_left: autoDraw = false
+118.46365999999944	EXP	trial_label_left: autoDraw = false
+118.46365999999944	EXP	button_right: autoDraw = false
+118.46365999999944	EXP	trial_label_right: autoDraw = false
+118.46365999999944	EXP	feedback_msg: text = "+"
+118.46365999999944	EXP	feedback_msg: autoDraw = true
+118.7058049999996	DATA	Keydown:  
+119.46318499999963	EXP	feedback_msg: autoDraw = false
+119.46318499999963	EXP	feedback_msg: autoDraw = false
+119.46318499999963	EXP	image_stim: image = {}
+119.46318499999963	EXP	text_stim: text = "Nasty"
+119.46318499999963	EXP	trial_label_left: text = "A = \r\nPositive"
+119.46318499999963	EXP	trial_label_right: text = "L = \r\nNegative"
+119.46318499999963	EXP	fixation: autoDraw = true
+119.59089499999936	DATA	Keydown: Escape
