@@ -1,0 +1,79 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,key_resp.rt,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.413374023,-0.177929687,0,0,0,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.413374023,-0.177929687,0,0,0,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.35983,,,,,,,,1.35983,1,0,0,0,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,0.981505,,,,,,,,0.981505,1,0,1,1,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.325685,,,,,,,,1.325685,1,0,2,2,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.395825,,,,,,,,1.395825,1,0,3,3,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.0121,,,,,,,,1.0121,1,0,4,4,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.81534,,,,,,,,1.81534,1,0,5,5,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,0.9915,,,,,,,,0.9915,1,0,6,6,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.32507,,,,,,,,1.32507,1,0,7,7,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,0.7503,,,,,,,,0.7503,1,0,8,8,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.203645,,,,,,,,1.203645,1,0,9,9,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,2.152185,,,,,,,,2.152185,1,0,0,0,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.087005,,,,,,,,1.087005,1,0,1,1,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,4.19467,,,,,,,,4.19467,1,0,2,2,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,0.909115,,,,,,,,0.909115,1,0,3,3,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,0.960625,,,,,,,,0.960625,1,0,4,4,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.432265,,,,,,,,1.432265,1,0,5,5,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,0.748815,,,,,,,,0.748815,1,0,6,6,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.322765,,,,,,,,1.322765,1,0,7,7,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.83291,,,,,,,,1.83291,1,0,8,8,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.0571,,,,,,,,1.0571,1,0,9,9,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,0,1,1,1,1,incong_train.xlsx,"A = 
+Black","L = 
+White"
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,2.15105,,,,,,,,2.15105,1,0,0,0,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,6.841375,,,,,,,,6.841375,1,0,1,1,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,0,1.40325,,,,,,,,1.40325,0,0,2,2,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,3.55699,,,,,,,,3.55699,1,0,3,3,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.73878,,,,,,,,1.73878,1,0,4,4,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,2.394085,,,,,,,,2.394085,1,0,5,5,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.497305,,,,,,,,1.497305,1,0,6,6,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,0.94619,,,,,,,,0.94619,1,0,7,7,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,0,2.205645,,,,,,,,2.205645,0,0,8,8,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,2.05353,,,,,,,,2.05353,1,0,9,9,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.976865,,,,,,,,1.976865,1,0,10,10,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.322235,,,,,,,,1.322235,1,0,11,11,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,0.817255,,,,,,,,0.817255,1,0,12,12,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.146925,,,,,,,,1.146925,1,0,13,13,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,0,2.16636,,,,,,,,2.16636,0,0,14,14,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.04525,,,,,,,,1.04525,1,0,15,15,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.52331,,,,,,,,1.52331,1,0,16,16,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.051765,,,,,,,,1.051765,1,0,17,17,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.88003,,,,,,,,1.88003,1,0,18,18,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,4.361185,,,,,,,,4.361185,1,0,19,19,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,0,2,2,2,1,incong_test.xlsx,"A = 
+Black or 
+Positive","L = 
+White or 
+Negative"
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,7.956695,,,,,,,,7.956695,1,0,0,0,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.9942,,,,,,,,1.9942,1,0,1,1,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,0,0.74889,,,,,,,,0.74889,0,0,2,2,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.4496,,,,,,,,1.4496,1,0,3,3,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,2.08451,,,,,,,,2.08451,1,0,4,4,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,3.304805,,,,,,,,3.304805,1,0,5,5,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,0.73278,,,,,,,,0.73278,1,0,6,6,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,0.8582,,,,,,,,0.8582,1,0,7,7,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,l,1,1.479085,,,,,,,,1.479085,1,0,8,8,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,a,1,1.19855,,,,,,,,1.19855,1,0,9,9,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,1,2,001,male,2020-10-06_18h55.39.878,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,0,3,3,3,1,cong_train.xlsx,"A = 
+White","L = 
+Black"
