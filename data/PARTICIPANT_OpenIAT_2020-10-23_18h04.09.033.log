@@ -1,0 +1,10 @@
+0.29907000000821427	EXP	Created Window = Window( name=Window, fullscr=true, color=#000000, units=height, waitBlanking=true, autoLog=true, size=[1280,610] )
+2.4308250000176486	DATA	Keydown: 3
+2.8142900000093505	DATA	Keydown: 0
+2.949495000008028	DATA	Keydown: 0
+3.315135000011651	DATA	Keydown: 6
+5.934550000005402	DATA	Keydown: Backspace
+6.131294999999227	DATA	Keydown: Backspace
+6.291714999999385	DATA	Keydown: Backspace
+6.4678750000020955	DATA	Keydown: Backspace
+7.635869999998249	DATA	Keydown: 5
