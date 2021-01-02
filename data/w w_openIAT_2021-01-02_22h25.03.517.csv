@@ -1,0 +1,99 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+-0.013265306,-0.387755102,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+-0.030612245,-0.396938776,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.355102041,-0.340816327,1,0,0,1.249,button_left,1.249,1,0,0,0,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.359183673,-0.324489796,1,0,0,1.133,button_right,1.133,1,0,1,1,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.362244898,-0.324489796,1,0,0,1.266,button_left,1.266,1,0,2,2,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.379591837,-0.328571429,1,0,0,0.851,button_right,0.851,1,0,3,3,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.383673469,-0.303061224,1,0,0,0.603,button_left,0.603,1,0,4,4,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.370408163,-0.319387755,1,0,0,0.682,button_right,0.682,1,0,5,5,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.393877551,-0.286734694,1,0,0,0.682,button_left,0.682,1,0,6,6,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.370408163,-0.32755102,1,0,0,0.729,button_right,0.729,1,0,7,7,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.391836735,-0.296938776,1,0,0,0.551,button_left,0.551,1,0,8,8,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.359183673,-0.313265306,1,0,0,0.582,button_right,0.582,1,0,9,9,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.346938776,-0.32244898,1,0,0,1.166,button_right,1.166,0,0,0,0,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.357142857,-0.313265306,1,0,0,0.802,button_right,0.802,1,0,1,1,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.397959184,-0.281632653,1,0,0,0.601,button_left,0.601,1,0,2,2,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.353061224,-0.296938776,1,0,0,0.548,button_right,0.548,1,0,3,3,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.342857143,-0.326530612,1,0,0,0.685,button_right,0.685,1,0,4,4,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.342857143,-0.336734694,1,0,0,0.618,button_right,0.618,1,0,5,5,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.386734694,-0.278571429,1,0,0,0.683,button_left,0.683,1,0,6,6,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.383673469,-0.276530612,1,0,0,0.634,button_left,0.634,1,0,7,7,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.354081633,-0.32244898,1,0,0,0.599,button_right,0.599,1,0,8,8,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.367346939,-0.283673469,1,0,0,0.633,button_left,0.633,1,0,9,9,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,,,,,,,,,,,,,,,,,,,0,1,1,1,1,cong_train.xlsx,"A = 
+White","L = 
+Black"
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.398979592,-0.304081633,1,0,0,0.966,button_left,0.966,1,0,0,0,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.385714286,-0.27244898,1,0,0,0.632,button_left,0.632,1,0,1,1,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.36122449,-0.332653061,1,0,0,0.799,button_right,0.799,1,0,2,2,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.352040816,-0.33877551,1,0,0,0.867,button_right,0.867,1,0,3,3,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.375510204,-0.284693878,1,0,0,0.784,button_left,0.784,1,0,4,4,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.342857143,-0.334693878,1,0,0,0.715,button_right,0.715,1,0,5,5,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.354081633,-0.321428571,1,0,0,0.667,button_right,0.667,1,0,6,6,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.383673469,-0.27755102,1,0,0,0.748,button_left,0.748,1,0,7,7,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.351020408,-0.32244898,1,0,0,0.698,button_right,0.698,1,0,8,8,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.33877551,-0.32755102,1,0,0,0.566,button_right,0.566,1,0,9,9,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.35,-0.333673469,1,0,0,0.65,button_right,0.65,1,0,10,10,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.386734694,-0.294897959,1,0,0,0.581,button_left,0.581,1,0,11,11,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.384693878,-0.294897959,1,0,0,0.599,button_left,0.599,1,0,12,12,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.378571429,-0.282653061,1,0,0,0.752,button_left,0.752,1,0,13,13,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.393877551,-0.28877551,1,0,0,0.59,button_left,0.59,1,0,14,14,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.375510204,-0.297959184,1,0,0,0.665,button_left,0.665,1,0,15,15,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.358163265,-0.337755102,1,0,0,0.617,button_right,0.617,1,0,16,16,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.382653061,-0.296938776,1,0,0,0.633,button_left,0.633,1,0,17,17,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.370408163,-0.324489796,1,0,0,0.667,button_right,0.667,1,0,18,18,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.337755102,-0.353061224,1,0,0,0.55,button_right,0.55,1,0,19,19,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,,,,,,,,,,,,,,,,,,,0,2,2,2,1,cong_test.xlsx,"A = 
+White or 
+Positive","L = 
+Black or 
+Negative"
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.36122449,-0.330612245,1,0,0,0.517,button_left,0.517,1,0,0,0,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.356122449,-0.320408163,1,0,0,0.498,button_left,0.498,1,0,1,1,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.379591837,-0.336734694,1,0,0,0.635,button_right,0.635,1,0,2,2,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.369387755,-0.314285714,1,0,0,0.553,button_right,0.553,1,0,3,3,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.371428571,-0.320408163,1,0,0,0.75,button_left,0.75,1,0,4,4,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.376530612,-0.31122449,1,0,0,0.416,button_left,0.416,0,0,5,5,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.342857143,-0.334693878,1,0,0,0.732,button_right,0.732,1,0,6,6,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.380612245,-0.310204082,1,0,0,0.647,button_left,0.647,1,0,7,7,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.356122449,-0.313265306,1,0,0,0.482,button_left,0.482,1,0,8,8,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.346938776,-0.347959184,1,0,0,0.731,button_right,0.731,1,0,9,9,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,,,,,,,,,,,,,,,,,,,0,3,3,3,1,incong_train.xlsx,"A = 
+Black","L = 
+White"
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.336734694,-0.336734694,1,0,0,0.75,button_right,0.75,1,0,0,0,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.340816327,-0.330612245,1,0,0,0.786,button_left,0.786,1,0,1,1,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.35,-0.337755102,1,0,0,0.566,button_left,0.566,1,0,2,2,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.366326531,-0.313265306,1,0,0,0.649,button_left,0.649,1,0,3,3,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.35,-0.332653061,1,0,0,0.55,button_left,0.55,1,0,4,4,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.354081633,-0.319387755,1,0,0,0.949,button_left,0.949,1,0,5,5,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.346938776,-0.354081633,1,0,0,0.666,button_right,0.666,1,0,6,6,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.368367347,-0.318367347,1,0,0,0.582,button_left,0.582,1,0,7,7,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.355102041,-0.334693878,1,0,0,0.701,button_right,0.701,1,0,8,8,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.332653061,-0.364285714,1,0,0,0.845,button_right,0.845,1,0,9,9,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.346938776,-0.348979592,1,0,0,0.636,button_right,0.636,1,0,10,10,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.315306122,-0.379591837,1,0,0,0.666,button_right,0.666,1,0,11,11,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.345918367,-0.348979592,1,0,0,0.649,button_left,0.649,0,0,12,12,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.328571429,-0.347959184,1,0,0,1.353,button_left,1.353,1,0,13,13,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.378571429,-0.323469388,1,0,0,0.601,button_left,0.601,1,0,14,14,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.370408163,-0.316326531,1,0,0,0.685,button_left,0.685,1,0,15,15,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,-0.371428571,-0.308163265,1,0,0,0.518,button_left,0.518,1,0,16,16,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.359183673,-0.337755102,1,0,0,0.816,button_right,0.816,1,0,17,17,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.330612245,-0.347959184,1,0,0,0.617,button_right,0.617,1,0,18,18,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,w w,1,001,male,2021-01-02_22h25.03.517,openIAT,2020.1.0rc3,iPhone,60,,0,0.35,-0.328571429,1,0,0,0.683,button_right,0.683,1,0,19,19,15,1,stimuli/blank.png,Agony,l,,,,,,,,
