@@ -1,0 +1,28 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.06234809,-0.403012153,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.06234809,-0.403012153,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,-0.324743924,-0.319361979,1,0,0,16.3495,button_left,16.3495,1,0,0,0,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,0.323298611,-0.309969618,1,0,0,1.7987,button_right,1.7987,1,0,1,1,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,-0.384244792,-0.292452257,1,0,0,1.4153,button_left,1.4153,1,0,2,2,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,0.356037326,-0.300460069,1,0,0,3.8499,button_right,3.8499,1,0,3,3,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,-0.326354167,-0.297664931,1,0,0,1.4491,button_left,1.4491,1,0,4,4,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,0.357769097,-0.270963542,1,0,0,1.8161,button_right,1.8161,1,0,5,5,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,-0.331523438,-0.302625868,1,0,0,1.4324,button_left,1.4324,1,0,6,6,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,0.312352431,-0.294713542,1,0,0,1.6833,button_right,1.6833,1,0,7,7,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,-0.298763021,-0.321857639,1,0,0,1.5827,button_left,1.5827,1,0,8,8,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,0,0.34452691,-0.29156684,1,0,0,1.3986,button_right,1.3986,1,0,9,9,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,x,1,001,male,2021-08-27_15h27.07.152,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
