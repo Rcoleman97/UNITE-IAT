@@ -1,0 +1,28 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,key_resp.rt,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.013425953,-0.463888918,0,0,0,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.013425953,-0.463888918,0,0,0,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,a,1,0.9965,,,,,,,,0.9965,1,0,0,0,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,l,1,0.783,,,,,,,,0.783,1,0,1,1,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,a,1,0.5632,,,,,,,,0.5632,1,0,2,2,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,l,1,0.5666,,,,,,,,0.5666,1,0,3,3,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,l,1,0.8329,,,,,,,,0.8329,1,0,4,4,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,a,1,0.9834,,,,,,,,0.9834,1,0,5,5,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,l,1,0.5394,,,,,,,,0.5394,1,0,6,6,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,a,1,0.5501,,,,,,,,0.5501,1,0,7,7,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,a,1,0.549,,,,,,,,0.549,1,0,8,8,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,l,1,0.5544,,,,,,,,0.5544,1,0,9,9,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,h,1,001,male,2022-03-25_19h39.10.747,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
