@@ -1,0 +1,28 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.035185185,-0.40462963,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.033333333,-0.407407407,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,0.437037037,-0.321296296,1,0,0,3.1455,button_right,3.1455,0,0,0,0,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.462037037,-0.342592593,1,0,0,5.3149,button_left,5.3149,1,0,1,1,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.391666667,-0.363888889,1,0,0,4.7651,button_left,4.7651,1,0,2,2,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.391666667,-0.363888889,1,0,0,2.9476,button_left,2.9476,1,0,3,3,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,0.448148148,-0.362037037,1,0,0,2.7985,button_right,2.7985,1,0,4,4,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.333333333,-0.366666667,1,0,0,4.7982,button_left,4.7982,0,0,5,5,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.357407407,-0.366666667,1,0,0,2.7467,button_left,2.7467,0,0,6,6,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.37962963,-0.372222222,1,0,0,5.6317,button_left,5.6317,0,0,7,7,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.434259259,-0.357407407,1,0,0,1.8984,button_left,1.8984,1,0,8,8,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,0,-0.346296296,-0.368518519,1,0,0,9.6982,button_left,9.6982,0,0,9,9,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,Ramon,1,001,male,2022-06-24_16h41.06.688,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
