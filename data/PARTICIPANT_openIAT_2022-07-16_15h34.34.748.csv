@@ -1,0 +1,37 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.026041667,-0.403645833,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.026041667,-0.403645833,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.266927083,-0.272135417,1,0,0,1.70555,button_left,1.70555,0,0,0,0,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.307291667,-0.276041667,1,0,0,0.782355,button_right,0.782355,1,0,1,1,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.02734375,0.018229167,1,0,0,0.098255,button_right,0.098255,0,0,2,2,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.39453125,-0.268229167,1,0,0,0.66445,button_left,0.66445,1,0,3,3,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.25,-0.274739583,1,0,0,0.64755,button_right,0.64755,0,0,4,4,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.25,-0.272135417,1,0,0,0.3484,button_right,0.3484,1,0,5,5,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.252604167,-0.272135417,1,0,0,0.365165,button_right,0.365165,1,0,6,6,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.430989583,-0.294270833,1,0,0,1.96509,button_right,1.96509,0,0,7,7,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.430989583,-0.29296875,1,0,0,4.63101,button_right,4.63101,0,0,8,8,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.424479167,-0.290364583,1,0,0,1.03255,button_right,1.03255,1,0,9,9,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.244791667,-0.303385417,1,0,0,0.581485,button_left,0.581485,0,0,0,0,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.27734375,-0.313802083,1,0,0,1.63195,button_right,1.63195,1,0,1,1,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.2890625,-0.303385417,1,0,0,2.03153,button_left,2.03153,1,0,2,2,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.31640625,-0.3203125,1,0,0,1.498105,button_right,1.498105,1,0,3,3,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.30078125,-0.309895833,1,0,0,2.131725,button_left,2.131725,1,0,4,4,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.2734375,-0.30078125,1,0,0,2.331425,button_left,2.331425,1,0,5,5,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,-0.2734375,-0.30078125,1,0,0,1.19813,button_left,1.19813,1,0,6,6,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.291666667,-0.282552083,1,0,0,1.364915,button_right,1.364915,1,0,7,7,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,,2,001,male,2022-07-16_15h34.34.748,openIAT,2020.1.0rc3,Linux x86_64,60,,0,0.291666667,-0.282552083,1,0,0,1.02901,button_right,1.02901,1,0,8,8,5,1,stimuli/white_3.jpg,,l,,,,,,,,
