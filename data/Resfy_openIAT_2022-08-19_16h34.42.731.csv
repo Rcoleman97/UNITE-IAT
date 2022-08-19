@@ -1,0 +1,99 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.040240606,-0.394701809,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+-0.007863066,-0.401179928,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.396392229,-0.31233724,1,0,0,0.9343,button_left,0.9343,1,0,0,0,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.393617015,-0.32159178,1,0,0,1.8594,button_left,1.8594,0,0,1,1,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.322386678,-0.282723236,1,0,0,0.6469,button_right,0.6469,0,0,2,2,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.385291396,-0.348429616,1,0,0,0.5107,button_left,0.5107,0,0,3,3,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.312210931,-0.343802473,1,0,0,0.4465,button_right,0.4465,0,0,4,4,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.389916738,-0.34565328,1,0,0,0.387,button_left,0.387,1,0,5,5,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.333487532,-0.325293562,1,0,0,0.9646,button_right,0.9646,1,0,6,6,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.345513407,-0.268841468,1,0,0,0.734,button_right,0.734,1,0,7,7,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.327012041,-0.280872175,1,0,0,1.5748,button_right,1.5748,1,0,8,8,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.437095282,-0.28827574,1,0,0,0.9926,button_left,0.9926,1,0,9,9,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.385291396,-0.341026052,1,0,0,1.7827,button_left,1.7827,0,0,0,0,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.399167432,-0.328069899,1,0,0,0.702,button_left,0.702,1,0,1,1,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.382516183,-0.341026052,1,0,0,0.6887,button_left,0.6887,1,0,2,2,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.410268254,-0.303082869,1,0,0,0.6054,button_left,0.6054,1,0,3,3,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.383441257,-0.346578895,1,0,0,0.5993,button_left,0.5993,0,0,4,4,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.330712382,-0.308635627,1,0,0,1.0153,button_right,1.0153,1,0,5,5,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.327937147,-0.282723236,1,0,0,0.6087,button_right,0.6087,1,0,6,6,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.334412638,-0.329920705,1,0,0,0.488,button_right,0.488,0,0,7,7,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.396392229,-0.341026052,1,0,0,0.8269,button_left,0.8269,1,0,8,8,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.337187873,-0.330846151,1,0,0,0.6102,button_right,0.6102,1,0,9,9,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,,,,,,,,,,,,,,,,,,,0,1,1,1,1,cong_train.xlsx,"A = 
+White","L = 
+Black"
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.383441257,-0.33917533,1,0,0,2.2972,button_left,2.2972,1,0,0,0,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.369565211,-0.325293562,1,0,0,1.443,button_left,1.443,1,0,1,1,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.321461656,-0.341951497,1,0,0,0.4339,button_right,0.4339,0,0,2,2,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.351988898,-0.314188215,1,0,0,0.7983,button_right,0.7983,1,0,3,3,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.332562425,-0.291977522,1,0,0,0.9557,button_right,0.9557,1,0,4,4,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.315911187,-0.323442586,1,0,0,0.4821,button_right,0.4821,0,0,5,5,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.357539304,-0.356758626,1,0,0,0.3941,button_left,0.3941,0,0,6,6,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.362164656,-0.341951497,1,0,0,0.758,button_left,0.758,1,0,7,7,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.368640147,-0.341026052,1,0,0,0.4656,button_left,0.4656,1,0,8,8,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.364939849,-0.341951497,1,0,0,0.5932,button_left,0.5932,0,0,9,9,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.401942783,-0.305859205,1,0,0,2.3012,button_right,2.3012,1,0,10,10,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.361239624,-0.295679304,1,0,0,2.2855,button_right,2.2855,1,0,11,11,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.372340478,-0.328069899,1,0,0,8.5999,button_right,8.5999,1,0,12,12,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.235430145,-0.374342092,1,0,0,8.765,button_left,8.765,1,0,13,13,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.383441257,-0.276245032,1,0,0,0.8531,button_left,0.8531,0,0,14,14,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.375115628,-0.322517225,1,0,0,0.5828,button_left,0.5828,0,0,15,15,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.413043478,-0.292902968,1,0,0,0.6363,button_left,0.6363,1,0,16,16,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.365864987,-0.291977522,1,0,0,0.6853,button_right,0.6853,1,0,17,17,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.376040702,-0.308635627,1,0,0,0.8374,button_left,0.8374,1,0,18,18,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.349213833,-0.254034339,1,0,0,0.8092,button_right,0.8092,0,0,19,19,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,,,,,,,,,,,,,,,,,,,0,2,2,2,1,cong_test.xlsx,"A = 
+White or 
+Positive","L = 
+Black or 
+Negative"
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.342738342,-0.269766914,1,0,0,0.8086,button_right,0.8086,0,0,0,0,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.384366322,-0.305859205,1,0,0,0.8903,button_left,0.8903,1,0,1,1,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.374190564,-0.298455641,1,0,0,0.5318,button_left,0.5318,1,0,2,2,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.335337628,-0.350280592,1,0,0,0.3997,button_left,0.3997,0,0,3,3,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.345513407,-0.332697127,1,0,0,0.4737,button_left,0.4737,0,0,4,4,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.399167432,-0.281797621,1,0,0,0.8608,button_left,0.8608,1,0,5,5,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.376040702,-0.304933929,1,0,0,0.8432,button_left,0.8432,1,0,6,6,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.338112895,-0.28827574,1,0,0,0.514,button_right,0.514,1,0,7,7,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.333487532,-0.29660475,1,0,0,0.3779,button_right,0.3779,1,0,8,8,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.331637404,-0.291052161,1,0,0,0.5987,button_right,0.5987,1,0,9,9,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,,,,,,,,,,,,,,,,,,,0,3,3,3,1,incong_train.xlsx,"A = 
+Black","L = 
+White"
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.383441257,-0.280872175,1,0,0,0.9523,button_left,0.9523,1,0,0,0,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.389916738,-0.27254325,1,0,0,0.7607,button_left,0.7607,1,0,1,1,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.398242368,-0.26421424,1,0,0,1.8996,button_left,1.8996,0,0,2,2,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.378815905,-0.303082869,1,0,0,0.7953,button_left,0.7953,1,0,3,3,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.323311869,-0.367863973,1,0,0,0.5595,button_right,0.5595,1,0,4,4,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.328862169,-0.358609602,1,0,0,0.538,button_left,0.538,0,0,5,5,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.323311869,-0.33732427,1,0,0,0.0488,button_right,0.0488,0,0,6,6,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.341813151,-0.327144368,1,0,0,0.7641,button_right,0.7641,1,0,7,7,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.341813119,-0.315113661,1,0,0,1.292,button_left,1.292,1,0,8,8,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.318686422,-0.317889998,1,0,0,0.6905,button_right,0.6905,1,0,9,9,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.34736362,-0.285499403,1,0,0,0.8817,button_right,0.8817,0,0,10,10,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.329787233,-0.330846151,1,0,0,1.0498,button_left,1.0498,0,0,11,11,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.314061059,-0.32159178,1,0,0,0.6989,button_right,0.6989,1,0,12,12,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.343663279,-0.310486433,1,0,0,0.6788,button_left,0.6788,0,0,13,13,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.293709564,-0.335473463,1,0,0,0.1395,button_right,0.1395,1,0,14,14,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.294634671,-0.341026052,1,0,0,0.4342,button_right,0.4342,0,0,15,15,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.289084201,-0.358609602,1,0,0,0.2552,button_right,0.2552,0,0,16,16,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,-0.321461614,-0.335473463,1,0,0,0.6075,button_left,0.6075,0,0,17,17,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.297409905,-0.37989468,1,0,0,0.5833,button_right,0.5833,0,0,18,18,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,Resfy,1,001,male,2022-08-19_16h34.42.731,openIAT,2020.1.0rc3,Linux armv8l,60,,0,0.346438514,-0.340100691,1,0,0,0.7594,button_right,0.7594,0,0,19,19,4,1,stimuli/black_3.jpg,,a,,,,,,,,
