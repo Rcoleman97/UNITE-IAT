@@ -1,0 +1,99 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,key_resp.rt,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.058333333,-0.375925926,0,0,0,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.058333333,-0.375925926,0,0,0,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,2.0502,,,,,,,,2.0502,1,0,0,0,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,2.1662,,,,,,,,2.1662,1,0,1,1,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.8811,,,,,,,,0.8811,1,0,2,2,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.6484,,,,,,,,0.6484,1,0,3,3,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.9211,,,,,,,,1.9211,1,0,4,4,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.7181,,,,,,,,0.7181,1,0,5,5,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.7311,,,,,,,,0.7311,1,0,6,6,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.7196,,,,,,,,0.7196,1,0,7,7,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.6136,,,,,,,,0.6136,1,0,8,8,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.8017,,,,,,,,0.8017,1,0,9,9,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,6.9687,,,,,,,,6.9687,1,0,0,0,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.9393,,,,,,,,0.9393,1,0,1,1,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.9215,,,,,,,,1.9215,1,0,2,2,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.68,,,,,,,,0.68,1,0,3,3,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.0353,,,,,,,,1.0353,1,0,4,4,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.8323,,,,,,,,0.8323,1,0,5,5,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.8493,,,,,,,,0.8493,1,0,6,6,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.618,,,,,,,,0.618,1,0,7,7,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.6701,,,,,,,,0.6701,1,0,8,8,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.5838,,,,,,,,0.5838,1,0,9,9,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,0,1,1,1,1,incong_train.xlsx,"A = 
+Black","L = 
+White"
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.8401,,,,,,,,1.8401,1,0,0,0,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.5173,,,,,,,,1.5173,1,0,1,1,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.7638,,,,,,,,1.7638,1,0,2,2,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.6496,,,,,,,,1.6496,1,0,3,3,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.3165,,,,,,,,1.3165,1,0,4,4,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.0165,,,,,,,,1.0165,1,0,5,5,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.9498,,,,,,,,0.9498,1,0,6,6,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.8997,,,,,,,,0.8997,1,0,7,7,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.6998,,,,,,,,0.6998,1,0,8,8,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.9344,,,,,,,,0.9344,1,0,9,9,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.6028,,,,,,,,0.6028,1,0,10,10,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.8164,,,,,,,,0.8164,1,0,11,11,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.6494,,,,,,,,0.6494,1,0,12,12,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.7665,,,,,,,,0.7665,1,0,13,13,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.7328,,,,,,,,0.7328,1,0,14,14,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.5995,,,,,,,,0.5995,1,0,15,15,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.666,,,,,,,,0.666,1,0,16,16,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,3.0503,,,,,,,,3.0503,1,0,17,17,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.6987,,,,,,,,0.6987,1,0,18,18,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.8972,,,,,,,,0.8972,1,0,19,19,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,0,2,2,2,1,incong_test.xlsx,"A = 
+Black or 
+Positive","L = 
+White or 
+Negative"
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,3.0147,,,,,,,,3.0147,1,0,0,0,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.9483,,,,,,,,0.9483,1,0,1,1,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.0481,,,,,,,,1.0481,1,0,2,2,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.8004,,,,,,,,0.8004,1,0,3,3,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.6317,,,,,,,,0.6317,1,0,4,4,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.5819,,,,,,,,0.5819,1,0,5,5,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.9985,,,,,,,,0.9985,1,0,6,6,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.7316,,,,,,,,0.7316,1,0,7,7,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.6149,,,,,,,,0.6149,1,0,8,8,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.5486,,,,,,,,1.5486,1,0,9,9,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,,,,,,,,,,,,,,,,,,,,,0,3,3,3,1,cong_train.xlsx,"A = 
+White","L = 
+Black"
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,2.6492,,,,,,,,2.6492,1,0,0,0,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,2.6161,,,,,,,,2.6161,1,0,1,1,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.2653,,,,,,,,1.2653,1,0,2,2,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.1004,,,,,,,,1.1004,1,0,3,3,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.768,,,,,,,,0.768,1,0,4,4,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.2657,,,,,,,,1.2657,1,0,5,5,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.968,,,,,,,,0.968,1,0,6,6,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.5823,,,,,,,,1.5823,1,0,7,7,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.699,,,,,,,,1.699,1,0,8,8,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.932,,,,,,,,0.932,1,0,9,9,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.8822,,,,,,,,0.8822,1,0,10,10,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.1818,,,,,,,,1.1818,1,0,11,11,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.9154,,,,,,,,0.9154,1,0,12,12,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,1.0492,,,,,,,,1.0492,1,0,13,13,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.8486,,,,,,,,0.8486,1,0,14,14,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.815,,,,,,,,0.815,1,0,15,15,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.7818,,,,,,,,0.7818,1,0,16,16,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,1.9987,,,,,,,,1.9987,1,0,17,17,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,a,1,0.749,,,,,,,,0.749,1,0,18,18,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,Jesse D,2,001,male,2022-12-02_12h59.58.906,openIAT,2020.1.0rc3,Linux x86_64,60,l,1,0.9821,,,,,,,,0.9821,1,0,19,19,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
