@@ -1,0 +1,20 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns
+0.031021401,-0.396209039,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",大法师,1,001,male,2023-01-06_13h38.38.740,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,
+-0.018972496,-0.373912274,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",大法师,1,001,male,2023-01-06_13h38.38.740,openIAT,2020.1.0rc3,MacIntel,60,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,大法师,1,001,male,2023-01-06_13h38.38.740,openIAT,2020.1.0rc3,MacIntel,60,,0,0.01413173,-0.278868386,1,0,0,0.019,button_left,0.019,0,0,0,0,1,1,stimuli/blank.png,Bad,l
+,,,,,,,,,,,,,大法师,1,001,male,2023-01-06_13h38.38.740,openIAT,2020.1.0rc3,MacIntel,60,,0,-0.292975306,-0.330102313,1,0,0,0.8498,button_left,0.8498,0,0,1,1,9,1,stimuli/blank.png,Nasty,l
+,,,,,,,,,,,,,大法师,1,001,male,2023-01-06_13h38.38.740,openIAT,2020.1.0rc3,MacIntel,60,,0,0.503076285,-0.297660432,1,0,0,0.4975,button_right,0.4975,1,0,2,2,7,1,stimuli/blank.png,Evil,l
+,,,,,,,,,,,,,大法师,1,001,male,2023-01-06_13h38.38.740,openIAT,2020.1.0rc3,MacIntel,60,,0,-0.293773962,-0.302657742,1,0,0,0.5982,button_left,0.5982,1,0,3,3,4,1,stimuli/blank.png,Pleasure,a
+,,,,,,,,,,,,,大法师,1,001,male,2023-01-06_13h38.38.740,openIAT,2020.1.0rc3,MacIntel,60,,0,0.335177386,-0.310451366,1,0,0,0.5493,button_right,0.5493,0,0,4,4,8,1,stimuli/blank.png,Joy,a
