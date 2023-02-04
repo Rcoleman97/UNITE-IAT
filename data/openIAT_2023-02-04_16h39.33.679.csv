@@ -1,0 +1,31 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+-0.053703704,-0.389814815,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+-0.053703704,-0.389814815,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,0.265740741,-0.374074074,1,0,0,0.5449,button_right,0.5449,0,0,0,0,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,-0.233333333,-0.35462963,1,0,0,1.0479,button_left,1.0479,1,0,1,1,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,-0.334259259,-0.309259259,1,0,0,0.8293,button_left,0.8293,0,0,2,2,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,0.272222222,-0.324074074,1,0,0,1.461,button_right,1.461,0,0,3,3,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,0.292592593,-0.337037037,1,0,0,1.6748,button_right,1.6748,1,0,4,4,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,-0.297222222,-0.332407407,1,0,0,1.4711,button_left,1.4711,1,0,5,5,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,-0.385185185,-0.291666667,1,0,0,2.2649,button_left,2.2649,0,0,6,6,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,0.268518519,-0.336111111,1,0,0,2.046,button_right,2.046,1,0,7,7,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,0.34537037,-0.343518519,1,0,0,1.0954,button_right,1.0954,1,0,8,8,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,-0.335185185,-0.336111111,1,0,0,1.3312,button_left,1.3312,1,0,9,9,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,0.275,-0.325,1,0,0,4.0647,button_right,4.0647,0,0,0,0,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,-0.5375,-0.298863636,1,0,0,122.6491,button_left,122.6491,1,0,1,1,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,דידי,1,001,male,2023-02-04_16h39.33.679,openIAT,2020.1.0rc3,Win32,60,,0,-0.472727273,-0.284090909,1,0,0,1.2205,button_left,1.2205,0,0,2,2,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
