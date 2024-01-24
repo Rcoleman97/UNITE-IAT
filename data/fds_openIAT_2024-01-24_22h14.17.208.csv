@@ -1,0 +1,99 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,key_resp.rt,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.533333333,-0.032407407,0,0,0,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.533333333,-0.032407407,0,0,0,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,2.2228,,,,,,,,2.2228,1,0,0,0,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.1115,,,,,,,,1.1115,1,0,1,1,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.7416,,,,,,,,0.7416,1,0,2,2,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.8078,,,,,,,,0.8078,1,0,3,3,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.8922,,,,,,,,0.8922,1,0,4,4,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.8915,,,,,,,,0.8915,1,0,5,5,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.6065,,,,,,,,0.6065,1,0,6,6,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.625,,,,,,,,0.625,1,0,7,7,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.74,,,,,,,,1.74,1,0,8,8,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.6245,,,,,,,,0.6245,1,0,9,9,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,2.2095,,,,,,,,2.2095,1,0,0,0,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,0,1.2766,,,,,,,,1.2766,0,0,1,1,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.196,,,,,,,,1.196,1,0,2,2,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.1602,,,,,,,,1.1602,1,0,3,3,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.1927,,,,,,,,1.1927,1,0,4,4,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.5255,,,,,,,,1.5255,1,0,5,5,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.7424,,,,,,,,0.7424,1,0,6,6,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.7946,,,,,,,,0.7946,1,0,7,7,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.7749,,,,,,,,0.7749,1,0,8,8,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.7908,,,,,,,,0.7908,1,0,9,9,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,0,1,1,1,1,cong_train.xlsx,"A = 
+White","L = 
+Black"
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.7251,,,,,,,,1.7251,1,0,0,0,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.9736,,,,,,,,0.9736,1,0,1,1,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.9598,,,,,,,,0.9598,1,0,2,2,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.2571,,,,,,,,1.2571,1,0,3,3,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.3429,,,,,,,,1.3429,1,0,4,4,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.0082,,,,,,,,1.0082,1,0,5,5,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.7067,,,,,,,,0.7067,1,0,6,6,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.6734,,,,,,,,0.6734,1,0,7,7,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.5749,,,,,,,,1.5749,1,0,8,8,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.8742,,,,,,,,0.8742,1,0,9,9,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.0086,,,,,,,,1.0086,1,0,10,10,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.0258,,,,,,,,1.0258,1,0,11,11,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.974,,,,,,,,0.974,1,0,12,12,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.8745,,,,,,,,0.8745,1,0,13,13,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.7779,,,,,,,,0.7779,1,0,14,14,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.6405,,,,,,,,0.6405,1,0,15,15,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.8096,,,,,,,,0.8096,1,0,16,16,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.8904,,,,,,,,0.8904,1,0,17,17,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.0761,,,,,,,,1.0761,1,0,18,18,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.7069,,,,,,,,0.7069,1,0,19,19,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,0,2,2,2,1,cong_test.xlsx,"A = 
+White or 
+Positive","L = 
+Black or 
+Negative"
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.9105,,,,,,,,0.9105,1,0,0,0,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.6898,,,,,,,,0.6898,1,0,1,1,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.8578,,,,,,,,0.8578,1,0,2,2,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.6747,,,,,,,,0.6747,1,0,3,3,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.7297,,,,,,,,0.7297,1,0,4,4,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.6766,,,,,,,,0.6766,1,0,5,5,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.6919,,,,,,,,0.6919,1,0,6,6,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.727,,,,,,,,0.727,1,0,7,7,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,0,0.6128,,,,,,,,0.6128,0,0,8,8,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.4074,,,,,,,,1.4074,1,0,9,9,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,,0,3,3,3,1,incong_train.xlsx,"A = 
+Black","L = 
+White"
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,2.2788,,,,,,,,2.2788,1,0,0,0,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.9911,,,,,,,,0.9911,1,0,1,1,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.7097,,,,,,,,1.7097,1,0,2,2,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.5933,,,,,,,,1.5933,1,0,3,3,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.9576,,,,,,,,1.9576,1,0,4,4,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.4729,,,,,,,,1.4729,1,0,5,5,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.1406,,,,,,,,1.1406,1,0,6,6,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,0,1.392,,,,,,,,1.392,0,0,7,7,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.6747,,,,,,,,1.6747,1,0,8,8,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.5095,,,,,,,,1.5095,1,0,9,9,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.2415,,,,,,,,1.2415,1,0,10,10,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.3435,,,,,,,,1.3435,1,0,11,11,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.9909,,,,,,,,0.9909,1,0,12,12,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.4264,,,,,,,,1.4264,1,0,13,13,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.108,,,,,,,,1.108,1,0,14,14,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,0.7631,,,,,,,,0.7631,1,0,15,15,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,0.9756,,,,,,,,0.9756,1,0,16,16,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.4116,,,,,,,,1.4116,1,0,17,17,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,l,1,1.0618,,,,,,,,1.0618,1,0,18,18,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,fds,1,001,male,2024-01-24_22h14.17.208,openIAT,2020.1.0rc3,Win32,60,a,1,1.3243,,,,,,,,1.3243,1,0,19,19,12,1,stimuli/blank.png,Happy,a,,,,,,,,
