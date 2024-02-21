@@ -1,0 +1,17 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,key_resp.rt,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns
+0.033333333,-0.401388889,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",,2,001,female,2024-02-21_15h50.42.201,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,
+0.173611111,-0.394444444,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",,2,001,female,2024-02-21_15h50.42.201,openIAT,2020.1.0rc3,Win32,60,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,2,001,female,2024-02-21_15h50.42.201,openIAT,2020.1.0rc3,Win32,60,l,0,10.844,,,,,,,,10.844,0,0,0,0,2,1,stimuli/blank.png,Happy,a
+,,,,,,,,,,,,,,2,001,female,2024-02-21_15h50.42.201,openIAT,2020.1.0rc3,Win32,60,l,0,4.837,,,,,,,,4.837,0,0,1,1,6,1,stimuli/blank.png,Love,a
