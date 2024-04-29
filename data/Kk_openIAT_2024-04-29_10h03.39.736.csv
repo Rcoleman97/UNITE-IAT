@@ -1,0 +1,79 @@
+instr_done_touch.x,instr_done_touch.y,instr_done_touch.leftButton,instr_done_touch.midButton,instr_done_touch.rightButton,instr_done_touch.clicked_name,instruct_pages.thisRepN,instruct_pages.thisTrialN,instruct_pages.thisN,instruct_pages.thisIndex,instruct_pages.ran,pageN,instruct_text,participant,order,session,gender,date,expName,psychopyVersion,OS,frameRate,key_resp.keys,key_resp.corr,touch_resp.x,touch_resp.y,touch_resp.leftButton,touch_resp.midButton,touch_resp.rightButton,touch_resp.time,touch_resp.clicked_name,rt,corr,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,trials.ran,stimImage,stimWord,CorrAns,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,blocks.ran,conds_file,label_left,label_right
+0.120721534,-0.388706772,1,0,0,instr_done_button,0,0,0,0,1,1,"You will be presented with words or images to classify into categories using either the 'A' or 'L' key. 
+ 
+Try to go as fast as possible while making as few mistakes as possible. 
+",Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+0.108695631,-0.350759436,1,0,0,instr_done_button,0,1,1,1,1,2,"Keep in mind: 
+ 
+1) Labels at the top of the screen indicate which catogory goes with which key. 
+ 
+2) Each word or image has a correct catogory classification 
+ 
+3) Keep your index fingers on the A and L keys to enable a rapid response. 
+ 
+4) The test gives no results if you go slow- please try to go as fast as possible 
+",Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.365865001,-0.22581157,1,0,0,2.4213,button_right,2.4213,1,0,0,0,1,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.353839097,-0.268386417,1,0,0,1.056,button_right,1.056,1,0,1,1,9,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.34551345,-0.269311976,1,0,0,0.9279,button_right,0.9279,1,0,2,2,3,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.327937091,-0.280418537,1,0,0,0.8984,button_right,0.8984,1,0,3,3,7,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.225254394,-0.250801228,1,0,0,0.935,button_left,0.935,1,0,4,4,0,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.24838112,-0.283195072,1,0,0,0.7193,button_left,0.7193,1,0,5,5,4,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.358464488,-0.317440033,1,0,0,0.9585,button_right,0.9585,1,0,6,6,5,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.272432928,-0.285046189,1,0,0,1.1211,button_left,1.1211,1,0,7,7,8,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.302960219,-0.296152609,1,0,0,0.9591,button_left,0.9591,1,0,8,8,6,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.271507846,-0.316514616,1,0,0,0.7355,button_left,0.7355,1,0,9,9,2,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,,,,,,,,,,,,,,,,,,,0,0,0,0,1,pos_neg_train.xlsx,"A = 
+Positive","L = 
+Negative"
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.376040706,-0.312812381,1,0,0,0.9665,button_right,0.9665,1,0,0,0,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.364939866,-0.276716303,1,0,0,2.2002,button_right,2.2002,1,0,1,1,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.37419056,-0.235992573,1,0,0,0.9936,button_left,0.9936,1,0,2,2,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.302035226,-0.35446167,1,0,0,1.1876,button_right,1.1876,1,0,3,3,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.324236834,-0.304482495,1,0,0,1.1627,button_right,1.1627,1,0,4,4,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.337187785,-0.27856742,1,0,0,1.1305,button_left,1.1305,1,0,5,5,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.28908417,-0.291524958,1,0,0,1.0488,button_left,1.0488,1,0,6,6,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.320536525,-0.254503321,1,0,0,1.6404,button_left,1.6404,1,0,7,7,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.370490321,-0.255428879,1,0,0,1.0131,button_right,1.0131,1,0,8,8,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.335337621,-0.310961264,1,0,0,0.9154,button_left,0.9154,1,0,9,9,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,,,,,,,,,,,,,,,,,,,0,1,1,1,1,cong_train.xlsx,"A = 
+White","L = 
+Black"
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.306660493,-0.284120772,1,0,0,1.2385,button_left,1.2385,1,0,0,0,14,1,stimuli/blank.png,Pleasure,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.409343225,-0.239694666,1,0,0,1.786,button_right,1.786,1,0,1,1,4,1,stimuli/black_3.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.356614219,-0.303557078,1,0,0,1.5472,button_right,1.5472,1,0,2,2,13,1,stimuli/blank.png,Hurt,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.287234041,-0.273939768,1,0,0,0.9512,button_left,0.9512,1,0,3,3,9,1,stimuli/white_5.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.340888059,-0.31373794,1,0,0,0.859,button_right,0.859,1,0,4,4,8,1,stimuli/black_5.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.355689155,-0.298003727,1,0,0,0.9956,button_right,0.9956,1,0,5,5,15,1,stimuli/blank.png,Agony,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.300185009,-0.267461,1,0,0,1.0284,button_left,1.0284,1,0,6,6,12,1,stimuli/blank.png,Happy,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.358464488,-0.320216709,1,0,0,1.0228,button_right,1.0228,1,0,7,7,17,1,stimuli/blank.png,Evil,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.362164674,-0.310961264,1,0,0,1.0624,button_right,1.0624,1,0,8,8,2,1,stimuli/black_2.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.331637418,-0.2665353,1,0,0,0.6607,button_right,0.6607,1,0,9,9,6,1,stimuli/black_4.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.276133202,-0.283195072,1,0,0,0.8477,button_left,0.8477,1,0,10,10,10,1,stimuli/blank.png,Good,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.331637365,-0.298003727,1,0,0,0.9937,button_left,0.9937,1,0,11,11,7,1,stimuli/white_4.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.345513397,-0.302631378,1,0,0,0.8596,button_left,0.8596,1,0,12,12,16,1,stimuli/blank.png,Love,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.370490321,-0.314663498,1,0,0,0.9483,button_right,0.9483,1,0,13,13,19,1,stimuli/blank.png,Nasty,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.37696577,-0.296152609,1,0,0,0.8471,button_right,0.8471,1,0,14,14,11,1,stimuli/blank.png,Bad,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.348288607,-0.315588916,1,0,0,0.8648,button_left,0.8648,1,0,15,15,5,1,stimuli/white_3.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.316836269,-0.307259171,1,0,0,0.7253,button_left,0.7253,0,0,16,16,0,1,stimuli/black_1.jpg,NaN,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.324236817,-0.276716303,1,0,0,1.3247,button_left,1.3247,1,0,17,17,18,1,stimuli/blank.png,Joy,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.328862173,-0.311886823,1,0,0,0.9793,button_left,0.9793,1,0,18,18,1,1,stimuli/white_1.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.337187785,-0.350759436,1,0,0,0.8927,button_left,0.8927,1,0,19,19,3,1,stimuli/white_2.jpg,NaN,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,,,,,,,,,,,,,,,,,,,0,2,2,2,1,cong_test.xlsx,"A = 
+White or 
+Positive","L = 
+Black or 
+Negative"
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.330712301,-0.30170582,1,0,0,1.083,button_left,1.083,1,0,0,0,2,1,stimuli/black_2.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.325161881,-0.2665353,1,0,0,0.9295,button_left,0.9295,0,0,1,1,5,1,stimuli/white_3.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.316836269,-0.264684465,1,0,0,1.0502,button_left,1.0502,1,0,2,2,0,1,stimuli/black_1.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.317761333,-0.289673841,1,0,0,1.2652,button_left,1.2652,1,0,3,3,6,1,stimuli/black_4.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.304810347,-0.291524958,1,0,0,0.6507,button_right,0.6507,1,0,4,4,9,1,stimuli/white_5.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.329787237,-0.257279997,1,0,0,0.899,button_left,0.899,1,0,5,5,4,1,stimuli/black_3.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,-0.325161881,-0.334099805,1,0,0,0.9663,button_left,0.9663,1,0,6,6,8,1,stimuli/black_5.jpg,,a,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.337187802,-0.361865997,1,0,0,0.7946,button_right,0.7946,1,0,7,7,7,1,stimuli/white_4.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.322386706,-0.325769919,1,0,0,0.8321,button_right,0.8321,1,0,8,8,3,1,stimuli/white_2.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,0,0.333487546,-0.291524958,1,0,0,0.8171,button_right,0.8171,1,0,9,9,1,1,stimuli/white_1.jpg,,l,,,,,,,,
+,,,,,,,,,,,,,Kk,1,001,male,2024-04-29_10h03.39.736,openIAT,2020.1.0rc3,Linux armv81,60,,,,,,,,,,,,,,,,,,,,0,3,3,3,1,incong_train.xlsx,"A = 
+Black","L = 
+White"
